@@ -1,3 +1,4 @@
+@import url(Villes.css);
 body {
     background-color: rgb(207, 207, 235);
 }
@@ -16,39 +17,39 @@ svg {
 g {
     font-family: "passion one", PassionOne-Regular, Passion;
 }
-.ad70c9a8-7a26-47c8-a7de-59ce0fab8d51 {
+.fond {
     fill: #557fe5;
     stroke: #243063;
   }
 
-.ad70c9a8-7a26-47c8-a7de-59ce0fab8d51:hover {
+.fond:hover {
    fill: #243063;
    stroke: #020513;
   }
 
-  .ad70c9a8-7a26-47c8-a7de-59ce0fab8d51, .b8c16a22-22d8-46f4-8d29-d912f138e36a, .e9c0775e-d5e5-4901-8041-8b2945518424, .fc043980-ae19-43e8-8d8a-45d480f04685 {
+  .fond, .b8c16a22-22d8-46f4-8d29-d912f138e36a, .bulle, .nom {
     stroke-miterlimit: 10;
   }
 
-  .ad70c9a8-7a26-47c8-a7de-59ce0fab8d51, .e9c0775e-d5e5-4901-8041-8b2945518424 {
+  .fond, .bulle {
     stroke-width: 3px;
   }
 
-  .e9c0775e-d5e5-4901-8041-8b2945518424 {
+  .bulle {
     fill: #232868;
     stroke: #000;
     stroke-width: 1px;
   }
 
-  .a2cdadef-0f16-45b7-9b79-984d9814e5e3, .b8c16a22-22d8-46f4-8d29-d912f138e36a, .fc043980-ae19-43e8-8d8a-45d480f04685, .fe323a9a-d646-4d4f-a5c5-66a36689274b {
+  .a2cdadef-0f16-45b7-9b79-984d9814e5e3, .b8c16a22-22d8-46f4-8d29-d912f138e36a, .nom, .fe323a9a-d646-4d4f-a5c5-66a36689274b {
     font-size: 17px;
   }
 
-  .fc043980-ae19-43e8-8d8a-45d480f04685, .fe323a9a-d646-4d4f-a5c5-66a36689274b {
+  .nom, .fe323a9a-d646-4d4f-a5c5-66a36689274b {
     fill: #fcfcfc;
   }
 
-  .b8c16a22-22d8-46f4-8d29-d912f138e36a, .fc043980-ae19-43e8-8d8a-45d480f04685 {
+  .b8c16a22-22d8-46f4-8d29-d912f138e36a, .nom {
     stroke: #343435;
     stroke-width: 0.5px;
   }
@@ -60,3 +61,5 @@ g {
   .b8c16a22-22d8-46f4-8d29-d912f138e36a {
     fill: none;
   }
+
+  
