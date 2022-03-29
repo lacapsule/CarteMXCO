@@ -1,0 +1,107 @@
+
+@import url(animation.css);
+
+path[data-name="Morlaix"], text[data-name="Morlaix"] {
+    animation: 3s linear apparition1 forwards;
+ }  
+
+ path[data-name="Saint-Martin-des-Champs"], text[data-name="Saint-Martin-des-Champs"] {
+   animation: 3s linear apparition2 forwards;
+}
+
+path[data-name="Plourin-Les-Morlaix"], text[data-name="Plourin-Les-Morlaix"] {
+ animation: 3s linear apparition3 forwards;
+}
+
+path[data-name="Plougonven"], text[data-name="Plougonven"] {
+ animation: 3s linear apparition4 forwards;
+}
+
+path[data-name="Plouigneau"], text[data-name="Plouigneau"] {
+ animation: 3.2s linear apparition5 forwards;
+}
+
+path[data-name="Garlan"], text[data-name="Garlan"] {
+ animation: 3.5s linear apparition6 forwards;
+}
+
+path[data-name="Lanmeur"], text[data-name="Lanmeur"] {
+ animation: 3.7s linear apparition7 forwards;
+}
+
+path[data-name="Plouezoch"], text[data-name="Plouezoch"] {
+ animation: 4s linear apparition8 forwards;
+}
+
+path[data-name="Locquenole"], text[data-name="Locquenole"] {
+ animation: 4s linear apparition9 forwards;
+}
+
+path[data-name="Taule"], text[data-name="Taule"] {
+ animation: 4s linear apparition10 forwards;
+}
+
+path[data-name="Sainte-Seve"], text[data-name="Sainte-Seve"] {
+ animation: 4s linear apparition11 forwards;
+}
+
+path[data-name="Pleyber-Christ"], text[data-name="Pleyber-Christ"] {
+ animation: 4.5s linear apparition12 forwards;
+}
+
+path[data-name="Le Cloitre-Saint-Thegonnec"], text[data-name="Le Cloitre-Saint-Thegonnec"] {
+ animation: 4.5s linear apparition13 forwards;
+}
+
+path[data-name="Lanneanou"], text[data-name="Lanneanou"] {
+ animation: 4.5s linear apparition14 forwards;
+}
+
+path[data-name="Botsorhel"], text[data-name="Botsorhel"] {
+ animation: 5s linear apparition15 forwards;
+}
+
+path[data-name="Guerlesquin"], text[data-name="Guerlesquin"] {
+ animation: 5s linear apparition16 forwards;
+}
+
+path[data-name="Plouegat-Moysan"], text[data-name="Plouegat-Moysan"] {
+ animation: 5s linear apparition17 forwards;
+}
+
+path[data-name="Plouegat-Guerrand"], text[data-name="Plouegat-Guerrand"] {
+ animation: 5s linear apparition18 forwards;
+}
+
+path[data-name="Guimaec"], text[data-name="Guimaec"] {
+ animation: 5.2s linear apparition19 forwards;
+}
+
+path[data-name="Saint-Jean-Du-Doigt"], text[data-name="Saint-Jean-Du-Doigt"] {
+ animation: 5.2s linear apparition20 forwards;
+}
+
+path[data-name="Plougasnou"], text[data-name="Plougasnou"] {
+ animation: 5.2s linear apparition21 forwards;
+}
+
+polygon[data-name="Locquirec"], path[data-name="Locquirec"], text[data-name="Locquirec"] {
+ animation: 5.2s linear apparition22 forwards;
+}
+
+path[data-name="Carantec"], text[data-name="Carantec"] {
+ animation: 5.5s linear apparition23 forwards;
+}
+
+path[data-name="Henvic"], text[data-name="Henvic"] {
+ animation: 5.5s linear apparition24 forwards;
+}
+
+path[data-name="Saint-Thegonnec-Loc-Eguiner"], text[data-name="Saint-Thegonnec-Loc-Eguiner"] {
+ animation: 5.5s linear apparition25 forwards;
+}
+
+path[data-name="Plouneour-Menez"], text[data-name="Plouneour-Menez"] {
+ animation: 5.5s linear apparition26 forwards;
+}
+
