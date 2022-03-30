@@ -1,0 +1,53 @@
+@import url(animation.css);
+text[data-name="Morlaix"] {
+    animation: 4s linear apparition2 forwards;}  
+text[data-name="Saint-Martin-des-Champs"] {
+    animation: 4s linear apparition3 forwards;}
+text[data-name="Plourin-Les-Morlaix"] {
+    animation: 4s linear apparition4 forwards;}
+text[data-name="Plougonven"] {
+    animation: 4s linear apparition5 forwards;}
+text[data-name="Plouigneau"] {
+    animation: 4.5s linear apparition6 forwards;}
+text[data-name="Garlan"] {
+    animation: 4.7s linear apparition7 forwards;}
+text[data-name="Lanmeur"] {
+    animation: 5s linear apparition8 forwards;}
+text[data-name="Plouezoch"] {
+    animation: 5s linear apparition9 forwards;}
+text[data-name="Locquenole"] {
+    animation: 5s linear apparition10 forwards;}
+text[data-name="Taule"] {
+    animation: 5s linear apparition11 forwards;}
+text[data-name="Sainte-Seve"] {
+    animation: 5.5s linear apparition12 forwards;}
+text[data-name="Pleyber-Christ"] {
+    animation: 5.5s linear apparition13 forwards;}
+text[data-name="Le Cloitre-Saint-Thegonnec"] {
+    animation: 5.5s linear apparition14 forwards;}
+text[data-name="Lanneanou"] {
+    animation: 6s linear apparition15 forwards;}
+text[data-name="Botsorhel"] {
+    animation: 6s linear apparition16 forwards;}
+text[data-name="Guerlesquin"] {
+    animation: 6s linear apparition17 forwards;}
+text[data-name="Plouegat-Moysan"] {
+    animation: 6s linear apparition18 forwards;}
+text[data-name="Plouegat-Guerrand"] {
+    animation: 6.2s linear apparition19 forwards;}
+text[data-name="Guimaec"] {
+    animation: 6.2s linear apparition20 forwards;}
+text[data-name="Saint-Jean-Du-Doigt"] {
+    animation: 6.2s linear apparition21 forwards;}
+text[data-name="Plougasnou"] {
+    animation: 6.2s linear apparition22 forwards;}
+text[data-name="Locquirec"] {
+    animation: 6.5s linear apparition23 forwards;}
+text[data-name="Carantec"] {
+    animation: 6.5s linear apparition24 forwards;}
+text[data-name="Henvic"] {
+    animation: 6.5s linear apparition25 forwards;}
+text[data-name="Saint-Thegonnec-Loc-Eguiner"] {
+    animation: 6.5s linear apparition26 forwards;}
+text[data-name="Plouneour-Menez"] {
+    animation: 6.5s linear apparition27 forwards;}

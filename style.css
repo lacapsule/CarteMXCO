@@ -1,5 +1,6 @@
 @import url(Villes.css);
-@import url(animation.css);
+@import url(bulles.css);
+@import url(noms.css);
 body {
     background-color: rgb(207, 207, 235);
 }
