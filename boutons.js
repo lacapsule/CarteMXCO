@@ -1,5 +1,4 @@
 
-
 let bulles = document.getElementById("boutonBulles");
 let noms = document.getElementById("boutonNoms");
 let toutesBulles = document.getElementById("b13c0333-102d-4ea1-b7d6-4ce164979cfc");
@@ -12,11 +11,11 @@ bulles.addEventListener("click", () => {
   }
 })
 
-function togg(){
+function invisible(){
   if(getComputedStyle(tousNoms).display != "none"){
     tousNoms.style.display = "none";
   } else {
     tousNoms.style.display = "block";
   }
 };
-noms.onclick = togg;
+noms.onclick = invisible;
