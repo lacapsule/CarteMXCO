@@ -12,6 +12,12 @@ h1 {
   color:rgb(207, 207, 235);
   padding: 1%;
 }
+#menu {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
 button {
   text-align: center;
   font-size: 0.8em;
@@ -20,11 +26,17 @@ button {
   background-color: rgb(207, 207, 235);
   color: #243063;
   border: 2px solid #020513;
+  margin: 2px;
   outline: none;
 }
 button:hover {
   background-color: #243063;
   color:rgb(207, 207, 235);
+}
+#textInput {
+  border: 2px solid #243063;
+  outline: none;
+  margin: 2px;
 }
 svg {
     margin: 5%;
@@ -34,14 +46,17 @@ g {
     font-family: "passion one", PassionOne-Regular, Passion;
 }
 .fond {
-    fill: #557fe5;
-    stroke: #243063;
-  }
+   stroke: #243063;
+   background-color: whitesmoke;
+}
 
 .fond:hover {
-   fill: #243063;
-   stroke: #020513;
+   fill: #1d3499;
   }
+
+   .fond:active {
+    fill: #ce621a;
+   }
 
   .fond, .b8c16a22-22d8-46f4-8d29-d912f138e36a, .bulle, .nom {
     stroke-miterlimit: 10;
