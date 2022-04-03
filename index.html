@@ -16,34 +16,32 @@
   <h1>Carte interactive de Morlaix communauté</h1>
   <main>
     <div class="couleurVilles">
-  <input type="color" id="textInput" placeholder="Entrez une couleur">
-  <button id="boutonPlouneour">Plounéour-Menez</button>
-  <button id="boutonPleyber">Pleyber-Christ</button>
-  <button id="boutonSaintTheg">Saint-Thegonnec-Loc-Eguiner</button>
-  <button id="boutonSaintSeve">Saint-Sève</button>
-  <button id="boutonTaule">Taulé</button>
-  <button id="boutonHenvic">Henvic</button>
-  <button id="boutonCarantec">Carantec</button>
-  <button id="boutonSaintMartin">Saint-Martin-des-Champs</button>
-  <button id="boutonMorlaix">Morlaix</button>
-  <button id="boutonLocquenole">Locquénolé</button>
-  <button id="boutonPlourin">Plourin-Lès-Morlaix</button>
-  <button id="boutonLeCloitre">Le Cloître-Saint-Thégonnec</button>
-  <button id="boutonPlougonven">Plougonven</button>
-  <button id="boutonLanneanou">Lannéanou</button>
-  <button id="boutonPlouigneau">Plouigneau</button>
-  <button id="boutonGarlan">Garlan</button>
-  <button id="boutonPlouezoch">Plouezoc'h</button>
-  <button id="boutonBotsorhel">Botsorhel</button>
-  <button id="boutonGuerlesquin">Guerlesquin</button>
-  <button id="boutonMoysan">Plouégat-Moysan</button>
-  <button id="boutonGuerrand">Plouégat-Guerrand</button>
-  <button id="boutonLanmeur">Lanmeur</button>
-  <button id="boutonGuimaec">Guimaëc</button>
-  <button id="boutonLocquirec">Locquirec</button>
-  <button id="boutonSaintJean">Saint-Jean-Du-Doigt</button>
-  <button id="boutonPlougasnou">Plougasnou</button>
-  <button id="boutonFonds">Toutes les villes</button>
+  <div><button id="boutonPlouneour">Plounéour-Menez</button><input type="color" id="couleurPlouneour"></div>
+  <div><button id="boutonPleyber">Pleyber-Christ</button><input type="color" id="couleurPleyber"></div>
+  <div><button id="boutonSaintTheg">Saint-Thegonnec-Loc-Eguiner</button><input type="color" id="couleurSaintTheg"></div>
+  <div><button id="boutonSaintSeve">Saint-Sève</button><input type="color" id="couleurSaintSeve"></div>
+  <div><button id="boutonTaule">Taulé</button><input type="color" id="couleurTaule"></div>
+  <div><button id="boutonHenvic">Henvic</button><input type="color" id="couleurHenvic"></div>
+  <div><button id="boutonCarantec">Carantec</button><input type="color" id="couleurCarantec"></div>
+  <div><button id="boutonSaintMartin">Saint-Martin-des-Champs</button><input type="color" id="couleurSaintMartin"></div>
+  <div><button id="boutonMorlaix">Morlaix</button><input type="color" id="couleurMorlaix"></div>
+  <div><button id="boutonLocquenole">Locquénolé</button><input type="color" id="couleurLocquenole"></div>
+  <div><button id="boutonPlourin">Plourin-Lès-Morlaix</button><input type="color" id="couleurPlourin"></div>
+  <div><button id="boutonLeCloitre">Le Cloître-Saint-Thégonnec</button><input type="color" id="couleurLeCloitre"></div>
+  <div><button id="boutonPlougonven">Plougonven</button><input type="color" id="couleurPlougonven"></div>
+  <div><button id="boutonLanneanou">Lannéanou</button><input type="color" id="couleurLanneanou"></div>
+  <div><button id="boutonPlouigneau">Plouigneau</button><input type="color" id="couleurPlouigneau"></div>
+  <div><button id="boutonGarlan">Garlan</button><input type="color" id="couleurGarlan"></div>
+  <div><button id="boutonPlouezoch">Plouezoc'h</button><input type="color" id="couleurPlouezoch"></div>
+  <div><button id="boutonBotsorhel">Botsorhel</button><input type="color" id="couleurBotsorhel"></div>
+  <div><button id="boutonGuerlesquin">Guerlesquin</button><input type="color" id="couleurGuerlesquin"></div>
+  <div><button id="boutonMoysan">Plouégat-Moysan</button><input type="color" id="couleurMoysan"></div>
+  <div><button id="boutonGuerrand">Plouégat-Guerrand</button><input type="color" id="couleurGuerrand"></div>
+  <div><button id="boutonLanmeur">Lanmeur</button><input type="color" id="couleurLanmeur"></div>
+  <div><button id="boutonGuimaec">Guimaëc</button><input type="color" id="couleurGuimaec"></div>
+  <div><button id="boutonLocquirec">Locquirec</button><input type="color" id="couleurLocquirec"></div>
+  <div><button id="boutonSaintJean">Saint-Jean-Du-Doigt</button><input type="color" id="couleurSaintJean"></div>
+  <div><button id="boutonPlougasnou">Plougasnou</button><input type="color" id="couleurPlougasnou"></div>
 </div> 
   <svg xmlns="http://www.w3.org/2000/svg" id="svg" viewBox="0 0 727.92631 571.47478">
         <defs>
@@ -141,8 +139,9 @@
         </g>
       </svg>
   <div id="menu">
-    <button id="boutonBulles">Masquer les bulles</button>
-    <button id="boutonNoms">Masquer les noms</button>
+    <div><button id="boutonFonds">Toutes les villes</button><input type="color" id="couleurToutes"></div>
+    <div><button id="boutonBulles">Masquer les bulles</button></div>
+    <div><button id="boutonNoms">Masquer les noms</button></div>
   </div>
 </main>
       <script type="text/javascript" src="boutons.js"></script>
