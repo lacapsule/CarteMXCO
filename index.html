@@ -14,17 +14,9 @@
 </head>
 <body>
   <h1>Carte interactive de Morlaix communauté</h1>
-  <header>
-  <p>Entrez une couleur et choisissez 
-    l'élément sur lequel vous souhaitez l'appliquer</p>
-  <div id="menu">
-  <button id="boutonBulles">Masquer les bulles</button>
-  <button id="boutonNoms">Masquer les noms</button>
-</div>
-</header>
   <main>
     <div class="couleurVilles">
-  <input type="text" id="textInput" placeholder="black">
+  <input type="text" id="textInput" placeholder="Entrez une couleur">
   <button id="boutonPlouneour">Plounéour-Menez</button>
   <button id="boutonPleyber">Pleyber-Christ</button>
   <button id="boutonSaintTheg">Saint-Thegonnec-Loc-Eguiner</button>
@@ -148,8 +140,13 @@
           <text class="nom" data-name="Plouneour-Menez" transform="translate(59.56851 534.50922)">PLOUNÉOUR-MENEZ</text>
         </g>
       </svg>
-    </main>
+  <div id="menu">
+    <button id="boutonBulles">Masquer les bulles</button>
+    <button id="boutonNoms">Masquer les noms</button>
+  </div>
+</main>
       <script type="text/javascript" src="boutons.js"></script>
       <script type="text/javascript" src="couleurVilles.js"></script>
+      <script type="text/javascript" src="placeholder.js"></script>
 </body>
 </html>
