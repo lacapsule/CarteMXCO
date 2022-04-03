@@ -20,6 +20,7 @@ function invisible(){
   }
 };
 noms.onclick = invisible;
+
 fonds.addEventListener("click", () => {
   tousFonds.style.fill = textInput.value;
   } 

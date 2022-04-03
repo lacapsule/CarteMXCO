@@ -2,21 +2,48 @@
 @import url(bulles.css);
 @import url(noms.css);
 body {
-    background-color: rgb(207, 207, 235);
+  display: flex;
+  flex-flow: column wrap;
+  align-items: space-around;
+  justify-content: space-between;
+  background-color: rgb(207, 207, 235);
+  margin-top: 0;
+  padding-top: 0;
+  height: 100%;
+  z-index: 0;
 }
 h1 {
-  font-size: 200%;
+  font-size: 180%;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #243063;
   color:rgb(207, 207, 235);
+  width: 98%;
+  height: 1.2em;
+  margin: 0;
   padding: 1%;
+  z-index: 2;
+}
+header {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20%;
+  width: 80%;
+  height: 4em;
+}
+
+p {
+  font-size: 0.7em;
 }
 #menu {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
+  width: 80%;
+  z-index: 0;
 }
 button {
   text-align: center;
@@ -28,18 +55,43 @@ button {
   border: 2px solid #020513;
   margin: 2px;
   outline: none;
+  z-index: 3;
 }
 button:hover {
   background-color: #243063;
   color:rgb(207, 207, 235);
 }
+main {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: space-around;
+  justify-content: space-between;
+  z-index: 1;
+}
+.couleurVilles {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: -5%;
+  width: 20%;
+  height: 100%;
+  z-index: 2;
+}
+.couleurVilles > button {
+  width: 100%;
+}
 #textInput {
   border: 2px solid #243063;
   outline: none;
   margin: 2px;
+  width: 96%;
+  height: 2em;
 }
 svg {
     margin: 5%;
+    width: 70%;
+    margin-top: 5%;
     background-color: rgb(207, 207, 235);
 }
 g {
