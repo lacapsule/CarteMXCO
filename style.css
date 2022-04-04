@@ -2,12 +2,21 @@
 @import url(bulles.css);
 @import url(noms.css);
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse wrap;
+          flex-flow: row-reverse wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   background-color: rgb(207, 207, 235);
-  width: 98.5vw;
+  width: 97.5vw;
   height: 90vh;
   z-index: 0;
 }
@@ -23,58 +32,92 @@ h1 {
   padding: 1%;
   z-index: 0;
 }
+a {
+  text-decoration: none;
+  color: #243063;
+}
 #menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column wrap;
-  align-items: flex-end;
-  justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin-top: 0;
   width: 15%;
   height: 100%;
   z-index: 2;
 }
-#menu > div {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 100%;
-  height: 2em;
-}
 main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse wrap;
+          flex-flow: row-reverse wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-between;
+      -ms-flex-pack: space-between;
+          justify-content: space-between;
+  width: 100vw;
   height: 100%;
   z-index: 0;
 }
 .couleurVilles {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 20%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+          margin-top: 0.6%;
+  width: 30vw;
   height: 100%;
   z-index: 1;
 }
 .couleurVilles > button {
   width: 100%;
 }
-.couleurVilles > div {
+.couleurVilles > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 100%;
-  height: 2em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 13em;
+  height: 3.1em;
 }
-input[type="color"] {
-  max-width: auto;
-  max-height: 2em;
+input {
+  width: 6em;
+  height: 3.1em;
+  border: none;
   padding: 0;
-  z-index: 3;
+  z-index: 2;
 }
 button {
   text-align: center;
@@ -85,8 +128,9 @@ button {
   color: #243063;
   border: 2px solid #020513;
   margin-right: 0;
-  width: 22em;
-  margin: 2px;
+  width: 35em;
+  height: 3em;
+  margin: 1px;
   outline: none;
   z-index: 3;
 }
@@ -95,8 +139,10 @@ button:hover {
   color:rgb(207, 207, 235);
 }
 svg {
-  align-self: center;
-    width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+    width: 54%;
     margin: 3% 5.5% 3% 5.5%;
     padding: 0 2% 2% 2%;
     background-color: rgb(207, 207, 235);
@@ -114,7 +160,7 @@ g {
    fill: #1d3499;
   }
 
-   .fond:active {
+   a.fond:visited {
     fill: #ce621a;
    }
 
@@ -148,3 +194,121 @@ g {
   .a2cdadef-0f16-45b7-9b79-984d9814e5e3 {
     fill: #f2f3f4;
   }
+
+@media screen and (max-width: 580px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: rgb(207, 207, 235);
+    width: 97.5vw;
+    height: 100%;
+    z-index: 0;
+  }
+  h1 {
+    font-size: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #243063;
+    color:rgb(207, 207, 235);
+    width: 94.5vw;
+    height: 1.3em;
+    margin: 0;
+    padding: 1%;
+    z-index: 0;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  .couleurVilles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+  }
+  .couleurVilles > span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 49%;
+    height: 4.1em;
+  }
+  button {
+    text-align: center;
+    font-size: 0.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(207, 207, 235);
+    color: #243063;
+    border: 2px solid #020513;
+    margin-right: 0;
+    width: 18em;
+    height: 5em;
+    margin: 2px;
+    outline: none;
+    z-index: 3;
+  }
+  input[type="color"] {
+    max-width: 8em;
+    height: 5em;
+    padding: 0;
+    z-index: 3;
+  }
+  svg {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+      width: 94vw;
+      margin: 3% 5.5% 3% 5.5%;
+      padding: 0 2% 2% 2%;
+      background-color: rgb(207, 207, 235);
+      z-index: 2;
+  }
+}
