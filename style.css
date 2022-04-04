@@ -23,6 +23,24 @@ h1 {
   padding: 1%;
   z-index: 0;
 }
+#menu {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: 0;
+  width: 15%;
+  height: 100%;
+  z-index: 2;
+}
+#menu > div {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 2em;
+}
 main {
   display: flex;
   flex-flow: row wrap;
@@ -37,7 +55,7 @@ main {
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 15%;
+  width: 20%;
   height: 100%;
   z-index: 1;
 }
@@ -78,8 +96,8 @@ button:hover {
 }
 svg {
   align-self: center;
-    width: 55%;
-    margin: 1% 2% 2% 2%;
+    width: 50%;
+    margin: 3% 5.5% 3% 5.5%;
     padding: 0 2% 2% 2%;
     background-color: rgb(207, 207, 235);
 }
@@ -129,19 +147,4 @@ g {
 
   .a2cdadef-0f16-45b7-9b79-984d9814e5e3 {
     fill: #f2f3f4;
-  }
-
-  .b8c16a22-22d8-46f4-8d29-d912f138e36a {
-    fill: none;
-  }
-
-  #menu {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: 0;
-    width: 10em;
-    height: 100%;
-    z-index: 2;
   }

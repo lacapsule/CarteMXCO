@@ -1,5 +1,5 @@
 @import url(animation.css);
-text[data-name="Morlaix"] {
+//*text[data-name="Morlaix"] {
     animation: 4s linear apparition2 forwards;}  
 text[data-name="Saint-Martin-des-Champs"] {
     animation: 4s linear apparition3 forwards;}

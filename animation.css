@@ -1,5 +1,5 @@
 @import url(Villes.css);
-@keyframes apparition1 {
+//*@keyframes apparition1 {
     0% {opacity: 0;}
     100% {opacity: 100%;}}
   @keyframes apparition2 {
