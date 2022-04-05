@@ -16,8 +16,8 @@ body {
       -ms-flex-pack: start;
           justify-content: flex-start;
   background-color: rgb(207, 207, 235);
-  width: 97.5vw;
-  height: 90vh;
+  width: 98.5vw;
+  height: 80vh;
   z-index: 0;
 }
 h1 {
@@ -26,34 +26,15 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #243063;
   color:rgb(207, 207, 235);
-  width: 100%;
-  height: 1.3em;
+  width: 99vw;
+  height: 1.1em;
+  padding: 1% 0 1% 0;
   margin: 0;
-  padding: 1%;
   z-index: 0;
 }
 a {
   text-decoration: none;
   color: #243063;
-}
-#menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin-top: 0;
-  width: 15%;
-  height: 100%;
-  z-index: 2;
 }
 main {
   display: -webkit-box;
@@ -143,7 +124,7 @@ svg {
       -ms-grid-row-align: center;
       align-self: center;
     width: 54%;
-    margin: 3% 5.5% 3% 5.5%;
+    margin: 1% 4% 1% 0;
     padding: 0 2% 2% 2%;
     background-color: rgb(207, 207, 235);
 }
@@ -211,7 +192,7 @@ g {
         -ms-flex-pack: center;
             justify-content: center;
     background-color: rgb(207, 207, 235);
-    width: 97.5vw;
+    width: 94.5vw;
     height: 100%;
     z-index: 0;
   }
@@ -221,10 +202,9 @@ g {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #243063;
     color:rgb(207, 207, 235);
-    width: 94.5vw;
+    width: 92vw;
     height: 1.3em;
     margin: 0;
-    padding: 1%;
     z-index: 0;
   }
   main {
@@ -241,7 +221,7 @@ g {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    width: 100%;
+    width: 94vw;
     height: 100%;
     z-index: 0;
   }
@@ -256,10 +236,10 @@ g {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    width: 100vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 97vw;
     height: 100vh;
     z-index: 1;
   }
@@ -289,14 +269,14 @@ g {
     color: #243063;
     border: 2px solid #020513;
     margin-right: 0;
-    width: 18em;
+    width: 17em;
     height: 5em;
     margin: 2px;
     outline: none;
     z-index: 3;
   }
   input[type="color"] {
-    max-width: 8em;
+    width: 5em;
     height: 5em;
     padding: 0;
     z-index: 3;
@@ -305,9 +285,8 @@ g {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-      width: 94vw;
-      margin: 3% 5.5% 3% 5.5%;
-      padding: 0 2% 2% 2%;
+      width: 96%;
+      padding: 2% 2% 2% 2%;
       background-color: rgb(207, 207, 235);
       z-index: 2;
   }

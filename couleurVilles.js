@@ -23,7 +23,7 @@ let villeLanmeur = document.getElementById("bdb52ed4-5d70-47a8-ba84-807496ae4970
 let villeGuimaec = document.getElementById("b0e22cd6-8e74-49f6-a06a-b336e9c6896f");
 let villeLocquirec = document.getElementById("bd83b1b3-42cf-403f-a79a-f2455337aba5");
 let villeSaintJean = document.getElementById("e3b68945-2e34-4c9c-83a3-3158a252e9b2");
-let villePlougasnou = document.getElementById("b476af40-0d89-400f-9515-14ddd604b8be")
+let villePlougasnou = document.getElementById("b476af40-0d89-400f-9515-14ddd604b8be");
 
   couleurPlouneour.addEventListener("input", () => {
     villePlouneourMenez.style.fill = couleurPlouneour.value;
