@@ -1,4 +1,3 @@
-
 let boutonPlouneour = document.getElementById("boutonPlouneour");
 let boutonPleyber = document.getElementById("boutonPleyber");
 let boutonSaintTheg = document.getElementById("boutonSaintTheg");
@@ -260,3 +259,5 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             bullePlougasnou.style.display = "block"
         }
     });
+
+   

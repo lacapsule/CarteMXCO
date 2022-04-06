@@ -13,7 +13,41 @@
     <title>MXCO Carte</title>
 </head>
 <body>
+  <header>
   <h1>Carte interactive de Morlaix communauté</h1>
+</header>
+  <aside>
+  <div class="couleurVilles">
+<span><a href="javascript:location.reload(true)"><button title="Tout remettre à zéro">Reset général</button></a><input title="Changer la couleur de fond" type="color" id="couleurFond"></span>
+<span><button title="Afficher ou ne pas afficher les bulles" id="boutonBulles">Toutes les villes</button><input title="Changer la couleur de toutes les communes" type="color" id="couleurToutes"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonPlouneour">Plounéour-Menez</button><input title="Changer la couleur de la commune" type="color" id="couleurPlouneour"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonPleyber">Pleyber-Christ</button><input title="Changer la couleur de la commune" type="color" id="couleurPleyber"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonSaintTheg">Saint-Thegonnec-Loc-Eguiner</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintTheg"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonSaintSeve">Sainte-Sève</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintSeve"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonTaule">Taulé</button><input title="Changer la couleur de la commune" type="color" id="couleurTaule"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonHenvic">Henvic</button><input title="Changer la couleur de la commune" type="color" id="couleurHenvic"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonCarantec">Carantec</button><input title="Changer la couleur de la commune" type="color" id="couleurCarantec"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonSaintMartin">Saint-Martin-des-Champs</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintMartin"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonMorlaix">Morlaix</button><input title="Changer la couleur de la commune" type="color" id="couleurMorlaix"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonLocquenole">Locquénolé</button><input title="Changer la couleur de la commune" type="color" id="couleurLocquenole"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonPlourin">Plourin-Lès-Morlaix</button><input title="Changer la couleur de la commune" type="color" id="couleurPlourin"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonLeCloitre">Le Cloître-Saint-Thégonnec</button><input title="Changer la couleur de la commune" type="color" id="couleurLeCloitre"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonPlougonven">Plougonven</button><input title="Changer la couleur de la commune" type="color" id="couleurPlougonven"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonLanneanou">Lannéanou</button><input title="Changer la couleur de la commune" type="color" id="couleurLanneanou"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonPlouigneau">Plouigneau</button><input title="Changer la couleur de la commune" type="color" id="couleurPlouigneau"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonGarlan">Garlan</button><input title="Changer la couleur de la commune" type="color" id="couleurGarlan"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonPlouezoch">Plouezoc'h</button><input title="Changer la couleur de la commune" type="color" id="couleurPlouezoch"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonBotsorhel">Botsorhel</button><input title="Changer la couleur de la commune" type="color" id="couleurBotsorhel"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonGuerlesquin">Guerlesquin</button><input title="Changer la couleur de la commune" type="color" id="couleurGuerlesquin"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonMoysan">Plouégat-Moysan</button><input title="Changer la couleur de la commune" type="color" id="couleurMoysan"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonGuerrand">Plouégat-Guerrand</button><input title="Changer la couleur de la commune" type="color" id="couleurGuerrand"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonLanmeur">Lanmeur</button><input title="Changer la couleur de la commune" type="color" id="couleurLanmeur"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonGuimaec">Guimaëc</button><input title="Changer la couleur de la commune" type="color" id="couleurGuimaec"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonLocquirec">Locquirec</button><input title="Changer la couleur de la commune" type="color" id="couleurLocquirec"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonSaintJean">Saint-Jean-Du-Doigt</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintJean"></span>
+<span><button title="Afficher ou ne pas afficher la bulle" id="boutonPlougasnou">Plougasnou</button><input title="Changer la couleur de la commune" type="color" id="couleurPlougasnou"></span>
+</div>
+</aside> 
   <main>
   <svg xmlns="http://www.w3.org/2000/svg" id="svg" viewBox="0 0 727.92631 571.47478">
         <defs>
@@ -106,36 +140,6 @@
           <text class="nom" id="nomPlouneourMenez" data-name="Plouneour-Menez" transform="translate(59.56851 534.50922)">PLOUNÉOUR-MENEZ</text>
         </g>
       </svg>
-      <div class="couleurVilles">
-    <span><a href="javascript:location.reload(true)"><button>Reset général</button></a></span>
-    <span><button id="boutonBulles">Toutes les villes</button><input type="color" id="couleurToutes"></span>
-    <span><button id="boutonPlouneour">Plounéour-Menez</button><input type="color" id="couleurPlouneour"></span>
-    <span><button id="boutonPleyber">Pleyber-Christ</button><input type="color" id="couleurPleyber"></span>
-    <span><button id="boutonSaintTheg">Saint-Thegonnec-Loc-Eguiner</button><input type="color" id="couleurSaintTheg"></span>
-    <span><button id="boutonSaintSeve">Saint-Sève</button><input type="color" id="couleurSaintSeve"></span>
-    <span><button id="boutonTaule">Taulé</button><input type="color" id="couleurTaule"></span>
-    <span><button id="boutonHenvic">Henvic</button><input type="color" id="couleurHenvic"></span>
-    <span><button id="boutonCarantec">Carantec</button><input type="color" id="couleurCarantec"></span>
-    <span><button id="boutonSaintMartin">Saint-Martin-des-Champs</button><input type="color" id="couleurSaintMartin"></span>
-    <span><button id="boutonMorlaix">Morlaix</button><input type="color" id="couleurMorlaix"></span>
-    <span><button id="boutonLocquenole">Locquénolé</button><input type="color" id="couleurLocquenole"></span>
-    <span><button id="boutonPlourin">Plourin-Lès-Morlaix</button><input type="color" id="couleurPlourin"></span>
-    <span><button id="boutonLeCloitre">Le Cloître-Saint-Thégonnec</button><input type="color" id="couleurLeCloitre"></span>
-    <span><button id="boutonPlougonven">Plougonven</button><input type="color" id="couleurPlougonven"></span>
-    <span><button id="boutonLanneanou">Lannéanou</button><input type="color" id="couleurLanneanou"></span>
-    <span><button id="boutonPlouigneau">Plouigneau</button><input type="color" id="couleurPlouigneau"></span>
-    <span><button id="boutonGarlan">Garlan</button><input type="color" id="couleurGarlan"></span>
-    <span><button id="boutonPlouezoch">Plouezoc'h</button><input type="color" id="couleurPlouezoch"></span>
-    <span><button id="boutonBotsorhel">Botsorhel</button><input type="color" id="couleurBotsorhel"></span>
-    <span><button id="boutonGuerlesquin">Guerlesquin</button><input type="color" id="couleurGuerlesquin"></span>
-    <span><button id="boutonMoysan">Plouégat-Moysan</button><input type="color" id="couleurMoysan"></span>
-    <span><button id="boutonGuerrand">Plouégat-Guerrand</button><input type="color" id="couleurGuerrand"></span>
-    <span><button id="boutonLanmeur">Lanmeur</button><input type="color" id="couleurLanmeur"></span>
-    <span><button id="boutonGuimaec">Guimaëc</button><input type="color" id="couleurGuimaec"></span>
-    <span><button id="boutonLocquirec">Locquirec</button><input type="color" id="couleurLocquirec"></span>
-    <span><button id="boutonSaintJean">Saint-Jean-Du-Doigt</button><input type="color" id="couleurSaintJean"></span>
-    <span><button id="boutonPlougasnou">Plougasnou</button><input type="color" id="couleurPlougasnou"></span>
-  </div> 
 </main>
       <script type="text/javascript" src="boutons.js"></script>
       <script type="text/javascript" src="boutonsVilles.js"></script>
