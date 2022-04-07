@@ -75,6 +75,7 @@ aside {
   width: 28%;
   height: 89.5vh;
   margin-left: -92%;
+  margin-right: -38%;
   padding-top: 1em;
   padding-bottom: 1em;
   font-size: 3em;
@@ -89,8 +90,10 @@ aside:hover {
   align-items: space-between;
   justify-content: center;
   width: 34%;
-  height: 89.5vh;
+  height: 100%;
+  padding: 0;
   margin-left: -77%;
+  margin-right: -50%;
   margin-bottom: -0.8em;
   border-radius: 0 90px 90px 0;
   background-color: #2aa9d3;
@@ -178,16 +181,23 @@ input {
   border: 1px solid #243063;
   padding: 0;
 }
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: solid 1px #000;
+	border-radius: 40px;
+}
 button {
   text-align: center;
   font-size: 0.3em;
   font-weight: bold;
-  background-color: #2aa9d3;
+  background-color: #46b313;
   color: #243063;
-  border: 2px solid #020513;
+  border: 2px solid #46b313;
   margin-right: 0;
   width: 15em;
-  height: 2em;
+  height: 1.8em;
   margin: 1px;
   outline: none;
 }
@@ -199,7 +209,7 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  position: relative;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
@@ -212,7 +222,7 @@ main {
           justify-content: space-between;
   width: 80vw;
   height: 80%;
-  margin-left: -3%;
+  margin-left: 0;
   z-index: 0;
 }
 svg {
@@ -220,7 +230,7 @@ svg {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-    width: 100%;
+    width: 90%;
 
     margin: 8% 4% 1% 30%;
     padding: 2% 2% 2% 2%;
