@@ -73,8 +73,7 @@ aside {
   right: 0;
   bottom: 0;
   width: 28%;
-  height: 100vh;
-  margin-top: -1.1em;
+  height: 90vh;
   margin-left: -92%;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -90,7 +89,7 @@ aside:hover {
   align-items: space-between;
   justify-content: center;
   width: 34%;
-  height: 100vh;
+  height: 90vh;
   margin-left: -77%;
   margin-bottom: -0.8em;
   border-radius: 0 90px 90px 0;
@@ -211,9 +210,9 @@ main {
   -webkit-box-pack: space-between;
       -ms-flex-pack: space-between;
           justify-content: space-between;
-  width: 100vw;
-  height: 100%;
-  margin-left: -15%;
+  width: 80vw;
+  height: 80%;
+  margin-left: -3%;
   z-index: 0;
 }
 svg {
