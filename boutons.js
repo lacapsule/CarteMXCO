@@ -2,6 +2,7 @@ let toutesVilles = document.getElementById("b8e18138-5697-4033-9611-05eec396f769
 let fond = document.getElementById("fond");
 let toutesBulles = document.getElementById("b13c0333-102d-4ea1-b7d6-4ce164979cfc");
 let tousNoms = document.getElementById("bac92131-e0ac-4952-b465-08aa343a6732");
+let boutonBulles = document.getElementById("boutonBulles");
 
 boutonBulles.addEventListener("click", () => {
   if(getComputedStyle(tousNoms, toutesBulles).display != "none"){
@@ -20,5 +21,13 @@ couleurFond.addEventListener("input", () => {
   fond.style.backgroundColor = couleurFond.value;
   } 
 )
+
+boutons.addEventListener("click", () => {
+  if(getComputedStyle(boutons).bgColor != "#46b313"){
+    boutons.style.bgColor = "#46b313";
+  } else {
+    boutons.style.bgColor = "#46a313";
+  }
+})
   
 
