@@ -46,7 +46,7 @@ h1 {
   z-index: 1;
 }
 aside::before {
-  content: "⤷";
+  content: "➕";
   position: relative;
   display: flex;
   flex-flow: row-reverse nowrap;
@@ -55,9 +55,9 @@ aside::before {
   color: rgb(243, 242, 242);
   left: 10%;
   top: 0;
-  width: 13%;
+  width: 20%;
   height: 100vh;
-  margin-right: 3%;
+  padding: 0 0.4em 0 0.5em;
   background-color: #2aa9d3;
   border-radius: 0 90px 90px 0;
 }
@@ -72,10 +72,10 @@ aside {
   top: 0;
   right: 0;
   bottom: 0;
-  width: 40%;
+  width: 45%;
   height: 100vh;
-  margin-left: -100%;
-  margin-right: -38%;
+  margin-left: -105%;
+  margin-right: -32%;
   font-size: 3em;
   font-weight: bolder;
   transition: 0.3s ease-in-out;
@@ -87,7 +87,7 @@ aside:hover {
   flex-flow: row-reverse nowrap;
   align-items: space-between;
   justify-content: center;
-  width: 35%;
+  width: 40%;
   height: 100%;
   padding: 0;
   margin-left: -70%;
@@ -100,7 +100,7 @@ aside:hover {
   z-index: 2;
 }
 aside::after {
-  content: "⤶";
+  content: "➖";
   position: relative;
   display: flex;
   flex-flow: row-reverse nowrap;
@@ -109,9 +109,10 @@ aside::after {
   color: rgb(243, 242, 242);
   left: 0;
   top: 0;
-  width: 16em;
+  width: 17em;
   height: 100vh;
-  margin-left: 0;
+  padding: 0 0.3em 0 0.1em;
+  margin-right: -24%;
   border-radius: 0 90px 90px 0;
   background-color: #2aa9d3;
 }
@@ -130,7 +131,7 @@ aside::after {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-          margin-left: -110%;
+          margin-left: -100%;
           width: 100%;
           height: 100%;
           z-index: 1;
@@ -140,22 +141,48 @@ aside::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-          width: 5em;
-          height: 24vh;
-          margin-left: -46%;
+          margin-top: 0.5em;
+          width: 4em;
+          height: 12vh;
+          margin-bottom: 1em;
           z-index: 1;
 }
-
+.options span:nth-child(3),
+.options span:nth-child(4)  {
+  width: 4em;
+  height: 0.7em;
+  padding-left: 0.2em;
+  margin-bottom: 0.1em;
+  border: 2px solid #ffffff;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+}
+.option input {
+  opacity: 50%;
+  width: 100%;
+}
+.options button {
+  width: 13em;
+  height: 2.7em;
+  margin-left: 0.3em;
+  margin-bottom: 0.1em;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: rgb(255, 255, 255);
+}
+.options button:hover {
+  filter: invert(.9);
+}
 .couleurVilles {
   position: relative;
   display: -webkit-box;
@@ -171,20 +198,9 @@ aside::after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-          width: 5em;
+          width: 4em;
           height: 74vh;
           z-index: 1;
-}
-.options span {
-  background-color: #e6733e;
-  padding-left: 0.2em;
-}
-.options button {
-  border: 2px solid #92170e;
-  background-color: #b11313;
-}
-.options button:hover {
-  filter: invert(.9);
 }
 span {
   position: relative;
@@ -206,9 +222,9 @@ span {
           bottom: 0;
           right: 0;
   width: 4.5em;
-  height: 0.95em;
+  height: 0.8em;
   padding: 0;
-  margin: 1%;
+  margin: 3%;
 }
 button {
   text-align: center;
@@ -217,8 +233,8 @@ button {
   color: #e3e5ee;
   border-radius: 7px;
   margin-right: 0;
-  padding-right: 5%;
-  width: 15em;
+  padding-right: 3%;
+  width: 13em;
   height: 3em;
   margin: 1px;
   outline: none;
@@ -244,7 +260,7 @@ a {
 }
 input {
   position: absolute;
-  margin-left: 90%;
+  margin-left: 80%;
   width: 2em;
   height: 2em;
   border: 1px solid #243063;
@@ -277,8 +293,8 @@ main {
   -webkit-box-pack: space-between;
       -ms-flex-pack: space-between;
           justify-content: space-between;
-  width: 78vw;
-  height: 78%;
+  width: 70vw;
+  height: 70%;
   margin-left: 0;
   z-index: 0;
 }
@@ -287,7 +303,7 @@ svg {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-    width: 80%;
+    width: 75%;
     fill: #46b313;
     margin: 8% 4% 1% 20%;
     padding: 2% 2% 2% 2%;
