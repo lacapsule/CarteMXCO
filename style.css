@@ -327,6 +327,10 @@ g {
  fill: #1d3499;
 }
 
+.bulle, .nom {
+  display: none;
+}
+
 .fond, .b8c16a22-22d8-46f4-8d29-d912f138e36a, .bulle, .nom {
   stroke-miterlimit: 10;
 }
