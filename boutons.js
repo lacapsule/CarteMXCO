@@ -26,7 +26,7 @@ boutons.addEventListener("click", () => {
   if(getComputedStyle(boutons).bgColor != "#46b313"){
     boutons.style.bgColor = "#46b313";
   } else {
-    boutons.style.bgColor = "#46a313";
+    boutons.style.bgColor = "#46b313";
   }
 })
   

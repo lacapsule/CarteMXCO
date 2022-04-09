@@ -17,10 +17,17 @@
   <h1>Carte interactive de Morlaix communauté</h1>
 </header>
   <aside>
+    <div class="container">
+    <div class="options">
+      <span><a href="javascript:location.reload(true)"><button title="Tout remettre à zéro">Réinitialiser</button></a></span>
+      
+      <span><button title="Afficher ou ne pas afficher les bulles" id="boutonBulles">Masquer les bulles</button></span>
+      <span><p> Couleur du fond </p><input title="Changer la couleur de fond" type="color" id="couleurFond"></span>
+      <span><p>Couleurs communes</p><input title="Changer la couleur de toutes les communes" type="color" id="couleurToutes"></span>
+    </div>
+
   <div class="couleurVilles">
-<span><a href="javascript:location.reload(true)"><button title="Tout remettre à zéro">Reset général</button></a><input title="Changer la couleur de fond" type="color" id="couleurFond"></span>
-<span><button title="Afficher ou ne pas afficher les bulles" id="boutonBulles">Toutes les villes</button><input title="Changer la couleur de toutes les communes" type="color" id="couleurToutes"></span>
-<span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlouneour">Plounéour-Menez</button><input title="Changer la couleur de la commune" type="color" id="couleurPlouneour"></span>
+<span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlouneour">Plounéour-Menez</button></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPleyber">Pleyber-Christ</button><input title="Changer la couleur de la commune" type="color" id="couleurPleyber"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonSaintTheg">Saint-Thegonnec-Loc-Eguiner</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintTheg"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonSaintSeve">Sainte-Sève</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintSeve"></span>
@@ -46,6 +53,7 @@
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonLocquirec">Locquirec</button><input title="Changer la couleur de la commune" type="color" id="couleurLocquirec"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonSaintJean">Saint-Jean-Du-Doigt</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintJean"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlougasnou">Plougasnou</button><input title="Changer la couleur de la commune" type="color" id="couleurPlougasnou"></span>
+</div>
 </div>
 </aside> 
   <main>

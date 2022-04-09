@@ -36,7 +36,7 @@ h1 {
   text-align: center;
   font-weight: bold;
   line-height: 1.8em;
-  color:rgb(255, 255, 255);
+  color:rgb(243, 242, 242);
   padding: 1% 0 1% 0;
   border-radius: 0 0 20px 20px;
   background-color: #2aa9d3;
@@ -46,18 +46,19 @@ h1 {
   z-index: 1;
 }
 aside::before {
-  content: "‣";
+  content: "⤷";
   position: relative;
   display: flex;
   flex-flow: row-reverse nowrap;
   align-items: center;
   justify-content: flex-start;
-  color: white;
-  left: 0;
+  color: rgb(243, 242, 242);
+  left: 10%;
   top: 0;
-  width: 2em;
+  width: 13%;
   height: 100vh;
-  margin-right: 5%;
+  margin-right: 3%;
+  background-color: #2aa9d3;
   border-radius: 0 90px 90px 0;
 }
 aside {
@@ -67,17 +68,14 @@ aside {
   align-items: center;
   justify-content: space-between;
   background-color: #2aa9d3;
-  border-radius: 0 90px 90px 0;
-  left: -32%; 
+  left: -40%; 
   top: 0;
   right: 0;
   bottom: 0;
-  width: 28%;
-  height: 89.5vh;
-  margin-left: -92%;
+  width: 40%;
+  height: 100vh;
+  margin-left: -100%;
   margin-right: -38%;
-  padding-top: 1em;
-  padding-bottom: 1em;
   font-size: 3em;
   font-weight: bolder;
   transition: 0.3s ease-in-out;
@@ -89,12 +87,11 @@ aside:hover {
   flex-flow: row-reverse nowrap;
   align-items: space-between;
   justify-content: center;
-  width: 34%;
+  width: 35%;
   height: 100%;
   padding: 0;
-  margin-left: -77%;
-  margin-right: -50%;
-  margin-bottom: -0.8em;
+  margin-left: -70%;
+  margin-right: -45%;
   border-radius: 0 90px 90px 0;
   background-color: #2aa9d3;
   border-radius: 0;
@@ -103,20 +100,62 @@ aside:hover {
   z-index: 2;
 }
 aside::after {
-  content: "";
+  content: "⤶";
   position: relative;
   display: flex;
   flex-flow: row-reverse nowrap;
   align-items: center;
   justify-content: flex-start;
-  color: white;
+  color: rgb(243, 242, 242);
   left: 0;
   top: 0;
-  width: 10em;
+  width: 16em;
   height: 100vh;
   margin-left: 0;
   border-radius: 0 90px 90px 0;
+  background-color: #2aa9d3;
 }
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+          margin-left: -110%;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+}
+.options {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          width: 5em;
+          height: 24vh;
+          margin-left: -46%;
+          z-index: 1;
+}
+
 .couleurVilles {
   position: relative;
   display: -webkit-box;
@@ -133,9 +172,19 @@ aside::after {
       -ms-flex-pack: center;
           justify-content: center;
           width: 5em;
-          height: 100vh;
-          margin-left: -46%;
+          height: 74vh;
           z-index: 1;
+}
+.options span {
+  background-color: #e6733e;
+  padding-left: 0.2em;
+}
+.options button {
+  border: 2px solid #92170e;
+  background-color: #b11313;
+}
+.options button:hover {
+  filter: invert(.9);
 }
 span {
   position: relative;
@@ -146,26 +195,44 @@ span {
   -webkit-box-direction: normal;
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
           top: 0;
-          left: 0;
+          left: -50%;
           bottom: 0;
           right: 0;
-  width: 8em;
-  height: 0.5em;
+  width: 4.5em;
+  height: 0.95em;
   padding: 0;
   margin: 1%;
 }
-.couleurVilles > button {
+button {
+  text-align: center;
+  font-size: 0.3em;
+  font-weight: bold;
+  color: #e3e5ee;
+  border-radius: 7px;
+  margin-right: 0;
+  padding-right: 5%;
   width: 15em;
-  height: 2em;
-  margin: 0;
-  padding: 0;
+  height: 3em;
+  margin: 1px;
+  outline: none;
+}
+.couleurVilles button {
+  border: 2px solid #46b313;
+  background-color: #46b313;
+  padding-right: 5%;
+}
+.couleurVilles button:hover {
+  filter: invert(.9);
+}
+p {
+  font-size: 0.3em;
 }
 a {
   display: flex;
@@ -176,33 +243,24 @@ a {
   color: #243063;
 }
 input {
-  width: 3em;
-  height: 2.4em;
+  position: absolute;
+  margin-left: 90%;
+  width: 2em;
+  height: 2em;
   border: 1px solid #243063;
+  border-radius: 5px;
   padding: 0;
 }
 input[type="color"]::-webkit-color-swatch-wrapper {
 	padding: 0;
+	border-radius: 40px;
 }
 input[type="color"]::-webkit-color-swatch {
 	border: solid 1px #000;
 	border-radius: 40px;
 }
-button {
-  text-align: center;
-  font-size: 0.3em;
-  font-weight: bold;
-  color: #243063;
-  border: 2px solid #46b313;
-  margin-right: 0;
-  width: 15em;
-  height: 1.8em;
-  margin: 1px;
-  outline: none;
-}
-button:hover {
-  background-color: #243063;
-  color:rgb(207, 207, 235);
+input:hover {
+  transform: scale(1.5);
 }
 main {
   display: -webkit-box;
@@ -219,8 +277,8 @@ main {
   -webkit-box-pack: space-between;
       -ms-flex-pack: space-between;
           justify-content: space-between;
-  width: 80vw;
-  height: 80%;
+  width: 78vw;
+  height: 78%;
   margin-left: 0;
   z-index: 0;
 }
@@ -229,9 +287,9 @@ svg {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-    width: 90%;
-
-    margin: 8% 4% 1% 30%;
+    width: 80%;
+    fill: #46b313;
+    margin: 8% 4% 1% 20%;
     padding: 2% 2% 2% 2%;
 }
 g {
