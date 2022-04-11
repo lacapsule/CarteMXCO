@@ -26,7 +26,7 @@ header {
   display: flex;
   flex-flow: row nowrap;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-end;
   width: 98.5vw;
   height: 2em;
   z-index: 0;
@@ -41,85 +41,31 @@ h1 {
   border-radius: 0 0 20px 20px;
   background-color: #2aa9d3;
   width: 50%;
-  height: 150%;
+  height: 100%;
   margin-top: 0;
+  margin-right: 0;
   z-index: 1;
-}
-aside::before {
-  content: "➕";
-  position: relative;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: flex-start;
-  color: rgb(243, 242, 242);
-  left: 500px;
-  top: 0;
-  width: 50px;
-  height: 100vh;
-  padding: 0 25px 0 75px;
-  background-color: #2aa9d3;
-  border-radius: 0 90px 90px 0;
-  z-index: 0;
 }
 aside {
   position: relative;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row-reverse wrap;
   align-items: center;
   justify-content: space-between;
   background-color: #2aa9d3;
   left: 0; 
-  top: -3.6%;
+  top: -32px;
   right: 0;
   bottom: 0;
-  width: 550px;
-  height: 100vh;
-  margin-left: -550px;
-  margin-right: 0;
+  width: 400px;
+  height: 100%;
   border-radius: 0 90px 90px 0;
-  padding: 0 100px 0 0;
-  font-size: 3em;
+  padding: 0 10px 0 70px;
+  margin-right: 5%;
+  font-size: 2.8em;
   font-weight: bolder;
   transition: 0.3s ease-in-out;
   z-index: 2;
-}
-aside:hover {
-  position: relative;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: space-between;
-  justify-content: center;
-  width: 500px;
-  height: 100%;
-  padding: 0;
-  margin-left: 0;
-  margin-right: -10%;
-  border-radius: 0 90px 90px 0;
-  padding: 0 100px 0 0;
-  background-color: #2aa9d3;
-  border-radius: 0;
-  font-size: 3em;
-  font-weight: bolder;
-  z-index: 2;
-}
-aside::after {
-  content: "➖";
-  position: relative;
-  display: flex;
-  flex-flow: row-reverse nowrap;
-  align-items: center;
-  justify-content: flex-start;
-  color: rgb(243, 242, 242);
-  left: 0;
-  top: 0;
-  width: 50px;
-  height: 100vh;
-  padding: 0 0 0 0;
-  margin-right: 550px;
-  border-radius: 0 90px 90px 0;
-  background-color: #2aa9d3;
-  z-index: 0;
 }
 .container {
   position: relative;
@@ -136,7 +82,7 @@ aside::after {
   -webkit-box-pack: space-around;
       -ms-flex-pack: space-around;
           justify-content: space-around;
-          width: 64%;
+          width: 90%;
           height: 95vh;
           z-index: 1;
 }
@@ -157,8 +103,7 @@ aside::after {
           justify-content: center;
           margin-top: 0.5em;
           width: 50%;
-          height: 15%;
-          margin-bottom: 1em;
+          height: 14%;
           z-index: 1;
 }
 .options span:nth-child(3),
@@ -203,7 +148,7 @@ aside::after {
       -ms-flex-pack: center;
           justify-content: center;
           width: 50%;
-          height: 76%;
+          height: 86%;
           z-index: 1;
 }
 span {
@@ -238,7 +183,7 @@ button {
   border-radius: 7px;
   margin-right: 0;
   padding-right: 3%;
-  width: 80%;
+  width: 85%;
   height: 3em;
   margin: 1px;
   outline: none;
@@ -303,8 +248,8 @@ main {
   -webkit-box-pack: space-between;
       -ms-flex-pack: space-between;
           justify-content: space-between;
-  width: 70vw;
-  height: 70%;
+  width: 50vw;
+  height: 50vh;
   margin-left: 0;
   z-index: 0;
 }
@@ -313,10 +258,9 @@ svg {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-    width: 75%;
+    width: 100%;
     fill: #46b313;
-    margin: 8% 4% 1% 20%;
-    padding: 2% 2% 2% 2%;
+    margin: 12% 2% 2% 2%;
 }
 g {
   font-family: "passion one", PassionOne-Regular, Passion;
