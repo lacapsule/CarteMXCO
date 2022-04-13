@@ -14,18 +14,24 @@
 </head>
 <body id="fond">
   <header>
+<menu>
+    <h4>Paramètres :</h4>
+    </div>
+    <button id="boutonMenuGeneral" title="Afficher lesparamètres généraux">Général</button>
+    <button id="boutonMenuCommunes" title="Afficher les paramètres des communes">Communes</button>
+    <button id="boutonMenuAide" title="Afficher l'aide">Aide</button>
+  </menu>  
   <h1>Carte interactive de Morlaix communauté</h1>
 </header>
-  <aside>
-    <div class="container">
-    <div class="options">
+<main>
+  <div>
+<aside id="optionGeneral">
       <span><a href="javascript:location.reload(true)"><button title="Tout remettre à zéro">Réinitialiser</button></a></span>
       <span><button title="Afficher ou ne pas afficher les bulles" id="boutonBulles">Masquer les noms</button></span>
       <span><p> Fond </p><input title="Changer la couleur de fond" type="color" id="couleurFond"></span>
       <span><p> Communes </p><input title="Changer la couleur de toutes les communes" type="color" id="couleurToutes"></span>
-    </div>
-
-  <div class="couleurVilles">
+      </aside>
+    <aside id="optionCommunes">
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlouneour">Plounéour-Menez</button><input title="Changer la couleur de la commune" type="color" id="couleurPlouneour"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPleyber">Pleyber-Christ</button><input title="Changer la couleur de la commune" type="color" id="couleurPleyber"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonSaintTheg">Saint-Thegonnec-Loc-Eguiner</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintTheg"></span>
@@ -52,10 +58,8 @@
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonLocquirec">Locquirec</button><input title="Changer la couleur de la commune" type="color" id="couleurLocquirec"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonSaintJean">Saint-Jean-Du-Doigt</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintJean"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlougasnou">Plougasnou</button><input title="Changer la couleur de la commune" type="color" id="couleurPlougasnou"></span>
-</div>
-</div>
 </aside> 
-  <main>
+</div>
   <svg xmlns="http://www.w3.org/2000/svg" id="svg" viewBox="0 0 727.92631 571.47478">
         <defs>
         </defs>
@@ -147,6 +151,7 @@
           <text class="nom" id="nomPlouneourMenez" data-name="Plouneour-Menez" transform="translate(59.56851 534.50922)">PLOUNÉOUR-MENEZ</text>
         </g>
       </svg>
+      <div class="vide"></div>
 </main>
       <script type="text/javascript" src="boutonsVilles.js"></script>
       <script type="text/javascript" src="boutons.js"></script>

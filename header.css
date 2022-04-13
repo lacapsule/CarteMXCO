@@ -1,0 +1,63 @@
+  header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100vw;
+    height: auto;
+    z-index: 0;
+  }
+  menu {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: auto;
+    text-shadow: 1px 1px 2px rgba(37, 37, 37, 0.1), 0 0 1em rgba(41, 41, 41, 0.1), 0 0 0.2em rgba(27, 27, 27, 0.1);
+    box-shadow: 2px 2px 2px 1px rgba(34, 34, 34, 0.3);
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(27, 27, 27, 0.3);
+  }
+  h4 {
+    color:rgb(243, 242, 242);
+    height: 2.5vh;
+  }
+  button {
+      width: 10em;
+      height: 4em;
+      background-color: #3f3f3f;
+      color:rgb(243, 242, 242);
+      text-shadow: 1px 1px 2px rgba(37, 37, 37, 0.3), 0 0 1em rgba(41, 41, 41, 0.3), 0 0 0.2em rgba(27, 27, 27, 0.3);
+      box-shadow: 2px 2px 2px 1px rgba(34, 34, 34, 0.3);
+      border-radius: 7px;
+      transition: 0.5s ease;
+  }
+  button:hover,
+  button:active,
+  button:focus {
+    background-color: #2aa9d3;
+    transform: scale(1.1);
+    padding-bottom: 0.2em;
+  }
+  h1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    font-size: 100%;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(243, 242, 242);
+    text-shadow: 1px 1px 2px rgba(37, 37, 37, 0.3), 0 0 1em rgba(41, 41, 41, 0.3), 0 0 0.2em rgba(27, 27, 27, 0.3);
+    box-shadow: 2px 2px 2px 1px rgba(34, 34, 34, 0.3);
+    border-radius: 0 0 20px 20px;
+    background-color: #2aa9d3;
+    padding: 1% 0 1% 0;
+    width: 30%;
+    height: auto;
+    margin-top: 0;
+    margin-right: 0;
+    z-index: 1;
+  }
+  
