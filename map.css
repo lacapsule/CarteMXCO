@@ -11,9 +11,6 @@
     font-family: "passion one", PassionOne-Regular, Passion;
     width: 100%;
   }
-  .fond {
-   stroke: #243063;
-  }
   
   .fond:hover {
    fill: #1d3499;
@@ -21,7 +18,7 @@
   }
   
   .bulle, .nom {
-    display: none;
+    display: block;
   }
   
   .fond, .b8c16a22-22d8-46f4-8d29-d912f138e36a, .bulle, .nom {
@@ -31,22 +28,15 @@
   .fond, .bulle {
     stroke-width: 3px;
   }
-  
   .bulle {
-    fill: #232868;
-    stroke: #000;
-    stroke-width: 1px;
+    stroke-width: 2px;
   }
   
   .a2cdadef-0f16-45b7-9b79-984d9814e5e3, .b8c16a22-22d8-46f4-8d29-d912f138e36a, .nom, .fe323a9a-d646-4d4f-a5c5-66a36689274b {
     font-size: 17px;
   }
-  
-  .nom, .fe323a9a-d646-4d4f-a5c5-66a36689274b {
-    fill: #fcfcfc;
-  }
-  
-  .b8c16a22-22d8-46f4-8d29-d912f138e36a, .nom {
+    
+  .nom {
     stroke: #343435;
     stroke-width: 0.5px;
   }

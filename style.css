@@ -15,7 +15,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: rgb(207, 207, 235);
+  background-color: rgb(65, 89, 155);
   font-family: Passion-One, PassionOne-Regular, Passion, Verdana, Geneva, Tahoma, sans-serif;
   width: 100vw;
   height: auto;
@@ -59,10 +59,10 @@ aside {
   border-radius: 0 50px 50px 0;
   background: -o-linear-gradient(305deg, #386caf, #2f5b94);
   background: linear-gradient(145deg, #386caf, #2f5b94);
-  -webkit-box-shadow:  10px 10px 30px #2c568b,
-             -10px -10px 30px #3c74bd;
-          box-shadow:  10px 10px 30px #2c568b,
-             -10px -10px 30px #3c74bd;
+  -webkit-box-shadow:  3px 3px 3px #2c568b,
+             -3px -3px 3px #3c74bd;
+          box-shadow:  3px 3px 3px #2c568b,
+             -3px -3px 3px #3c74bd;
   width: 100%;
   height: auto;
   font-size: 2.8em;
@@ -89,6 +89,21 @@ aside {
 }
 #optionCommunes {
   display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 13em;
+  height: auto;
+  padding: 3% 0 3% 3%;
+}
+#optionBulles {
+    display: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
@@ -130,10 +145,10 @@ input[type="color"] {
   height: 4em;
   background: -o-linear-gradient(305deg, #386caf, #2f5b94);
   background: linear-gradient(145deg, #386caf, #2f5b94);
-  -webkit-box-shadow:  5px 5px 15px #2c568b,
-             -5px -5px 15px #3c74bd;
-          box-shadow:  5px 5px 15px #2c568b,
-             -5px -5px 15px #3c74bd;
+  -webkit-box-shadow:  3px 3px 3px #2c568b,
+             -3px -3px 3px #3c74bd;
+          box-shadow:  3px 3px 3px #2c568b,
+             -3px -3px 3px #3c74bd;
   margin-left: 2%;
   padding: 0;
 }
@@ -147,7 +162,9 @@ input[type="color"]:hover {
   border: 4px solid rgb(207, 207, 235);
   z-index: 4;
 }
-
+input[type="color"]::placeholder {
+    color: white;
+}
 span {
   display: -webkit-box;
   display: -ms-flexbox;

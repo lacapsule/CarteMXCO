@@ -18,6 +18,7 @@
     <h4>Paramètres :</h4>
     <button id="boutonMenuGeneral" title="Afficher les paramètres généraux">Général</button>
     <button id="boutonMenuCommunes" title="Afficher les paramètres des communes">Communes</button>
+    <button id="boutonMenuBulles" title="Afficher les paramètres des bulles">Bulles</button>
     <button id="boutonMenuAide" title="Afficher l'aide">Aide</button>
   </menu>  
   <h1>Carte interactive de Morlaix communauté</h1>
@@ -26,10 +27,14 @@
   <div>
 <aside id="optionGeneral">
       <span><a href="javascript:location.reload(true)"><button title="Tout remettre à zéro">Réinitialiser</button></a></span>
-      <span><button title="Afficher ou ne pas afficher les bulles" id="boutonBulles">Masquer les noms</button></span>
+      <span><button title="masquer les bulles" id="boutonBulles">Masquer les noms</button></span>
       <span><p> Fond </p><input title="Changer la couleur de fond" type="color" id="couleurFond"></span>
-      <span><p> Communes </p><input title="Changer la couleur de toutes les communes" type="color" id="couleurToutes"></span>
-      </aside>
+      <span><p> Carte </p><input title="Changer la couleur de toutes les communes" type="color" id="couleurToutes"></span>
+      <span><p> Bulles </p><input title="Changer la couleur de toutes les bulles" type="color" id="couleurBulles"></span>
+      <span><p> Contours bulles </p><input title="Changer la couleur des contours de toutes les bulles" type="color" id="couleurContoursBulles"></span>
+      <span><p> Textes </p><input value="white" title="Changer la couleur de tous les textes" type="color" id="couleurTextes"></span>
+      <span><p> Frontières </p><input title="Changer la couleur de toutes les frontieres" type="color" id="couleurToutesFrontieres"></span>
+    </aside>
     <aside id="optionCommunes">
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlouneour">Plounéour-Menez</button><input title="Changer la couleur de la commune" type="color" id="couleurPlouneour"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPleyber">Pleyber-Christ</button><input title="Changer la couleur de la commune" type="color" id="couleurPleyber"></span>
@@ -58,12 +63,40 @@
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonSaintJean">Saint-Jean-Du-Doigt</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintJean"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlougasnou">Plougasnou</button><input title="Changer la couleur de la commune" type="color" id="couleurPlougasnou"></span>
 </aside> 
+<aside id="optionBulles">
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePlouneour">Plounéour-Menez</button><input title="Changer la couleur de la commune" type="color" id="couleurBullePlouneour"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePleyber">Pleyber-Christ</button><input title="Changer la couleur de la commune" type="color" id="couleurBullePleyber"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleSaintTheg">Saint-Thegonnec-Loc-Eguiner</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleSaintTheg"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleSaintSeve">Sainte-Sève</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleSaintSeve"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleTaule">Taulé</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleTaule"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleHenvic">Henvic</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleHenvic"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleCarantec">Carantec</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleCarantec"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleSaintMartin">Saint-Martin-des-Champs</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleSaintMartin"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleMorlaix">Morlaix</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleMorlaix"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleLocquenole">Locquénolé</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleLocquenole"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePlourin">Plourin-Lès-Morlaix</button><input title="Changer la couleur de la commune" type="color" id="couleurBullePlourin"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleLeCloitre">Le Cloître-Saint-Thégonnec</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleLeCloitre"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePlougonven">Plougonven</button><input title="Changer la couleur de la commune" type="color" id="couleurBullePlougonven"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleLanneanou">Lannéanou</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleLanneanou"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePlouigneau">Plouigneau</button><input title="Changer la couleur de la commune" type="color" id="couleurBullePlouigneau"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleGarlan">Garlan</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleGarlan"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePlouezoch">Plouezoc'h</button><input title="Changer la couleur de la commune" type="color" id="couleurBullePlouezoch"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleBotsorhel">Botsorhel</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleBotsorhel"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleGuerlesquin">Guerlesquin</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleGuerlesquin"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleMoysan">Plouégat-Moysan</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleMoysan"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleGuerrand">Plouégat-Guerrand</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleGuerrand"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleLanmeur">Lanmeur</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleLanmeur"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleGuimaec">Guimaëc</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleGuimaec"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleLocquirec">Locquirec</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleLocquirec"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleSaintJean">Saint-Jean-Du-Doigt</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleSaintJean"></span>
+  <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePlougasnou">Plougasnou</button><input title="Changer la couleur de la commune" type="color" id="couleurBullePlougasnou"></span>
+  </aside> 
 </div>
   <svg xmlns="http://www.w3.org/2000/svg" id="svg" viewBox="0 0 727.92631 571.47478">
         <defs>
         </defs>
         <title>Carte de Morlaix communauté</title>
-        <g id="b8e18138-5697-4033-9611-05eec396f769" data-name="FONDS DES COMMUNES">
+        <g id="b8e18138-5697-4033-9611-05eec396f769" fill="#386caf" stroke="#343435" data-name="FONDS DES COMMUNES">
           <a href="#"><path id="ad8ce1cf-d7bf-4e6a-8a01-1381f5bedaab" data-name="Plouneour-Menez" class="fond" d="M200.97618,495.33893l3.84392-2.56259,5.97942,5.5523q2.13552.85419,4.271,1.70841l2.56261,8.96914,10.24053-5.38513,21.365-9.13632,8.542-8.96915h9.39624l8.96913-4.271,5.97943-2.13553,3.84392,3.41681,9.82334-5.55231L300.918,478.682l4.271,5.5523,8.96913,1.70841,2.5626,1.70843,2.56263,9.82334,3.41681-4.48459,3.4168,2.34906v5.12524q4.882.37555,9.764.75107l3.47621,7.36386v5.12521l5.12522,5.55231v3.41684h-7.26073q-1.49485,3.41679-2.98972,6.83362v5.55232l-2.5626,5.55232-7.26073,2.9897.42711,2.98972q.56154,4.0484,1.12309,8.0968l2.498,5.8579.65,1.421,4.91167,6.40654v5.97941l-.64066,2.56261-13.24014,2.13551-15.37567,10.25044h-5.55232l-5.12522,2.98972-19.64668,3.8439-23.49059,5.55233L230.8733,610.6564l-7.68783,4.271H216.779l-4.69812-26.4803-6.40653-19.21957-8.96914-11.95885L187.736,545.95048l18.36537-14.3079,2.13551-5.55232,2.56261-1.70839-1.2813-7.26075,2.13551-4.69812-1.28131-3.8439Z" transform="translate(-38.69475 -44.45264)"/></a>
           <a href="#"><path id="f67bab1d-f4dd-4f82-a9cf-1f03da6055cc" data-name="Pleyber-Christ" class="fond" d="M217.63315,509.00619l-2.56261-8.96914q2.98971-.85419,5.97943-1.70841v-8.542q1.06774-4.91166,2.1355-9.82333,3.41682-2.77615,6.83363-5.55234h8.542l3.84391,3.84393q1.0145-.76089,2.029-1.52176l1.79874-1.34906,4.93634-2.59036q2.31016-.94423,4.62035-1.88843-1.35345-8.4976-2.70688-16.99521l-8.96915-2.98971q.8542-2.77616,1.7084-5.55231l-4.24137-1.65967q-2.791-1.09212-5.582-2.18423l2.98972-3.41684q-2.13552-3.63035-4.271-7.26071l-6.83363-4.69812,3.17159-5.12332q1.19037-1.92294,2.38073-3.84583.21356-5.76585.42711-11.53174l6.83362-8.11493q.21355-5.12522.4271-10.25042,3.41681-3.20325,6.83363-6.40653.21354-3.63039.42711-7.26074h2.5626q.85422-1.84905,1.70841-3.69812,1.12488-.64063,2.24977-1.28131h7.57356q3.41682-3.41679,6.83364-6.83362v11.53174q1.76481-1.61947,3.52964-3.23892l2.87688-2.52695q.26684-2.883.53365-5.76587H279.99l5.23106,6.52441q.8013-3.2622,1.60257-6.52441,1.70841-1.49487,3.41681-2.98972l3.84392,2.1355,3.84392,6.40653,9.39624-2.98969,7.26073-5.55234,2.98971,2.98972-3.41682,10.25043,9.82335.85421v-4.271l2.63925-2.26221q4.65981-5.48895,9.31959-10.97793l3.41681,6.83361,4.79051,2.5795q1.66221,2.34064,3.32442,4.68125l-.42241,4.15206-.43179,4.24418q-1.7084,2.77614-3.41681,5.5523c-.40477,1.62235-.78247,3.005-1.08964,4.08615-.30225,1.06376-.61527,2.31055-1.15209,3.81366l-1.31746,3.68888-2.84733,8.4851q-3.63038,1.922-7.26073,3.84391v22.20929q1.49486,2.9897,2.9897,5.97943l4.271,4.271-4.271,2.98969v5.12524q2.13551,1.922,4.271,3.84391v11.10464q1.2813,3.84393,2.5626,7.68784v5.12521l-1.27334,4.07471q-.43109,1.37946-.86217,2.75891l-2.98972,5.12524q1.49777,3.10368,2.9955,6.2074l-.43287,4.61594-.91361,2.74078q-4.882-.37555-9.764-.75107v-5.12524l-3.4168-2.34906q-1.70841,2.2423-3.41681,4.48459l-2.56263-9.82334q-1.2813-.85423-2.5626-1.70843-4.48458-.85419-8.96913-1.70841-2.13552-2.77616-4.271-5.5523l-5.12522-1.70841-9.82334,5.55231q-1.922-1.70842-3.84392-3.41681-2.98971,1.06778-5.97943,2.13553l-2.421,1.15283q-3.27409,1.55906-6.54816,3.11816H257.7807q-4.271,4.48458-8.542,8.96915-5.07034,2.16825-10.14069,4.33646-5.61216,2.39991-11.22431,4.79986Z" transform="translate(-38.69475 -44.45264)"/></a>
           <a href="#"><path id="b72b22dd-8b5d-48e2-9a31-ade134b628f4" data-name="Saint-Thegonnec-Loc-Eguiner" class="fond" d="M187.736,545.95048l7.90983-5.99615,10.45554-8.31175q1.06776-2.77615,2.13551-5.55232l2.56261-1.70839-1.2813-7.26075,2.13551-4.69812-1.28131-3.8439-9.39624-13.24017q1.922-1.28129,3.84392-2.56259l5.97942,5.5523q2.13552.85419,4.271,1.70841,2.98971-.85419,5.97943-1.70841v-8.542l2.1355-9.82333,6.83363-5.55234h8.542l3.84391,3.84393q2.17854-1.556,4.3571-3.11209L250.8,472.98947l4.98948-2.0842q-1.35345-8.4976-2.70688-16.99521l-8.96915-2.98971,1.7084-5.55231-9.82333-3.8439,2.98972-3.41684-4.271-7.26071-6.83363-4.69812,5.55232-8.96915.42711-11.53174,6.83362-8.11493.4271-10.25042,6.83363-6.40653.42711-7.26074h2.5626q.85422-1.84905,1.70841-3.69812-1.2813-5.19813-2.56261-10.39624l.8542-8.11493-5.12523-4.69812.85421-3.8439,2.98971-3.2995-2.5626-1.88733,1.7084-5.84525-11.53175-10.323.85421-4.69812h2.98971L238.134,310.831l-3.41681-18.79248L223.18547,312.1123l.4271,15.37568L212.935,345.42624l-8.542,11.10464-6.40653,4.69812-11.10464,15.80277V386.428l-7.26074,13.66727-12.813,13.24014L159.97442,432.555,152.28659,445.368v15.80277l9.39624,14.09436,2.56261,10.67752-5.55232,11.10464-1.28131,6.40653-5.12522,4.69812v7.26074l6.40653,5.55231,2.56261,8.11494,6.40652,8.11493,11.10464,2.13551Z" transform="translate(-38.69475 -44.45264)"/></a>
@@ -93,7 +126,7 @@
           <a href="#"><path class="fond" d="M569.992,384.29251" transform="translate(-38.69475 -44.45264)"/>
           <a href="#"><path class="fond" d="M416.71578,342.88422" transform="translate(-38.69475 -44.45264)"/>
         </g>
-        <g id="b13c0333-102d-4ea1-b7d6-4ce164979cfc" data-name="BULLES">
+        <g id="b13c0333-102d-4ea1-b7d6-4ce164979cfc" fill="#0b2749" data-name="BULLES">
           <path id="bullePlougasnou" id="e759bd59-459b-4583-ab4e-5c4cc022c8d0" data-name="Plougasnou" class="bulle" d="M331.45655,57.83511,361.21053,79.2l-29.754-33.74737H233.579V66.47559h97.7786Z" transform="translate(-38.69475 -44.45264)"/>
           <path id="bulleSaintJean" id="efa4db02-4a68-4b51-a6a7-507d464221f9" data-name="Saint-Jean-Du-Doigt" class="bulle" d="M487.69865,61.46376,455.08426,81.68421l32.61439-31.93964q77.30856.08,154.61713.16V69.80137h0q-77.25432-.08-154.50863-.16Q487.75293,65.55257,487.69865,61.46376Z" transform="translate(-38.69475 -44.45264)"/>
           <path id="bulleCarantec" id="a7721bfd-96aa-4916-afd5-7a270928f28c" data-name="Carantec" class="bulle" d="M224.59306,111.70364,252.21053,132.2,224.59306,99.82453l-77.41411.14426.342,20.3484q38.49012-.16215,76.98024-.32433Q224.54711,115.84826,224.59306,111.70364Z" transform="translate(-38.69475 -44.45264)"/>
@@ -121,7 +154,7 @@
           <path id="bulleLeCloitre" id="aaccdea4-f016-4e2e-9733-6c2fa9bb1a81" data-name="Le Cloitre-Saint-Thegonnec" class="bulle" d="M397.09145,589.965Q385.74572,559.96674,374.4,529.96841q7.95791,36,15.91577,72l207.76846-.44415V581.62744q-100.42589.08-200.85174.16Q397.162,585.87623,397.09145,589.965Z" transform="translate(-38.69475 -44.45264)"/>
           <path id="bullePlouneourMenez" id="bf15d8a7-db89-4003-9fe0-f8bc838b9df0" data-name="Plouneour-Menez" class="bulle" d="M228.165,571.96505l28.91312-20.22045L228.165,583.68423q-68.53512-.08-137.07027-.16V563.62743h0q68.487.08,136.97409.16Q228.11692,567.87623,228.165,571.96505Z" transform="translate(-38.69475 -44.45264)"/>
         </g>
-        <g id="bac92131-e0ac-4952-b465-08aa343a6732" data-name="NOMS DES COMMUNES">
+        <g id="bac92131-e0ac-4952-b465-08aa343a6732" fill="white" data-name="NOMS DES COMMUNES">
           <text class="nom" id="nomPlougasnou" data-name="Plougasnou" transform="translate(201.54849 17.29193)">PLOUGASNOU</text>
           <text class="nom" id="nomSaintJean" data-name="Saint-Jean-Du-Doigt" transform="translate(454.56851 20.50922)">SAINT-JEAN-DU-DOIGT</text>
           <text class="nom" id="nomCarantec" data-name="Carantec" transform="translate(115.8317 71.08246)">CARANTEC</text>
@@ -152,8 +185,9 @@
       </svg>
       <div class="vide"></div>
 </main>
-      <script type="text/javascript" src="boutonsVilles.js"></script>
       <script type="text/javascript" src="boutons.js"></script>
+      <script type="text/javascript" src="boutonsVilles.js"></script>
       <script type="text/javascript" src="couleurVilles.js"></script>
+      <script type="text/javascript" src="boutonsBulles.js"></script>
      </body>
 </html>

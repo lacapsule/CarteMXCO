@@ -35,10 +35,10 @@ menu {
   border-radius: 50px;
   border-radius: 50px;
   background: linear-gradient(145deg, #386caf, #2f5b94);
-  -webkit-box-shadow:  10px 10px 30px #2c568b,
-             -10px -10px 30px #3c74bd;
-          box-shadow:  10px 10px 30px #2c568b,
-             -10px -10px 30px #3c74bd;
+  -webkit-box-shadow:  3px 3px 3px #2c568b,
+             -3px -3px 3px #3c74bd;
+          box-shadow:  3px 3px 3px #2c568b,
+             -3px -3px 3px #3c74bd;
   border-radius: 0 20px 20px 0;
   background-color: rgba(27, 27, 27, 0.3);
   z-index: 1;
@@ -53,15 +53,22 @@ button {
     background-color: #2f5b94;
     color:rgb(243, 242, 242);
     text-shadow: 1px 1px 2px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
--webkit-box-shadow:  5px 5px 15px #2c568b,
-           -5px -5px 15px #3c74bd;
-      box-shadow:  5px 5px 15px #2c568b,
-           -5px -5px 15px #3c74bd;
+-webkit-box-shadow: 3px 3px 3px #2c568b,
+           -3px -3px 3px #3c74bd;
+      box-shadow: 3px 3px 3px #2c568b,
+           -3px -3px 3px #3c74bd;
     border-radius: 7px;
     -webkit-transition: 0.5s ease;
     -o-transition: 0.5s ease;
     transition: 0.5s ease;
     z-index: 2;
+}
+#boutonMenuGeneral,
+#boutonMenuCommunes,
+#boutonMenuBulles,
+#boutonMenuAide {
+  width: 9em;
+  height: 2.5em;
 }
 button:hover,
 button:active,
@@ -101,10 +108,10 @@ h1 {
   border-radius: 50px;
 background: -o-linear-gradient(305deg, #386caf, #2f5b94);
 background: linear-gradient(145deg, #386caf, #2f5b94);
--webkit-box-shadow:  10px 10px 30px #2c568b,
--10px -10px 30px #3c74bd;
-box-shadow:  10px 10px 30px #2c568b,
--10px -10px 30px #3c74bd;
+-webkit-box-shadow:  3px 3px 3px #2c568b,
+-3px -3px 3px #3c74bd;
+box-shadow:  3px 3px 3px #2c568b,
+-3px -3px 3px #3c74bd;
   border-radius: 0 0 20px 20px;
   padding: 1% 0 1% 0;
   width: 30%;
