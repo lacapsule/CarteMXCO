@@ -2,10 +2,19 @@
 @import url(map.css);
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column wrap;
-  align-items: space-between;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: rgb(207, 207, 235);
   font-family: Passion-One, PassionOne-Regular, Passion, Verdana, Geneva, Tahoma, sans-serif;
   width: 100vw;
@@ -16,55 +25,98 @@ body {
 }
 
 main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
-  flex-flow: row wrap;
-  align-items: flex-start;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   height: auto;
   z-index: 0;
 }
 aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column wrap;
-  align-items: space-around;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   border-radius: 0 50px 50px 0;
+  background: -o-linear-gradient(305deg, #386caf, #2f5b94);
   background: linear-gradient(145deg, #386caf, #2f5b94);
-  box-shadow:  20px 20px 60px #2c568b,
+  -webkit-box-shadow:  20px 20px 60px #2c568b,
+             -20px -20px 60px #3c74bd;
+          box-shadow:  20px 20px 60px #2c568b,
              -20px -20px 60px #3c74bd;
   width: 100%;
   height: auto;
   margin-top: 5%;
   font-size: 2.8em;
   font-weight: bolder;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   z-index: 0;
 }
 #optionGeneral {
   display: none;
-  flex-flow: row wrap;
-  align-items: space-around;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 13em;
   height: auto;
   padding: 5% 0 5% 5%;
 }
 #optionCommunes {
   display: none;
-  flex-flow: row wrap;
-  align-items: space-around;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 13em;
   height: auto;
   padding: 5% 0 5% 5%;
 }
 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 9em;
   height: 3em;
   padding-left: 1.5em;
@@ -77,24 +129,40 @@ p {
 input[type="color"] {
   width: 4em;
   height: 4em;
+  background: -o-linear-gradient(305deg, #386caf, #2f5b94);
   background: linear-gradient(145deg, #386caf, #2f5b94);
-  box-shadow:  5px 5px 15px #2c568b,
+  -webkit-box-shadow:  5px 5px 15px #2c568b,
+             -5px -5px 15px #3c74bd;
+          box-shadow:  5px 5px 15px #2c568b,
              -5px -5px 15px #3c74bd;
   margin-left: 2%;
   padding: 0;
 }
 input[type="color"]:hover {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
   transition: 0.5s ease;
   border: 4px solid rgb(207, 207, 235);
   z-index: 4;
 }
 
 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 5em;
   margin: 0.5%;
 }

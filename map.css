@@ -17,6 +17,7 @@
   
   .fond:hover {
    fill: #1d3499;
+   z-index: 4;
   }
   
   .bulle, .nom {
