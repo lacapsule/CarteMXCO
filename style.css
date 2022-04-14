@@ -30,9 +30,13 @@ aside {
   flex-flow: column wrap;
   align-items: space-around;
   justify-content: space-around;
-  background-color: #2aa9d3;
+  border-radius: 0 50px 50px 0;
+  background: linear-gradient(145deg, #386caf, #2f5b94);
+  box-shadow:  20px 20px 60px #2c568b,
+             -20px -20px 60px #3c74bd;
   width: 100%;
   height: auto;
+  margin-top: 5%;
   font-size: 2.8em;
   font-weight: bolder;
   transition: 0.3s ease-in-out;
@@ -43,7 +47,7 @@ aside {
   flex-flow: row wrap;
   align-items: space-around;
   justify-content: space-around;
-  width: 12em;
+  width: 13em;
   height: auto;
   padding: 5% 0 5% 5%;
 }
@@ -52,7 +56,7 @@ aside {
   flex-flow: row wrap;
   align-items: space-around;
   justify-content: space-around;
-  width: 12em;
+  width: 13em;
   height: auto;
   padding: 5% 0 5% 5%;
 }
@@ -63,16 +67,29 @@ p {
   justify-content: flex-start;
   width: 9em;
   height: 3em;
-  padding-left: 1em;
+  padding-left: 1.5em;
   font-size: 0.3em;
   color:rgb(207, 207, 235);
-  background-color: #343535;
+  text-shadow: 1px 1px 2px rgba(37, 37, 37, 0.1), 0 0 1em rgba(41, 41, 41, 0.1), 0 0 0.2em rgba(27, 27, 27, 0.1);
+  border-radius: 90% 0 0 90%;
+  background-color: linear-gradient(145deg #343535 black);
 }
 input[type="color"] {
   width: 4em;
   height: 4em;
+  background: linear-gradient(145deg, #386caf, #2f5b94);
+  box-shadow:  5px 5px 15px #2c568b,
+             -5px -5px 15px #3c74bd;
+  margin-left: 2%;
   padding: 0;
 }
+input[type="color"]:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease;
+  border: 4px solid rgb(207, 207, 235);
+  z-index: 4;
+}
+
 span {
   display: flex;
   flex-flow: row wrap;

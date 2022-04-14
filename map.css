@@ -5,6 +5,7 @@
         -ms-grid-row-align: center;
         align-self: center;
       width: 50%;
+      z-index: 3;
   }
   g {
     font-family: "passion one", PassionOne-Regular, Passion;
@@ -12,7 +13,6 @@
   }
   .fond {
    stroke: #243063;
-   background-color: whitesmoke;
   }
   
   .fond:hover {
