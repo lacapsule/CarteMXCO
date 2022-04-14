@@ -39,7 +39,7 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
+  width: 99%;
   height: auto;
   z-index: 0;
 }
@@ -59,13 +59,12 @@ aside {
   border-radius: 0 50px 50px 0;
   background: -o-linear-gradient(305deg, #386caf, #2f5b94);
   background: linear-gradient(145deg, #386caf, #2f5b94);
-  -webkit-box-shadow:  20px 20px 60px #2c568b,
-             -20px -20px 60px #3c74bd;
-          box-shadow:  20px 20px 60px #2c568b,
-             -20px -20px 60px #3c74bd;
+  -webkit-box-shadow:  10px 10px 30px #2c568b,
+             -10px -10px 30px #3c74bd;
+          box-shadow:  10px 10px 30px #2c568b,
+             -10px -10px 30px #3c74bd;
   width: 100%;
   height: auto;
-  margin-top: 5%;
   font-size: 2.8em;
   font-weight: bolder;
   -webkit-transition: 0.3s ease-in-out;
@@ -86,7 +85,7 @@ aside {
       justify-content: space-around;
   width: 13em;
   height: auto;
-  padding: 5% 0 5% 5%;
+  padding: 3% 0 3% 3%;
 }
 #optionCommunes {
   display: none;
@@ -101,7 +100,7 @@ aside {
       justify-content: space-around;
   width: 13em;
   height: auto;
-  padding: 5% 0 5% 5%;
+  padding: 3% 0 3% 3%;
 }
 p {
   display: -webkit-box;
