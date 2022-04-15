@@ -43,21 +43,35 @@ menu {
   background-color: rgba(27, 27, 27, 0.3);
   z-index: 1;
 }
-h4 {
+h3 {
   color:rgb(243, 242, 242);
+  text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
   height: 2.5vh;
+}
+h4 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  color:rgb(243, 242, 242);
+  text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
+  width: 90%;
+  height: 2.2em;
+  font-size: 0.3em;
+  background-color: #2f5b94;
 }
 button {
     width: 12em;
     height: 3.8em;
     background-color: #2f5b94;
-    color:rgb(243, 242, 242);
-    text-shadow: 1px 1px 2px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
+    color:rgb(224, 229, 252);
+    text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
 -webkit-box-shadow: 3px 3px 3px #2c568b,
            -3px -3px 3px #3c74bd;
       box-shadow: 3px 3px 3px #2c568b,
            -3px -3px 3px #3c74bd;
     border-radius: 7px;
+    border-color: #2c568b;
     -webkit-transition: 0.5s ease;
     -o-transition: 0.5s ease;
     transition: 0.5s ease;
@@ -75,13 +89,13 @@ button:active,
 button:focus {
   -webkit-filter: contrast(1);
           filter: contrast(1);
-  -webkit-transform: scale(1.3);
-      -ms-transform: scale(1.3);
-          transform: scale(1.3);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
   padding-bottom: 0.2em;
   color: aliceblue;
-  background-color: #121472;
-  border: 4px solid rgb(235, 234, 236);
+  background-color: #22235e;
+  border: 4px solid rgb(227, 227, 228);
   z-index: 3;
 }
 button:hover {

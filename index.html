@@ -8,24 +8,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="villes.css">
     <link rel="stylesheet" href="">
     <title>MXCO Carte</title>
 </head>
 <body id="fond">
   <header>
 <menu>
-    <h4>Paramètres :</h4>
-    <button id="boutonMenuGeneral" title="Afficher les paramètres généraux">Général</button>
-    <button id="boutonMenuCommunes" title="Afficher les paramètres des communes">Communes</button>
-    <button id="boutonMenuBulles" title="Afficher les paramètres des bulles">Bulles</button>
-    <button id="boutonMenuAide" title="Afficher l'aide">Aide</button>
+    <h3>Paramètres :</h3>
+    <button id="boutonMenuGeneral" title="Afficher les paramètres généraux"> Général </button>
+    <button id="boutonMenuCommunes" title="Afficher les paramètres des communes"> Communes </button>
+    <button id="boutonMenuBulles" title="Afficher les paramètres des bulles"> Bulles </button>
+    <button id="boutonMenuAide" title="Afficher l'aide"> Aide </button>
   </menu>  
   <h1>Carte interactive de Morlaix communauté</h1>
 </header>
 <main>
   <div>
 <aside id="optionGeneral">
+  <h4>Paramètres généraux :</h4>
       <span><a href="javascript:location.reload(true)"><button title="Tout remettre à zéro">Réinitialiser</button></a></span>
       <span><button title="masquer les bulles" id="boutonBulles">Masquer les noms</button></span>
       <span><p> Fond </p><input title="Changer la couleur de fond" type="color" id="couleurFond"></span>
@@ -36,6 +36,7 @@
       <span><p> Frontières </p><input title="Changer la couleur de toutes les frontieres" type="color" id="couleurToutesFrontieres"></span>
     </aside>
     <aside id="optionCommunes">
+      <h4>Options des Communes :</h4>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlouneour">Plounéour-Menez</button><input title="Changer la couleur de la commune" type="color" id="couleurPlouneour"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPleyber">Pleyber-Christ</button><input title="Changer la couleur de la commune" type="color" id="couleurPleyber"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonSaintTheg">Saint-Thegonnec-Loc-Eguiner</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintTheg"></span>
@@ -64,6 +65,7 @@
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlougasnou">Plougasnou</button><input title="Changer la couleur de la commune" type="color" id="couleurPlougasnou"></span>
 </aside> 
 <aside id="optionBulles">
+  <h4>Options des bulles :</h4>
   <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePlouneour">Plounéour-Menez</button><input title="Changer la couleur de la commune" type="color" id="couleurBullePlouneour"></span>
   <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePleyber">Pleyber-Christ</button><input title="Changer la couleur de la commune" type="color" id="couleurBullePleyber"></span>
   <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleSaintTheg">Saint-Thegonnec-Loc-Eguiner</button><input title="Changer la couleur de la commune" type="color" id="couleurBulleSaintTheg"></span>
