@@ -110,8 +110,8 @@ p {
   font-size: 0.3em;
   color:rgb(207, 207, 235);
   text-shadow: 1px 1px 2px rgba(37, 37, 37, 0.1), 0 0 1em rgba(41, 41, 41, 0.1), 0 0 0.2em rgba(27, 27, 27, 0.1);
-  border-radius: 90% 0 0 90%;
-  background-color: linear-gradient(145deg #343535 black);
+  border-radius: 10% 0 20px 0;
+  background-color: #2f5b94;
 }
 input[type="color"] {
   -webkit-appearance: none;

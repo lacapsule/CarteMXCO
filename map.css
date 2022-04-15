@@ -5,6 +5,7 @@
         -ms-grid-row-align: center;
         align-self: center;
       width: 50%;
+      top: 2em;
       z-index: 3;
   }
   g {
