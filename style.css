@@ -85,8 +85,8 @@ aside {
       -ms-flex-align: space-around;
           align-items: space-around;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 13em;
+      justify-content: flex-start;
+  width: 11em;
   height: auto;
   padding: 0 0 3% 3%;
 }
@@ -125,7 +125,7 @@ input[type="color"] {
   box-shadow:  3px 3px 3px #2c568b,
              -3px -3px 3px #3c74bd;
   border: 4px solid #d3d3d3;
-  transform: scale(1.1);
+  transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -133,30 +133,27 @@ input[type="color"] {
 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
   padding: 0;
-  border-radius: 20px;
+  border-radius: 50%;
   overflow: hidden;
   margin-left: 0.5em;
   padding: 0;
 }
-input[type="color"]:hover {
-  -webkit-transform: scale(1.4);
-      -ms-transform: scale(1.4);
-          transform: scale(1.4);
-  border: 3px solid rgb(242, 242, 250);
-  z-index: 4;
-}
 input[type="color"]::-webkit-color-swatch {
     border: none;
-    border-radius: 10px;
+    border-radius: 50%;
     padding: 0;
   }
   input[type="color"]::-webkit-color-swatch-wrapper {
     border: none;
-    border-radius: 10px;
+    border-radius: 50%;
     padding: 0;
   }
-input[type="color"]::placeholder {
-    color: white;
+input[type="color"]:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 3px solid rgb(242, 242, 250);
+  z-index: 4;
 }
 span {
   display: -webkit-box;
@@ -182,7 +179,7 @@ span {
 
 @media screen and (max-width: 1400px) {
 aside {
-  width: 80%;
+  width: 100%;
     }
 #optionGeneral,
 #optionCommunes,
@@ -192,8 +189,42 @@ aside {
 input[type="color"] {
   width: 1.8em;
   height: 4.2em;
+  border-radius: 2px 20px 20px 2px;
 }
 span {
   width: 3.2em;
+}
+}
+@media screen and (max-width: 750px) {
+aside {
+  width: 90%;
+  height: auto;
+} 
+input[type="color"] {
+  width: 1em;
+  height: 4em;
+}
+span {
+  width: 2.6;
+}
+p {
+  width: 5em;
+  height: 4em;
+}
+#optionGeneral,
+#optionCommunes,
+#optionBulles {
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: flex-start;
+  width: 100%;
+  height: auto;
 }
 }

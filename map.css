@@ -53,9 +53,9 @@
       -ms-flex-item-align: center;
           -ms-grid-row-align: center;
           align-self: center;
-        width: 60%;
-        top: 4em;
-        margin-top: 0;
+        width: 50%;
+        top: 2%;
+        margin: 5%;
         padding-top: 0;
         z-index: 3;
     }
@@ -66,9 +66,20 @@
       -ms-flex-item-align: center;
           -ms-grid-row-align: center;
           align-self: center;
-        width: 50%;
-        top: 0;
-        margin-top: 0;
+        width: 30%;
+        top: 1%;
+        margin: 5%;
         z-index: 3;
     }
   }
+  @media screen and (max-width: 750px) {
+    svg {
+      position: relative;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center;
+        width: 100%;
+        top: 2%;
+        margin: 5%;
+        z-index: 3;
+    }}

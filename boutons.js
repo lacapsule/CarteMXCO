@@ -14,6 +14,7 @@ let asideCommunes = document.getElementById("optionCommunes");
 let boutonCouleursBulles = document.getElementById("boutonMenuBulles");
 let asideBulles = document.getElementById("optionBulles");
 
+
 boutonGeneral.addEventListener("click", () => {
   if(getComputedStyle(optionGeneral).display != "none"){
     asideGeneral.style.display = "none";
@@ -63,6 +64,18 @@ function toggleaside(id) {
       aside.style.display = "none";
     }
   });
+}
+
+
+document.getElementById("boutonMenuCapturer").onclick = function () {
+  var data = document.getElementById("svg").innerHTML;
+  var img = new Image();
+  img.src = 'data:image/svg+xml;base64,' + btoa(data);
+  img.onload = function() {
+    document.getElementById("svg")
+            .getContext('2d')
+            .drawImage(img, 0, 0);
+  }
 }
 
 couleurFond.addEventListener("input", () => {
