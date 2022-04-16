@@ -122,26 +122,27 @@ input[type="color"] {
   background: linear-gradient(145deg, #386caf, #2f5b94);
   -webkit-box-shadow:  3px 3px 3px #2c568b,
              -3px -3px 3px #3c74bd;
-          box-shadow:  3px 3px 3px #2c568b,
+  box-shadow:  3px 3px 3px #2c568b,
              -3px -3px 3px #3c74bd;
-             border: 2px solid #d3d3d3;
-             transform: scale(1.1);
+  border: 4px solid #d3d3d3;
+  transform: scale(1.1);
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
   padding: 0;
-  border-radius: 10px 0 10px 0;
+  border-radius: 20px;
   overflow: hidden;
-  margin-left: 2%;
+  margin-left: 0.5em;
   padding: 0;
 }
 input[type="color"]:hover {
-  -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  transition: 0.5s ease;
-  margin-left: -0.3%;
-  border-radius: 0 10px 0 10px;
-  border: 2px solid rgb(242, 242, 250);
+  -webkit-transform: scale(1.4);
+      -ms-transform: scale(1.4);
+          transform: scale(1.4);
+  border: 3px solid rgb(242, 242, 250);
   z-index: 4;
 }
 input[type="color"]::-webkit-color-swatch {
@@ -180,5 +181,19 @@ span {
 }
 
 @media screen and (max-width: 1400px) {
-    
+aside {
+  width: 80%;
+    }
+#optionGeneral,
+#optionCommunes,
+#optionBulles {
+  width: 10em;
+}
+input[type="color"] {
+  width: 1.8em;
+  height: 4.2em;
+}
+span {
+  width: 3.2em;
+}
 }

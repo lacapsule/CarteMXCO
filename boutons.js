@@ -48,6 +48,13 @@ boutonBulles.addEventListener("click", () => {
   }
 });
 
+function toggleText(id)  {
+  var text = document.getElementById(boutonBulles).firstChild;
+  text.data = text.data == "Afficher les noms" ? "Afficher les noms" : "Masquer les noms";
+}
+
+ 
+
 function toggleaside(id) {
   document.querySelectorAll(".option").forEach(function(aside) {
     if (aside.id == id) {

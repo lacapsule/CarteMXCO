@@ -30,7 +30,7 @@ menu {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 40%;
-  height: 100%;
+  height: auto;
   text-shadow: 1px 1px 2px rgba(37, 37, 37, 0.1), 0 0 1em rgba(41, 41, 41, 0.1), 0 0 0.2em rgba(27, 27, 27, 0.1);
   border-radius: 50px;
   border-radius: 50px;
@@ -85,8 +85,8 @@ h1 {
 h3 {
   color:rgb(243, 242, 242);
   text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
-  height: 100%;
-  line-height: 100%;
+  height: 2em;
+  line-height: 2em;
   font-size: 0.8em;
 }
 h4 {
@@ -114,9 +114,9 @@ button {
            -3px -3px 3px #3c74bd;
     border-radius: 7px;
     border-color: #2c568b;
-    -webkit-transition: 0.5s ease;
-    -o-transition: 0.5s ease;
-    transition: 0.5s ease;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
     z-index: 2;
 }
 #boutonMenuGeneral,
@@ -134,7 +134,6 @@ button:focus {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
-  padding-bottom: 0.2em;
   color: aliceblue;
   background-color: #22235e;
   border: 4px solid rgb(227, 227, 228);
@@ -144,14 +143,13 @@ button:hover {
   z-index: 5;
 }
 
-@media screen and (width: 1750px) {
+@media screen and (max-width: 1400px) {
   menu {
-    position: absolute;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
-    justify-content: center;
-    height: 50%;
-    width: 18%;
+    width: 60%;
   }
+  button {
+    width: 8em;
+    height: 4.5em;
+}
+  
 }
