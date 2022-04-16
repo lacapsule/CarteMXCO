@@ -6,6 +6,8 @@
         align-self: center;
       width: 50%;
       top: 2em;
+      margin-top: 0;
+      padding-top: 0;
       z-index: 3;
   }
   g {
@@ -45,4 +47,15 @@
   .a2cdadef-0f16-45b7-9b79-984d9814e5e3 {
     fill: #f2f3f4;
   }
-  
+  @media  screen and (max-height: 850px) {
+    svg {
+      position: relative;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center;
+        width: 50%;
+        top: 0;
+        margin-top: 0;
+        z-index: 3;
+    }
+  }

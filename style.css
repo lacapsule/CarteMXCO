@@ -57,9 +57,10 @@ aside {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   border-radius: 0 50px 50px 0;
-  background: -o-linear-gradient(305deg, #386caf, #2f5b94);
-  background: linear-gradient(145deg, #386caf, #2f5b94);
-  -webkit-box-shadow:  3px 3px 3px #2c568b,
+  background: -moz-linear-gradient(90deg, rgba(60,116,189,1) 0%, rgba(60,116,189,0.5480392840730042) 35%, rgba(60,116,189,0.6236695361738445) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(60,116,189,1) 0%, rgba(60,116,189,0.5480392840730042) 35%, rgba(60,116,189,0.6236695361738445) 100%);
+  background: linear-gradient(90deg, rgba(60,116,189,1) 0%, rgba(60,116,189,0.5480392840730042) 35%, rgba(60,116,189,0.6236695361738445) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3c74bd",endColorstr="#3c74bd",GradientType=1); -webkit-box-shadow:  3px 3px 3px #2c568b,
              -3px -3px 3px #3c74bd;
           box-shadow:  3px 3px 3px #2c568b,
              -3px -3px 3px #3c74bd;
@@ -176,4 +177,8 @@ span {
 .vide {
   width: 2%;
   height: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+    
 }

@@ -48,6 +48,16 @@ boutonBulles.addEventListener("click", () => {
   }
 });
 
+function toggleaside(id) {
+  document.querySelectorAll(".option").forEach(function(aside) {
+    if (aside.id == id) {
+      aside.style.display = aside.style.display == "block" ? "block" : "none";
+    } else {
+      aside.style.display = "none";
+    }
+  });
+}
+
 couleurFond.addEventListener("input", () => {
   fond.style.backgroundColor = couleurFond.value;
   } 

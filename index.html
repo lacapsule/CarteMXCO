@@ -15,16 +15,16 @@
   <header>
 <menu>
     <h3>Paramètres :</h3>
-    <button id="boutonMenuGeneral" title="Afficher les paramètres généraux"> Général </button>
-    <button id="boutonMenuCommunes" title="Afficher les paramètres des communes"> Communes </button>
-    <button id="boutonMenuBulles" title="Afficher les paramètres des bulles"> Bulles </button>
+    <button id="boutonMenuGeneral" onclick="toggleaside('optionGeneral')" title="Afficher les paramètres généraux"> Général </button>
+    <button id="boutonMenuCommunes" onclick="toggleaside('optionCommunes')" title="Afficher les paramètres des communes"> Communes </button>
+    <button id="boutonMenuBulles" onclick="toggleaside('optionBulles')" title="Afficher les paramètres des bulles"> Bulles </button>
     <button id="boutonMenuAide" title="Afficher l'aide"> Aide </button>
   </menu>  
   <h1>Carte interactive de Morlaix communauté</h1>
 </header>
 <main>
   <div>
-<aside id="optionGeneral">
+<aside class="option" id="optionGeneral">
   <h4>Paramètres généraux :</h4>
       <span><a href="javascript:location.reload(true)"><button title="Tout remettre à zéro">Réinitialiser</button></a></span>
       <span><button title="masquer les bulles" id="boutonBulles">Masquer les noms</button></span>
@@ -35,7 +35,7 @@
       <span><p> Textes </p><input value="white" title="Changer la couleur de tous les textes" type="color" id="couleurTextes"></span>
       <span><p> Frontières </p><input title="Changer la couleur de toutes les frontieres" type="color" id="couleurToutesFrontieres"></span>
     </aside>
-    <aside id="optionCommunes">
+    <aside class="option" id="optionCommunes">
       <h4>Options des Communes :</h4>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlouneour">Plounéour-Menez</button><input title="Changer la couleur de la commune" type="color" id="couleurPlouneour"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPleyber">Pleyber-Christ</button><input title="Changer la couleur de la commune" type="color" id="couleurPleyber"></span>
@@ -64,7 +64,7 @@
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonSaintJean">Saint-Jean-Du-Doigt</button><input title="Changer la couleur de la commune" type="color" id="couleurSaintJean"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlougasnou">Plougasnou</button><input title="Changer la couleur de la commune" type="color" id="couleurPlougasnou"></span>
 </aside> 
-<aside id="optionBulles">
+<aside class="option" id="optionBulles">
   <h4>Options des bulles :</h4>
   <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePlouneour">Plounéour-Menez</button><input title="Changer la couleur de la commune" type="color" id="couleurBullePlouneour"></span>
   <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePleyber">Pleyber-Christ</button><input title="Changer la couleur de la commune" type="color" id="couleurBullePleyber"></span>
