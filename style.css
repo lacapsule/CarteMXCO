@@ -177,6 +177,16 @@ span {
   height: 100%;
 }
 
+div#imprimer {
+  position: relative;
+  -ms-flex-item-justify: end;
+  -ms-grid-row-justify: end;
+  justify-self: flex-end;
+  width: 50%;
+  height: auto;
+  z-index: 0;
+} 
+
 @media screen and (max-width: 1400px) {
 aside {
   width: 100%;
@@ -227,4 +237,25 @@ p {
   width: 100%;
   height: auto;
 }
+}
+@media print {
+  * {
+    width: 21cm;
+    height: 21cm;
+  }
+  header {
+    display: none;
+  }
+  aside {
+    display: none;
+  }
+  svg {
+    width: 21cm;
+    height: auto;
+  }
+}
+@page {
+  width: 21cm;
+  height: 21cm;
+  margin: 3cm;
 }

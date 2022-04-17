@@ -15,11 +15,11 @@
   <header>
 <menu>
     <h3>Paramètres :</h3>
-    <button id="boutonMenuGeneral" onclick="toggleaside('optionGeneral')" title="Afficher les paramètres généraux"> Général </button>
-    <button id="boutonMenuCommunes" onclick="toggleaside('optionCommunes')" title="Afficher les paramètres des communes"> Communes </button>
-    <button id="boutonMenuBulles" onclick="toggleaside('optionBulles')" title="Afficher les paramètres des bulles"> Bulles </button>
-    <button id="boutonMenuFermer" onclick="toggleaside('optionFermer')" title="Fermer les menus"> Fermer </button>
-    <button id="boutonMenuCapturer" title="Capturer votre travail"> Capturer </button>
+    <input type="button" id="boutonMenuGeneral" onclick="toggleaside('optionGeneral')" title="Afficher les paramètres généraux" value="Général"/>
+    <input type="button" id="boutonMenuCommunes" onclick="toggleaside('optionCommunes')" title="Afficher les paramètres des communes" value="Communes"/>
+    <input type="button" id="boutonMenuBulles" onclick="toggleaside('optionBulles')" title="Afficher les paramètres des bulles" value="Bulles"/>
+    <input type="button" id="boutonMenuFermer" onclick="toggleaside('optionFermer')" title="Fermer les menus" value="Fermer"/>
+    <input type="button" id="boutonMenuTelecharger" onclick="toggleaside('optionTelecharger'); printDiv('imprimer');" title="Vous pouvez imprimer votre carte dans un PDF" value="Imprimer"/>
   </menu>  
   <h1>Carte interactive de Morlaix communauté</h1>
 </header>
@@ -95,6 +95,7 @@
   <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePlougasnou">Plougasnou</button><input title="Changer la couleur de la commune" type="color" value="#0b2749" id="couleurBullePlougasnou"></span>
   </aside> 
 </div>
+<div id="imprimer">
   <svg xmlns="http://www.w3.org/2000/svg" id="svg" viewBox="0 0 727.92631 571.47478">
         <defs>
         </defs>
@@ -186,11 +187,13 @@
           <text class="nom" id="nomPlouneourMenez" data-name="Plouneour-Menez" transform="translate(59.56851 534.50922)">PLOUNÉOUR-MENEZ</text>
         </g>
       </svg>
+    </div>
       <div class="vide"></div>
 </main>
       <script type="text/javascript" src="boutons.js"></script>
       <script type="text/javascript" src="boutonsVilles.js"></script>
       <script type="text/javascript" src="couleurVilles.js"></script>
       <script type="text/javascript" src="boutonsBulles.js"></script>
-     </body>
+      <script type="text/javascript" src="imprimer.js"></script> 
+    </body>
 </html>

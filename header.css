@@ -102,9 +102,9 @@ h4 {
   border-radius: 0 50px 0 0;
   background-color: #2f5b94;
 }
-button {
-    width: 12em;
-    height: 3.8em;
+input[type="button"] {
+  width: 9em;
+    height: 2.4em;
     background-color: #2f5b94;
     color:rgb(224, 229, 252);
     text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
@@ -118,6 +118,36 @@ button {
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
     z-index: 2;
+}
+input[type="button"]:hover,
+input[type="button"]:active,
+input[type="button"]:focus {
+  -webkit-filter: contrast(1);
+  filter: contrast(1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  color: aliceblue;
+  background-color: #22235e;
+  border: 4px solid rgb(227, 227, 228);
+  z-index: 5;
+}
+button {
+  width: 12em;
+  height: 3.8em;
+  background-color: #2f5b94;
+  color:rgb(224, 229, 252);
+  text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
+  -webkit-box-shadow: 3px 3px 3px #2c568b,
+           -3px -3px 3px #3c74bd;
+  box-shadow: 3px 3px 3px #2c568b,
+           -3px -3px 3px #3c74bd;
+  border-radius: 7px;
+  border-color: #2c568b;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 2;
 }
 #boutonMenuGeneral,
 #boutonMenuCommunes,

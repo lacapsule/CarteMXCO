@@ -66,18 +66,6 @@ function toggleaside(id) {
   });
 }
 
-
-document.getElementById("boutonMenuCapturer").onclick = function () {
-  var data = document.getElementById("svg").innerHTML;
-  var img = new Image();
-  img.src = 'data:image/svg+xml;base64,' + btoa(data);
-  img.onload = function() {
-    document.getElementById("svg")
-            .getContext('2d')
-            .drawImage(img, 0, 0);
-  }
-}
-
 couleurFond.addEventListener("input", () => {
   fond.style.backgroundColor = couleurFond.value;
   } 
@@ -102,5 +90,4 @@ couleurToutesFrontieres.addEventListener("input", () => {
   couleurFrontieres.style.stroke = couleurToutesFrontieres.value;
   } 
 )
-
   
