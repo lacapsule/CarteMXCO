@@ -1,18 +1,35 @@
-
+  #imprimer {
+    display: block;
+    position: relative;
+    align-self: space-around;
+    justify-content: space-around;
+    width: 50%;
+    height: auto;
+  }
+  canvas {
+    position: absolute;
+    justify-self: center;
+    font-family: 'passion_oneregular';
+    background: rgb(224, 229, 252); 
+    top: 10.5%;
+    left: 21.5%;
+    width: 100%;
+    height: 100%;
+  }
   svg {
     position: relative;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-      width: 100%;
-      top: 2em;
-      margin-top: 0;
-      padding-top: 0;
+        box-sizing: border-box;
+      width: 90%;
+      height: auto;
+      padding: 0;
       z-index: 3;
   }
   g {
-    font-family: "passion one", PassionOne-Regular, Passion;
-    width: 100%;
+    width: auto;
+    height: auto;
   }
   
   .fond:hover {
@@ -22,51 +39,78 @@
   
   .bulle, .nom {
     display: block;
+    width: auto;
+    height: auto;
   }
   
   .fond, .b8c16a22-22d8-46f4-8d29-d912f138e36a, .bulle, .nom {
-    stroke-miterlimit: 10;
+    stroke-miterlimit: 12;
   }
   
   .fond, .bulle {
-    stroke-width: 3px;
+    stroke-width: 4px;
   }
   .bulle {
     stroke-width: 2px;
   }
   
   .a2cdadef-0f16-45b7-9b79-984d9814e5e3, .b8c16a22-22d8-46f4-8d29-d912f138e36a, .nom, .fe323a9a-d646-4d4f-a5c5-66a36689274b {
-    font-size: 17px;
+    font-size: 12px;
+    font-family: 'passion_onebold', Verdana, 'Geneva', Tahoma, sans-serif;
   }
     
   .nom {
     stroke: #343435;
-    stroke-width: 0.5px;
+    stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(41, 64, 141);
   }
   
   .a2cdadef-0f16-45b7-9b79-984d9814e5e3 {
     fill: #f2f3f4;
   }
+
+  .pastilles,
+  .legendes {
+    display: none;
+  }
+  .b72b3a80-689d-424e-a21f-dfd057c561e3, .e4336bf5-ae8c-4688-ae89-8a38a006b2f7 {
+    stroke: #243063;
+  }
+
+  .f78ce071-44cf-4d4c-8126-16af981f96a4 {
+    font-size: 14.78426px;
+    fill: #243063;
+    font-family: MyriadPro-Regular, Myriad Pro;
+    letter-spacing: -0.01202em;
+    font-weight: bolder;
+  }
+
+  .f1985f06-e82f-4d2f-8c62-e14b08690e7f {
+    fill: #232868;
+    stroke: #000;
+  }
+
   @media screen and (max-width: 1400px) {
     svg {
       position: relative;
       -ms-flex-item-align: center;
           -ms-grid-row-align: center;
           align-self: center;
-        width: 50%;
+        width: 90%;
         top: 2%;
         margin: 5%;
         padding-top: 0;
         z-index: 3;
     }
   }
-  @media  screen and (max-height: 850px) {
+  @media screen and (max-height: 850px) {
     svg {
       position: relative;
       -ms-flex-item-align: center;
           -ms-grid-row-align: center;
           align-self: center;
-        width: 30%;
+        width: 90%;
         top: 1%;
         margin: 5%;
         z-index: 3;
@@ -78,8 +122,37 @@
       -ms-flex-item-align: center;
           -ms-grid-row-align: center;
           align-self: center;
-        width: 100%;
+        width: 90%;
         top: 2%;
         margin: 5%;
         z-index: 3;
     }}
+    @media print {
+      * {
+        width: 21cm;
+        height: 6cm;
+      }
+      header {
+        display: none;
+      }
+      aside {
+        display: none;
+      }
+      svg {
+        width: 21cm;
+        height: auto;
+        margin-top: 0;
+      } 
+      text {
+        font-family: 'passion_oneregular';
+        font-size: 16px;
+        letter-spacing: 0.4px;
+      }
+      canvas {
+        display: none;
+      }
+    }
+    @page {
+      width: 21cm;
+      height: 29.7cm;
+    }

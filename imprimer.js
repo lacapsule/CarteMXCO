@@ -1,12 +1,18 @@
+let aperçu = document.getElementById("boutonMenuFermer");
+let fenetreAperçu = document.getElementsByTagName("canvas");
 
-  window.printDiv = function(divName) {
-    var printContents = document.getElementById(divName).innerHTML;
-    var originalContents = document.body.innerHTML;
-  
-    document.body.innerHTML = printContents;
-  
+window.printDiv = function(imprimer) {
+    let innerContents = document.getElementById(imprimer).innerHTML; 
     window.print();
-  
-    document.body.innerHTML = originalContents;
-    document.close()
+};
+
+aperçu.addEventListener("click", () => {
+html2canvas(document.querySelector("#imprimer"), {
+  onrendered: function (canvas) {
+    var nWindow = window.open('');
+    nWindow.document.body.appendChild(canvas);
+    nWindow.focus();
+    nWindow.print();
+    location.reload();
 }
+})}); 
