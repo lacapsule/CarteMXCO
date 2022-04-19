@@ -79,16 +79,22 @@ p {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: flex-start;
-  width: 4.7em;
-  height: 3em;
-  padding-left: 1em;
-  padding-right: 1.5em;
+  justify-content: center;
+  width: 5em;
+  height: 3.5em;
   font-size: 0.4em;
-  color:rgb(224, 229, 252);
+  padding-right: 1em;
+  padding-left: 1em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color:rgb(216, 216, 216);
   -webkit-text-stroke-width: 1.2px;
   -webkit-text-stroke-color: rgb(41, 64, 141);
-  text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
+  text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.2), 0 0 1em rgba(253, 253, 253, 0.2), 0 0 0.2em rgba(194, 194, 194, 0.2);
+  -webkit-box-shadow: 3px 3px 3px #2c568b,
+           -3px -3px 3px #3c74bd;
+  box-shadow: 3px 3px 3px #2c568b,
+           -3px -3px 3px #3c74bd;
   border-radius: 10% 0 20px 0;
   background-color: #2f5b94;
 }
@@ -136,7 +142,7 @@ span {
   margin: 0.5%;
 }
 .vide {
-  width: 2%;
+  width: 100%;
   height: 100%;
 }
 
