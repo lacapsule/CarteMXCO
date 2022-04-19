@@ -11,8 +11,8 @@
     justify-self: center;
     font-family: 'passion_oneregular';
     background: rgb(224, 229, 252); 
-    top: 10.5%;
-    left: 21.5%;
+    top: 0;
+    left: 21%;
     width: 100%;
     height: 100%;
   }
@@ -136,7 +136,7 @@
         display: none;
       }
       aside {
-        display: none;
+        opacity: 0;
       }
       svg {
         width: 21cm;

@@ -161,9 +161,14 @@ button {
   width: 9em;
   height: 2.5em;
 }
+#boutonReset,
+#boutonBulles {
+  width: 13em;
+  height: 4.8em;
+}
 #boutonPastilles,
 #boutonLegendes {
-  width: 9.6em;
+  width: 9.4em;
   height: 4.5em;
 }
 button:hover,
@@ -181,9 +186,6 @@ button:focus {
 }
 button:hover {
   z-index: 5;
-}
-a:first-child {
-  margin-bottom: 0.2em;
 }
 @media screen and (max-width: 1400px) {
   menu {

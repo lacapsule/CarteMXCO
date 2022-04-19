@@ -31,7 +31,7 @@ boutonGeneral.addEventListener("click", () => {
   } else {
     asideGeneral.style.display = "flex";
   }
-});
+})
 
 boutonCommunes.addEventListener("click", () => {
   if(getComputedStyle(asideCommunes).display != "none"){
@@ -39,15 +39,7 @@ boutonCommunes.addEventListener("click", () => {
   } else {
     asideCommunes.style.display = "flex";
   }
-});
-
-boutonCouleursBulles.addEventListener("click", () => {
-  if(getComputedStyle(asideBulles).display != "none"){
-    asideBulles.style.display = "none";
-  } else {
-    asideBulles.style.display = "flex";
-  }
-});
+})
 
 boutonBulles.addEventListener("click", () => {
   if(getComputedStyle(tousNoms, toutesBulles).display != "none"){
@@ -56,6 +48,14 @@ boutonBulles.addEventListener("click", () => {
   } else {
     tousNoms.style.display = "block";
     toutesBulles.style.display = "block";
+  }
+})
+
+boutonCouleursBulles.addEventListener("click", () => {
+  if(getComputedStyle(asideBulles).display != "none"){
+    asideBulles.style.display = "none";
+  } else {
+    asideBulles.style.display = "flex";
   }
 });
 

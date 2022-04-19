@@ -27,7 +27,7 @@
   <div>
 <aside class="option" id="optionGeneral">
   <h4>Paramètres généraux :</h4>
-      <span><a href="javascript:location.reload(true)"><button title="Tout remettre à zéro">Réinitialiser</button></a></span>
+      <span><a href="javascript:location.reload(true)"><button id="boutonReset" title="Tout remettre à zéro">Réinitialiser</button></a></span>
       <span><button id="boutonBulles" title="Masquer les noms" onclick="toggleText()"><text>Masquer les noms</text></button></span>
       <span><p> Fond </p><input id="couleurFond" title="Changer la couleur de fond" type="color" value="#41599b"></span>
       <span><p> Carte </p><input id="couleurToutes" title="Changer la couleur de toutes les communes" type="color" value="#386caf"></span>
@@ -97,7 +97,7 @@
   <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePlougasnou">Plougasnou</button><input title="Changer la couleur de la commune" type="color" value="#0b2749" id="couleurBullePlougasnou"></span>
   </aside> 
 </div>
-<div id="imprimer" style="padding: 30px 20px 30px 30px; width: 55%; height: 55%; font-family: Arial, Helvetica, sans-serif;">
+<div id="imprimer" class="imprimer" style="padding: 30px 20px 30px 30px; width: 55%; height: 55%; font-family: Arial, Helvetica, sans-serif;">
   <svg xmlns="http://www.w3.org/2000/svg" id="svg" viewBox="0 0 789.15215 592.87212">
     <title>Carte de Morlaix communauté</title>
   <g id="b8e18138-5697-4033-9611-05eec396f769" fill="#386caf" stroke="#343435" data-name="FONDS DES COMMUNES">
@@ -226,7 +226,7 @@
    </g>
       </svg>
     </div>
-    <div class="vide"></div>
+    <div id="vide"></div>
 </main>
 
       <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>

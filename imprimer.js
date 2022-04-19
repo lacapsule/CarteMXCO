@@ -1,4 +1,4 @@
-let aperçu = document.getElementById("boutonMenuFermer");
+const aperçu = document.getElementById("boutonMenuFermer");
 let fenetreAperçu = document.getElementsByTagName("canvas");
 
 window.printDiv = function(imprimer) {
@@ -6,13 +6,9 @@ window.printDiv = function(imprimer) {
     window.print();
 };
 
-aperçu.addEventListener("click", () => {
-html2canvas(document.querySelector("#imprimer"), {
-  onrendered: function (canvas) {
-    var nWindow = window.open('');
-    nWindow.document.body.appendChild(canvas);
-    nWindow.focus();
-    nWindow.print();
-    location.reload();
-}
-})}); 
+aperçu.addEventListener('mousedown', telecharger);
+function telecharger(){
+html2canvas(document.querySelector("#imprimer")).then(function(canvas) {
+  window.open(canvas.toDataURL("image/png",'_blank,noopener'));
+  });
+  }
