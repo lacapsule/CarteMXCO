@@ -81,9 +81,8 @@ function toggleaside(id) {
       aside.style.display = aside.style.display == "block" ? "block" : "none";
     } else {
       aside.style.display = "none";
-    }})};
+    }})}
 
- 
 function toggleText(id)  {
   var text = document.getElementById(boutonBulles).firstChild;
   text.data = text.data == "Masquer les noms" ? "Masquer les noms" : "Afficher les noms";

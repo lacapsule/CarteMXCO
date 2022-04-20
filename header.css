@@ -32,7 +32,7 @@ menu {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 43%;
-  height: auto;
+  height: 3em;
   border-radius: 50px;
   background: -moz-linear-gradient(90deg, rgba(60,116,189,1) 0%, rgba(60,116,189,0.5480392840730042) 35%, rgba(60,116,189,0.6236695361738445) 100%);
   background: -webkit-linear-gradient(90deg, rgba(60,116,189,1) 0%, rgba(60,116,189,0.5480392840730042) 35%, rgba(60,116,189,0.6236695361738445) 100%);
@@ -45,6 +45,17 @@ menu {
   border-radius: 0 20px 20px 0;
   background-color: rgba(27, 27, 27, 0.3);
   z-index: 1;
+}
+
+img {
+  filter: contrast(1.7);
+  width: auto;
+  height: 2em;
+}
+
+img:hover {
+  transform: scale(1.4);
+  margin-top: 4px;
 }
 
 h1 {
@@ -60,11 +71,11 @@ h1 {
           align-items: flex-end;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-size: 100%;
+  font-size: 1.2em;
   text-align: center;
-  font-weight: bold;
-  color:rgb(243, 242, 242);
-  text-shadow: 1px 1px 2px rgba(37, 37, 37, 0.3), 0 0 1em rgba(41, 41, 41, 0.3), 0 0 0.2em rgba(27, 27, 27, 0.3);
+  font-weight: lighter;
+  color:rgb(211, 226, 255);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2), 0 0 1em rgba(2, 2, 2, 0.3), 0 0 0.2em rgba(8, 8, 8, 0.4);
   border-radius: 50px;
   background: -moz-linear-gradient(90deg, rgba(60,116,189,1) 0%, rgba(60,116,189,0.5480392840730042) 35%, rgba(60,116,189,0.6236695361738445) 100%);
   background: -webkit-linear-gradient(90deg, rgba(60,116,189,1) 0%, rgba(60,116,189,0.5480392840730042) 35%, rgba(60,116,189,0.6236695361738445) 100%);
@@ -83,23 +94,23 @@ h1 {
   z-index: 1;
 }
 h3 {
-  color:rgb(224, 229, 252);
-  -webkit-text-stroke-width: 1px;
+  color:rgb(216, 216, 216);
+  -webkit-text-stroke-width: 1.2px;
   -webkit-text-stroke-color: rgb(41, 64, 141);
-  text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
+  text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.2), 0 0 1em rgba(253, 253, 253, 0.2), 0 0 0.2em rgba(194, 194, 194, 0.2);
   height: 2em;
   line-height: 2em;
-  font-size: 1em;
+  font-size: 2em;
 }
 h4 {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-around;
-  color:rgb(224, 229, 252);
+  color:rgb(190, 197, 233);
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(41, 64, 141);
-  text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
+  -webkit-text-stroke-color: rgb(51, 51, 51);
+  text-shadow: 0.5px 0.5px 1px rgba(41, 41, 41, 0.3), 0 0 1em rgba(36, 36, 36, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
   width: 90%;
   height: 2.2em;
   font-size: 0.4em;
@@ -140,7 +151,7 @@ button {
   width: 10em;
   height: 3.8em;
   background-color: #2f5b94;
-  color:rgb(224, 229, 252);
+  color:rgb(209, 209, 211);
   text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
   -webkit-box-shadow: 3px 3px 3px #2c568b,
            -3px -3px 3px #3c74bd;
@@ -152,14 +163,6 @@ button {
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   z-index: 2;
-}
-#boutonMenuGeneral,
-#boutonMenuCommunes,
-#boutonMenuBulles,
-#boutonMenuFermer,
-#boutonMenuCapturer {
-  width: 9em;
-  height: 2.5em;
 }
 #boutonReset,
 #boutonBulles {
