@@ -1,5 +1,5 @@
-let nomenclaturePlouneour = document.getElementById("ad8ce1cf-d7bf-4e6a-8a01-1381f5bedaab");
-let nomenclaturePleyber = document.getElementById("f67bab1d-f4dd-4f82-a9cf-1f03da6055cc");
+let nomenclaturePlouneour = document.getElementById("ad8ce1cf-d7bf-4e6a-8a01-1381f5bedaab", "b3249896-57a9-4577-aeea-01ddb36698f9");
+let nomenclaturePleyber = document.getElementById("f67bab1d-f4dd-4f82-a9cf-1f03da6055cc", "f40fa5bf-0aff-43df-bc6b-ca726dbc0805");
 let nomenclatureSaintTheg = document.getElementById("b72b22dd-8b5d-48e2-9a31-ade134b628f4");
 let nomenclatureSainteSeve = document.getElementById("e65c9bae-f9c5-4dac-a8aa-34a15a6012c0");
 let nomenclatureTaule = document.getElementById("bc446247-e92f-4903-b995-ca414dda1396");
@@ -53,129 +53,157 @@ let boutonSaintJean = document.getElementById("boutonSaintJean");
 let boutonPlougasnou = document.getElementById("boutonPlougasnou");
 
     nomenclaturePlouneour.addEventListener("click", function () {
-        if (getComputedStyle(nomPlouneourMenez, bullePlouneourMenez).display != "none") {
+        if (getComputedStyle(nomPlouneourMenez, bullePlouneourMenez, pastillePlouneourMenez).display != "none") {
             nomPlouneourMenez.style.display = "none"
             bullePlouneourMenez.style.display = "none"
+            pastillePlouneourMenez.style.display = "none"
         } else {
             nomPlouneourMenez.style.display = "block"
             bullePlouneourMenez.style.display = "block"
+            pastillePlouneourMenez.style.display = "block"
         }
     })
     boutonPlouneour.addEventListener("click", function () {
-        if (getComputedStyle(nomPlouneourMenez, bullePlouneourMenez).display != "none") {
+        if (getComputedStyle(nomPlouneourMenez, bullePlouneourMenez, pastillePlouneourMenez).display != "none") {
             nomPlouneourMenez.style.display = "none"
             bullePlouneourMenez.style.display = "none"
+            pastillePlouneourMenez.style.display = "none"
         } else {
             nomPlouneourMenez.style.display = "block"
             bullePlouneourMenez.style.display = "block"
+            pastillePlouneourMenez.style.display = "none"
         }
     })
     nomenclaturePleyber.addEventListener("click", function () {
-        if (getComputedStyle(nomPleyber, bullePleyber).display != "none") {
+        if (getComputedStyle(nomPleyber, bullePleyber, pastillePleyberChrist).display != "none") {
             nomPleyber.style.display = "none"
             bullePleyber.style.display = "none"
+            pastillePleyberChrist.style.display = "none"
         } else {
             nomPleyber.style.display = "block"
             bullePleyber.style.display = "block"
+            pastillePleyberChrist.style.display = "block"
         }
     })
     boutonPleyber.addEventListener("click", function () {
-        if (getComputedStyle(nomPleyber, bullePleyber).display != "none") {
+        if (getComputedStyle(nomPleyber, bullePleyber, pastillePleyberChrist).display != "none") {
             nomPleyber.style.display = "none"
             bullePleyber.style.display = "none"
+            pastillePleyberChrist.style.display = "none"
         } else {
             nomPleyber.style.display = "block"
             bullePleyber.style.display = "block"
+            pastillePleyberChrist.style.display = "block"
         }
     })
     nomenclatureSaintTheg.addEventListener("click", function () {
-        if (getComputedStyle(nomSaintTheg, bulleSaintTheg).display != "none") {
+        if (getComputedStyle(nomSaintTheg, bulleSaintTheg, pastilleSaintThegonnec).display != "none") {
             nomSaintTheg.style.display = "none"
             bulleSaintTheg.style.display = "none"
+            pastilleSaintThegonnec.style.display = "none"
         } else {
             nomSaintTheg.style.display = "block"
             bulleSaintTheg.style.display = "block"
+            pastilleSaintThegonnec.style.display = "block"
         }
     })
     boutonSaintTheg.addEventListener("click", function () {
-        if (getComputedStyle(nomSaintTheg, bulleSaintTheg).display != "none") {
+        if (getComputedStyle(nomSaintTheg, bulleSaintTheg, pastilleSaintThegonnec).display != "none") {
             nomSaintTheg.style.display = "none"
             bulleSaintTheg.style.display = "none"
+            pastilleSaintThegonnec.style.display = "none"
         } else {
             nomSaintTheg.style.display = "block"
             bulleSaintTheg.style.display = "block"
+            pastilleSaintThegonnec.style.display = "block"
         }
     })
     nomenclatureSainteSeve.addEventListener("click", function () {
-        if (getComputedStyle(nomSainteSeve, bulleSainteSeve).display != "none") {
+        if (getComputedStyle(nomSainteSeve, bulleSainteSeve, pastilleSaintSeve).display != "none") {
             nomSainteSeve.style.display = "none"
             bulleSainteSeve.style.display = "none"
+            pastilleSaintSeve.style.display = "none"
         } else {
             nomSainteSeve.style.display = "block"
             bulleSainteSeve.style.display = "block"
+            pastilleSaintSeve.style.display = "block"
         }
     })
     boutonSaintSeve.addEventListener("click", function () {
-        if (getComputedStyle(nomSainteSeve, bulleSainteSeve).display != "none") {
+        if (getComputedStyle(nomSainteSeve, bulleSainteSeve, pastilleSaintSeve).display != "none") {
             nomSainteSeve.style.display = "none"
             bulleSainteSeve.style.display = "none"
+            pastilleSaintSeve.style.display = "none"
         } else {
             nomSainteSeve.style.display = "block"
             bulleSainteSeve.style.display = "block"
+            pastilleSaintSeve.style.display = "block"
         }
     })
     nomenclatureTaule.addEventListener("click", function () {
-        if (getComputedStyle(nomTaule, bulleTaule).display != "none") {
+        if (getComputedStyle(nomTaule, bulleTaule, pastilleTaule).display != "none") {
             nomTaule.style.display = "none"
             bulleTaule.style.display = "none"
+            pastilleTaule.style.display = "none"
         } else {
             nomTaule.style.display = "block"
             bulleTaule.style.display = "block"
+            pastilleTaule.style.display = "block"
         }
     })
     boutonTaule.addEventListener("click", function () {
-        if (getComputedStyle(nomTaule, bulleTaule).display != "none") {
+        if (getComputedStyle(nomTaule, bulleTaule, pastilleTaule).display != "none") {
             nomTaule.style.display = "none"
             bulleTaule.style.display = "none"
+            pastilleTaule.style.display = "none"
         } else {
             nomTaule.style.display = "block"
             bulleTaule.style.display = "block"
+            pastilleTaule.style.display = "block"
         }
     })
     nomenclatureHenvic.addEventListener("click", function () {
-        if (getComputedStyle(nomHenvic, bulleHenvic).display != "none") {
+        if (getComputedStyle(nomHenvic, bulleHenvic, pastilleHenvic).display != "none") {
             nomHenvic.style.display = "none"
             bulleHenvic.style.display = "none"
+            pastilleHenvic.style.display = "none"
         } else {
             nomHenvic.style.display = "block"
             bulleHenvic.style.display = "block"
+            pastilleHenvic.style.display = "block"
         }
     })
     boutonHenvic.addEventListener("click", function () {
-        if (getComputedStyle(nomHenvic, bulleHenvic).display != "none") {
+        if (getComputedStyle(nomHenvic, bulleHenvic, pastilleHenvic).display != "none") {
             nomHenvic.style.display = "none"
             bulleHenvic.style.display = "none"
+            pastilleHenvic.style.display = "none"
         } else {
             nomHenvic.style.display = "block"
             bulleHenvic.style.display = "block"
+            pastilleHenvic.style.display = "block"
         }
     })
     nomenclatureCarantec.addEventListener("click", function () {
-        if (getComputedStyle(nomCarantec, bulleCarantec).display != "none") {
+        if (getComputedStyle(nomCarantec, bulleCarantec, pastilleCarantec).display != "none") {
             nomCarantec.style.display = "none"
             bulleCarantec.style.display = "none"
+            pastilleCarantec.style.display = "none"
         } else {
             nomCarantec.style.display = "block"
             bulleCarantec.style.display = "block"
+            pastilleCarantec.style.display = "block"
         }
     })
     boutonCarantec.addEventListener("click", function () {
-        if (getComputedStyle(nomCarantec, bulleCarantec).display != "none") {
+        if (getComputedStyle(nomCarantec, bulleCarantec, pastilleCarantec).display != "none") {
             nomCarantec.style.display = "none"
             bulleCarantec.style.display = "none"
+            pastilleCarantec.style.display = "none"
         } else {
             nomCarantec.style.display = "block"
             bulleCarantec.style.display = "block"
+            pastilleCarantec.style.display = "block"
         }
     })
     nomenclatureSaintMartin.addEventListener("click", function () {

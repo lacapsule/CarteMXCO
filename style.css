@@ -64,7 +64,8 @@ aside {
 }
 #optionGeneral,
 #optionCommunes,
-#optionBulles {
+#optionBulles,
+#optionPastilles {
   display: none;
   flex-flow: row wrap;
   align-items: space-around;
