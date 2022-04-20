@@ -103,10 +103,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastillePlouneour.addEventListener("click", function () {
-        if (getComputedStyle(pastillePlouneourMenez).display != "none") {
-            pastillePlouneourMenez.style.display = "none"
+        if (getComputedStyle(affichagePastillePlouneourMenez).display != "none") {
+            affichagePastillePlouneourMenez.style.display = "none"
         } else {
-            pastillePlouneourMenez.style.display = "block"
+            affichagePastillePlouneourMenez.style.display = "block"
         }
     })
     nomenclaturePleyber.addEventListener("click", function () {
@@ -132,10 +132,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastillePleyber.addEventListener("click", function () {
-        if (getComputedStyle(pastillePleyber).display != "none") {
-            pastillePleyber.style.display = "none"
+        if (getComputedStyle(affichagePastillePleyber).display != "none") {
+            affichagePastillePleyber.style.display = "none"
         } else {
-            pastillePleyber.style.display = "block"
+            affichagePastillePleyber.style.display = "block"
         }
     })
     nomenclatureSaintTheg.addEventListener("click", function () {
@@ -161,10 +161,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleSaintTheg.addEventListener("click", function () {
-        if (getComputedStyle(pastilleSaintTheg).display != "none") {
-            pastilleSaintTheg.style.display = "none"
+        if (getComputedStyle(affichagePastilleSaintTheg).display != "none") {
+            affichagePastilleSaintTheg.style.display = "none"
         } else {
-            pastilleSaintTheg.style.display = "block"
+            affichagePastilleSaintTheg.style.display = "block"
         }
     })
     nomenclatureSainteSeve.addEventListener("click", function () {
@@ -190,10 +190,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleSaintSeve.addEventListener("click", function () {
-        if (getComputedStyle(pastilleSaintSeve).display != "none") {
-            pastilleSaintSeve.style.display = "none"
+        if (getComputedStyle(affichagePastilleSaintSeve).display != "none") {
+            affichagePastilleSaintSeve.style.display = "none"
         } else {
-            pastilleSaintSeve.style.display = "block"
+            affichagePastilleSaintSeve.style.display = "block"
         }
     })
     nomenclatureTaule.addEventListener("click", function () {
@@ -219,10 +219,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleTaule.addEventListener("click", function () {
-        if (getComputedStyle(pastilleTaule).display != "none") {
-            pastilleTaule.style.display = "none"
+        if (getComputedStyle(affichagePastilleTaule).display != "none") {
+            affichagePastilleTaule.style.display = "none"
         } else {
-            pastilleTaule.style.display = "block"
+            affichagePastilleTaule.style.display = "block"
         }
     })
     nomenclatureHenvic.addEventListener("click", function () {
@@ -248,10 +248,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleHenvic.addEventListener("click", function () {
-        if (getComputedStyle(pastilleHenvic).display != "none") {
-            pastilleHenvic.style.display = "none"
+        if (getComputedStyle(affichagePastilleHenvic).display != "none") {
+            affichagePastilleHenvic.style.display = "none"
         } else {
-            pastilleHenvic.style.display = "block"
+            affichagePastilleHenvic.style.display = "block"
         }
     })
     nomenclatureCarantec.addEventListener("click", function () {
@@ -277,10 +277,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleCarantec.addEventListener("click", function () {
-        if (getComputedStyle(pastilleCarantec).display != "none") {
-            pastilleCarantec.style.display = "none"
+        if (getComputedStyle(affichagePastilleCarantec).display != "none") {
+            affichagePastilleCarantec.style.display = "none"
         } else {
-            pastilleCarantec.style.display = "block"
+            affichagePastilleCarantec.style.display = "block"
         }
     })
     nomenclatureSaintMartin.addEventListener("click", function () {
@@ -306,10 +306,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleSaintMartin.addEventListener("click", function () {
-        if (getComputedStyle(pastilleSaintMartin).display != "none") {
-            pastilleSaintMartin.style.display = "none"
+        if (getComputedStyle(affichagePastilleSaintMartin).display != "none") {
+            affichagePastilleSaintMartin.style.display = "none"
         } else {
-            pastilleSaintMartin.style.display = "block"
+            affichagePastilleSaintMartin.style.display = "block"
         }
     })
     nomenclatureMorlaix.addEventListener("click", function () {
@@ -335,10 +335,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleMorlaix.addEventListener("click", function () {
-        if (getComputedStyle(pastilleMorlaix).display != "none") {
-            pastilleMorlaix.style.display = "none"
+        if (getComputedStyle(affichagePastilleMorlaix).display != "none") {
+            affichagePastilleMorlaix.style.display = "none"
         } else {
-            pastilleMorlaix.style.display = "block"
+            affichagePastilleMorlaix.style.display = "block"
         }
     })
     nomenclatureLocquenole.addEventListener("click", function () {
@@ -364,10 +364,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleLocquenole.addEventListener("click", function () {
-        if (getComputedStyle(pastilleLocquenole).display != "none") {
-            pastilleLocquenole.style.display = "none"
+        if (getComputedStyle(affichagePastilleLocquenole).display != "none") {
+            affichagePastilleLocquenole.style.display = "none"
         } else {
-            pastilleLocquenole.style.display = "block"
+            affichagePastilleLocquenole.style.display = "block"
         }
     })
     nomenclaturePlourin.addEventListener("click", function () {
@@ -393,10 +393,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastillePlourin.addEventListener("click", function () {
-        if (getComputedStyle(pastillePlourin).display != "none") {
-            pastillePlourin.style.display = "none"
+        if (getComputedStyle(affichagePastillePlourin).display != "none") {
+            affichagePastillePlourin.style.display = "none"
         } else {
-            pastillePlourin.style.display = "block"
+            affichagePastillePlourin.style.display = "block"
         }
     })
     nomenclatureLeCloitre.addEventListener("click", function () {
@@ -422,10 +422,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleLeCloitre.addEventListener("click", function () {
-        if (getComputedStyle(pastilleLeCloitre).display != "none") {
-            pastilleLeCloitre.style.display = "none"
+        if (getComputedStyle(affichagePastilleLeCloitre).display != "none") {
+            affichagePastilleLeCloitre.style.display = "none"
         } else {
-            pastilleLeCloitre.style.display = "block"
+            affichagePastilleLeCloitre.style.display = "block"
         }
     })
     nomenclaturePlougonven.addEventListener("click", function () {
@@ -451,10 +451,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastillePlougonven.addEventListener("click", function () {
-        if (getComputedStyle(pastillePlougonven).display != "none") {
-            pastillePlougonven.style.display = "none"
+        if (getComputedStyle(affichagePastillePlougonven).display != "none") {
+            affichagePastillePlougonven.style.display = "none"
         } else {
-            pastillePlougonven.style.display = "block"
+            affichagePastillePlougonven.style.display = "block"
         }
     })
     nomenclatureLanneanou.addEventListener("click", function () {
@@ -480,10 +480,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleLanneanou.addEventListener("click", function () {
-        if (getComputedStyle(pastilleLanneanou).display != "none") {
-            pastilleLanneanou.style.display = "none"
+        if (getComputedStyle(affichagePastilleLanneanou).display != "none") {
+            affichagePastilleLanneanou.style.display = "none"
         } else {
-            pastilleLanneanou.style.display = "block"
+            affichagePastilleLanneanou.style.display = "block"
         }
     })
     nomenclaturePlouigneau.addEventListener("click", function () {
@@ -509,10 +509,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastillePlouigneau.addEventListener("click", function () {
-        if (getComputedStyle(pastillePlouigneau).display != "none") {
-            pastillePlouigneau.style.display = "none"
+        if (getComputedStyle(affichagePastillePlouigneau).display != "none") {
+            affichagePastillePlouigneau.style.display = "none"
         } else {
-            pastillePlouigneau.style.display = "block"
+            affichagePastillePlouigneau.style.display = "block"
         }
     })
     nomenclatureGarlan.addEventListener("click", function () {
@@ -538,10 +538,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleGarlan.addEventListener("click", function () {
-        if (getComputedStyle(pastilleGarlan).display != "none") {
-            pastilleGarlan.style.display = "none"
+        if (getComputedStyle(affichagePastilleGarlan).display != "none") {
+            affichagePastilleGarlan.style.display = "none"
         } else {
-            pastilleGarlan.style.display = "block"
+            affichagePastilleGarlan.style.display = "block"
         }
     })
     nomenclaturePlouezoch.addEventListener("click", function () {
@@ -567,10 +567,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastillePlouezoch.addEventListener("click", function () {
-        if (getComputedStyle(pastillePlouezoch).display != "none") {
-            pastillePlouezoch.style.display = "none"
+        if (getComputedStyle(affichagePastillePlouezoch).display != "none") {
+            affichagePastillePlouezoch.style.display = "none"
         } else {
-            pastillePlouezoch.style.display = "block"
+            affichagePastillePlouezoch.style.display = "block"
         }
     })
     nomenclatureBotsorhel.addEventListener("click", function () {
@@ -596,10 +596,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleBotsorhel.addEventListener("click", function () {
-        if (getComputedStyle(pastilleBotsorhel).display != "none") {
-            pastilleBotsorhel.style.display = "none"
+        if (getComputedStyle(affichagePastilleBotsorhel).display != "none") {
+            affichagePastilleBotsorhel.style.display = "none"
         } else {
-            pastilleBotsorhel.style.display = "block"
+            affichagePastilleBotsorhel.style.display = "block"
         }
     })
     nomenclatureGuerlesquin.addEventListener("click", function () {
@@ -625,10 +625,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleGuerlesquin.addEventListener("click", function () {
-        if (getComputedStyle(pastilleGuerlesquin).display != "none") {
-            pastilleGuerlesquin.style.display = "none"
+        if (getComputedStyle(affichagePastilleGuerlesquin).display != "none") {
+            affichagePastilleGuerlesquin.style.display = "none"
         } else {
-            pastilleGuerlesquin.style.display = "block"
+            affichagePastilleGuerlesquin.style.display = "block"
         }
     })
     nomenclatureMoysan.addEventListener("click", function () {
@@ -654,10 +654,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleMoysan.addEventListener("click", function () {
-        if (getComputedStyle(pastilleMoysan).display != "none") {
-            pastilleMoysan.style.display = "none"
+        if (getComputedStyle(affichagePastilleMoysan).display != "none") {
+            affichagePastilleMoysan.style.display = "none"
         } else {
-            pastilleMoysan.style.display = "block"
+            affichagePastilleMoysan.style.display = "block"
         }
     })
     nomenclatureGuerrand.addEventListener("click", function () {
@@ -683,10 +683,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleGuerrand.addEventListener("click", function () {
-        if (getComputedStyle(pastilleGuerrand).display != "none") {
-            pastilleGuerrand.style.display = "none"
+        if (getComputedStyle(affichagePastilleGuerrand).display != "none") {
+            affichagePastilleGuerrand.style.display = "none"
         } else {
-            pastilleGuerrand.style.display = "block"
+            affichagePastilleGuerrand.style.display = "block"
         }
     })
     nomenclatureLanmeur.addEventListener("click", function () {
@@ -712,10 +712,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleLanmeur.addEventListener("click", function () {
-        if (getComputedStyle(pastilleLanmeur).display != "none") {
-            pastilleLanmeur.style.display = "none"
+        if (getComputedStyle(affichagePastilleLanmeur).display != "none") {
+            affichagePastilleLanmeur.style.display = "none"
         } else {
-            pastilleLanmeur.style.display = "block"
+            affichagePastilleLanmeur.style.display = "block"
         }
     })
     nomenclatureGuimaec.addEventListener("click", function () {
@@ -741,10 +741,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleGuimaec.addEventListener("click", function () {
-        if (getComputedStyle(pastilleGuimaec).display != "none") {
-            pastilleGuimaec.style.display = "none"
+        if (getComputedStyle(affichagePastilleGuimaec).display != "none") {
+            affichagePastilleGuimaec.style.display = "none"
         } else {
-            pastilleGuimaec.style.display = "block"
+            affichagePastilleGuimaec.style.display = "block"
         }
     })
     nomenclatureLocquirec.addEventListener("click", function () {
@@ -770,10 +770,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleLocquirec.addEventListener("click", function () {
-        if (getComputedStyle(pastilleLocquirec).display != "none") {
-            pastilleLocquirec.style.display = "none"
+        if (getComputedStyle(affichagePastilleLocquirec).display != "none") {
+            affichagePastilleLocquirec.style.display = "none"
         } else {
-            pastilleLocquirec.style.display = "block"
+            affichagePastilleLocquirec.style.display = "block"
         }
     })
     nomenclatureSaintJean.addEventListener("click", function () {
@@ -799,10 +799,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastilleSaintJean.addEventListener("click", function () {
-        if (getComputedStyle(pastilleSaintJean).display != "none") {
-            pastilleSaintJean.style.display = "none"
+        if (getComputedStyle(affichagePastilleSaintJean).display != "none") {
+            affichagePastilleSaintJean.style.display = "none"
         } else {
-            pastilleSaintJean.style.display = "block"
+            affichagePastilleSaintJean.style.display = "block"
         }
     })
     nomenclaturePlougasnou.addEventListener("click", function () {
@@ -828,10 +828,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastillePlougasnou.addEventListener("click", function () {
-        if (getComputedStyle(pastillePlougasnou).display != "none") {
-            pastillePlougasnou.style.display = "none"
+        if (getComputedStyle(affichagePastillePlougasnou).display != "none") {
+            affichagePastillePlougasnou.style.display = "none"
         } else {
-            pastillePlougasnou.style.display = "block"
+            affichagePastillePlougasnou.style.display = "block"
         }
     });
 
