@@ -68,9 +68,9 @@ boutonBulles.addEventListener("click", () => {
 
 boutonAffichagePastilles.addEventListener("click", () => {
   if(getComputedStyle(toutesPastilles).display != "block"){
-    toutesPastilles.style.display = "block";
+    toutesPastilles.style.display = "block"
   } else {
-    toutesPastilles.style.display = "none";
+    toutesPastilles.style.display = "none"
   }
 });
 

@@ -81,8 +81,8 @@ p {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  width: 5em;
-  height: 3.5em;
+  width: 5.5em;
+  height: 2.8em;
   padding-right: 1em;
   padding-left: 1em;
   margin-top: 2%;
@@ -96,7 +96,7 @@ p {
            -3px -3px 3px #3c74bd;
   box-shadow: 3px 3px 3px #2c568b,
            -3px -3px 3px #3c74bd;
-  border-radius: 10% 0 20px 0;
+  border-radius: 5% 5px 5px 5px;
   background-color: #2f5b94;
 }
 input[type="color"] {
