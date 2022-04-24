@@ -107,12 +107,8 @@ let boutonLocquirec = document.getElementById("boutonLocquirec");
 let boutonSaintJean = document.getElementById("boutonSaintJean");
 let boutonPlougasnou = document.getElementById("boutonPlougasnou");
 
-//bouton* = affichage des communes
-//nomenclature* = affichage des bulles
-//taille
-
 boutonPlouneour.addEventListener("click", function () {
-        if (getComputedStyle(villePlouneourMenez).display == "block") {
+        if (getComputedStyle(villePlouneourMenez).display != "block") {
             villePlouneourMenez.style.display = "block";
         } else {
             villePlouneourMenez.style.display = "none";
@@ -143,7 +139,7 @@ boutonPlouneour.addEventListener("click", function () {
     });;
     
     boutonPastillePlouneour.addEventListener("click", function () { 
-        if (getComputedStyle(pastillePlouneourMenez).display == "block") {
+        if (getComputedStyle(pastillePlouneourMenez).display != "block") {
             pastillePlouneourMenez.style.display = "block";
         } else {
             pastillePlouneourMenez.style.display = "none";
