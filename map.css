@@ -92,6 +92,7 @@
     stroke: #000;
   }
 
+
     @media print {
       * {
         width: 21cm;
