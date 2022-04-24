@@ -1,4 +1,9 @@
 
+:root {
+  --contrast: contrast(1.7);
+  --invert: invert(180deg);
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,9 +53,9 @@ menu {
 }
 
 img {
-  filter: invert(0.9);
   width: auto;
   height: 2em;
+  filter: contrast(var(--contrast)) invert(var(--invert));
 }
 
 img:hover {
