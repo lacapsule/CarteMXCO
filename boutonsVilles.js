@@ -113,990 +113,990 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
 
 boutonPlouneour.addEventListener("click", function () {
         if (getComputedStyle(villePlouneourMenez).display == "block") {
-            villePlouneourMenez.style.display = "block"
+            villePlouneourMenez.style.display = "block";
         } else {
-            villePlouneourMenez.style.display = "none"
-        }
-    })
-
-    nomenclaturePlouneour.addEventListener("click", function () {
-        if (getComputedStyle(nomPlouneourMenez, bullePlouneourMenez, pastillePlouneourMenez).display != "none") {
-            nomPlouneourMenez.style.display = "none"
-            bullePlouneourMenez.style.display = "none"
-            pastillePlouneourMenez.style.display = "none"
-        } else {
-            nomPlouneourMenez.style.display = "block"
-            bullePlouneourMenez.style.display = "block"
-            pastillePlouneourMenez.style.display = "block"
-        }
-    })
-    tailleBullePlouneour.addEventListener("click", function () {
-        if (getComputedStyle(nomPlouneourMenez, bullePlouneourMenez, pastillePlouneourMenez).display != "none") {
-            nomPlouneourMenez.style.display = "none"
-            bullePlouneourMenez.style.display = "none"
-            pastillePlouneourMenez.style.display = "none"
-        } else {
-            nomPlouneourMenez.style.display = "block"
-            bullePlouneourMenez.style.display = "block"
-            pastillePlouneourMenez.style.display = "none"
-        }
-    })
-    
-    boutonPastillePlouneour.addEventListener("click", function () { 
-        if (getComputedStyle(pastillePlouneourMenez).display == "block") {
-            pastillePlouneourMenez.style.display = "block"
-        } else {
-            pastillePlouneourMenez.style.display = "none"
-        }
-    })
-boutonPleyber.addEventListener("click", function () {
-        if (getComputedStyle(villePleyberChrist).display != "block") {
-            villePleyberChrist.style.display = "block"
-        } else {
-            villePleyberChrist.style.display = "none"
-        }
-    })
-
-    nomenclaturePleyber.addEventListener("click", function () {
-        if (getComputedStyle(nomPleyber, bullePleyber, pastillePleyberChrist).display != "none") {
-            nomPleyber.style.display = "none"
-            bullePleyber.style.display = "none"
-            pastillePleyberChrist.style.display = "none"
-        } else {
-            nomPleyber.style.display = "block"
-            bullePleyber.style.display = "block"
-            pastillePleyberChrist.style.display = "block"
-        }
-    })
-    tailleBullePleyber.addEventListener("click", function () {
-        if (getComputedStyle(nomPleyber, bullePleyber, pastillePleyberChrist).display != "none") {
-            nomPleyber.style.display = "none"
-            bullePleyber.style.display = "none"
-            pastillePleyberChrist.style.display = "none"
-        } else {
-            nomPleyber.style.display = "block"
-            bullePleyber.style.display = "block"
-            pastillePleyberChrist.style.display = "block"
-        }
-    })
-    
-    boutonPastillePleyber.addEventListener("click", function () {
-        if (getComputedStyle(pastillePleyberChrist).display != "block") {
-            pastillePleyberChrist.style.display = "block"
-        } else {
-            pastillePleyberChrist.style.display = "none"
-        }
-    })
-boutonSaintTheg.addEventListener("click", function () {
-        if (getComputedStyle(villeSaintThegonnec).display != "none") {
-            villeSaintThegonnec.style.display = "none"
-        } else {
-            villeSaintThegonnec.style.display = "block"
-        }
-    })
-
-    nomenclatureSaintTheg.addEventListener("click", function () {
-        if (getComputedStyle(nomSaintTheg, bulleSaintTheg, pastilleSaintThegonnec).display != "none") {
-            nomSaintTheg.style.display = "none"
-            bulleSaintTheg.style.display = "none"
-            pastilleSaintThegonnec.style.display = "none"
-        } else {
-            nomSaintTheg.style.display = "block"
-            bulleSaintTheg.style.display = "block"
-            pastilleSaintThegonnec.style.display = "block"
-        }
-    })
-    tailleBulleSaintTheg.addEventListener("click", function () {
-        if (getComputedStyle(nomSaintTheg, bulleSaintTheg, pastilleSaintThegonnec).display != "none") {
-            nomSaintTheg.style.display = "none"
-            bulleSaintTheg.style.display = "none"
-            pastilleSaintThegonnec.style.display = "none"
-        } else {
-            nomSaintTheg.style.display = "block"
-            bulleSaintTheg.style.display = "block"
-            pastilleSaintThegonnec.style.display = "block"
-        }
-    })
-    
-    boutonPastilleSaintTheg.addEventListener("click", function () {
-        if (getComputedStyle(pastilleSaintThegonnec).display != "none") {
-            pastilleSaintThegonnec.style.display = "none"
-        } else {
-            pastilleSaintThegonnec.style.display = "block"
-        }
-    })
-boutonSaintSeve.addEventListener("click", function () {
-        if (getComputedStyle(villeSaintSeve).display != "none") {
-            villeSaintSeve.style.display = "none"
-        } else {
-            villeSaintSeve.style.display = "block"
-        }
-    })
-
-    nomenclatureSainteSeve.addEventListener("click", function () {
-        if (getComputedStyle(nomSainteSeve, bulleSainteSeve, pastilleSaintSeve).display != "none") {
-            nomSainteSeve.style.display = "none"
-            bulleSainteSeve.style.display = "none"
-            pastilleSaintSeve.style.display = "none"
-        } else {
-            nomSainteSeve.style.display = "block"
-            bulleSainteSeve.style.display = "block"
-            pastilleSaintSeve.style.display = "block"
-        }
-    })
-    tailleBulleSaintSeve.addEventListener("click", function () {
-        if (getComputedStyle(nomSainteSeve, bulleSainteSeve, pastilleSaintSeve).display != "none") {
-            nomSainteSeve.style.display = "none"
-            bulleSainteSeve.style.display = "none"
-            pastilleSaintSeve.style.display = "none"
-        } else {
-            nomSainteSeve.style.display = "block"
-            bulleSainteSeve.style.display = "block"
-            pastilleSaintSeve.style.display = "block"
-        }
-    })
-    
-    boutonPastilleSaintSeve.addEventListener("click", function () {
-        if (getComputedStyle(pastilleSaintSeve).display != "none") {
-            pastilleSainteSeve.style.display = "none"
-        } else {
-            pastilleSainteSeve.style.display = "block"
-        }
-    })
-boutonTaule.addEventListener("click", function () {
-        if (getComputedStyle(villeTaule).display != "none") {
-            villeTaule.style.display = "none"
-        } else {
-            villeTaule.style.display = "block"
-        }
-    })
-
-    nomenclatureTaule.addEventListener("click", function () {
-        if (getComputedStyle(nomTaule, bulleTaule, pastilleTaule).display != "none") {
-            nomTaule.style.display = "none"
-            bulleTaule.style.display = "none"
-            pastilleTaule.style.display = "none"
-        } else {
-            nomTaule.style.display = "block"
-            bulleTaule.style.display = "block"
-            pastilleTaule.style.display = "block"
-        }
-    })
-    tailleBulleTaule.addEventListener("click", function () {
-        if (getComputedStyle(nomTaule, bulleTaule, pastilleTaule).display != "none") {
-            nomTaule.style.display = "none"
-            bulleTaule.style.display = "none"
-            pastilleTaule.style.display = "none"
-        } else {
-            nomTaule.style.display = "block"
-            bulleTaule.style.display = "block"
-            pastilleTaule.style.display = "block"
-        }
-    })
-    
-    boutonPastilleTaule.addEventListener("click", function () {
-        if (getComputedStyle(pastilleTaule).display != "none") {
-            pastilleTaule.style.display = "none"
-        } else {
-            pastilleTaule.style.display = "block"
-        }
-    })
-boutonHenvic.addEventListener("click", function () {
-        if (getComputedStyle(villeHenvic).display != "none") {
-            villeHenvic.style.display = "none"
-        } else {
-            villeHenvic.style.display = "block"
-        }
-    })
-
-    nomenclatureHenvic.addEventListener("click", function () {
-        if (getComputedStyle(nomHenvic, bulleHenvic, pastilleHenvic).display != "none") {
-            nomHenvic.style.display = "none"
-            bulleHenvic.style.display = "none"
-            pastilleHenvic.style.display = "none"
-        } else {
-            nomHenvic.style.display = "block"
-            bulleHenvic.style.display = "block"
-            pastilleHenvic.style.display = "block"
-        }
-    })
-    tailleBulleHenvic.addEventListener("click", function () {
-        if (getComputedStyle(nomHenvic, bulleHenvic, pastilleHenvic).display != "none") {
-            nomHenvic.style.display = "none"
-            bulleHenvic.style.display = "none"
-            pastilleHenvic.style.display = "none"
-        } else {
-            nomHenvic.style.display = "block"
-            bulleHenvic.style.display = "block"
-            pastilleHenvic.style.display = "block"
-        }
-    })
-    
-    boutonPastilleHenvic.addEventListener("click", function () {
-        if (getComputedStyle(pastilleHenvic).display != "none") {
-            pastilleHenvic.style.display = "none"
-        } else {
-            pastilleHenvic.style.display = "block"
-        }
-    })
-boutonCarantec.addEventListener("click", function () {
-        if (getComputedStyle(villeCarantec).display != "none") {
-            villeCarantec.style.display = "none"
-        } else {
-            villeCarantec.style.display = "block"
-        }
-    })
-
-    nomenclatureCarantec.addEventListener("click", function () {
-        if (getComputedStyle(nomCarantec, bulleCarantec, pastilleCarantec).display != "none") {
-            nomCarantec.style.display = "none"
-            bulleCarantec.style.display = "none"
-            pastilleCarantec.style.display = "none"
-        } else {
-            nomCarantec.style.display = "block"
-            bulleCarantec.style.display = "block"
-            pastilleCarantec.style.display = "block"
-        }
-    })
-    tailleBulleCarantec.addEventListener("click", function () {
-        if (getComputedStyle(nomCarantec, bulleCarantec, pastilleCarantec).display != "none") {
-            nomCarantec.style.display = "none"
-            bulleCarantec.style.display = "none"
-            pastilleCarantec.style.display = "none"
-        } else {
-            nomCarantec.style.display = "block"
-            bulleCarantec.style.display = "block"
-            pastilleCarantec.style.display = "block"
-        }
-    })
-    
-    boutonPastilleCarantec.addEventListener("click", function () {
-        if (getComputedStyle(pastilleCarantec).display != "none") {
-            pastilleCarantec.style.display = "none"
-        } else {
-            pastilleCarantec.style.display = "block"
-        }
-    })
-boutonSaintMartin.addEventListener("click", function () {
-        if (getComputedStyle(villeSaintMartin).display != "none") {
-            villeSaintMartin.style.display = "none"
-        } else {
-            villeSaintMartin.style.display = "block"
-        }
-    })
-
-    nomenclatureSaintMartin.addEventListener("click", function () {
-        if (getComputedStyle(nomSaintMartin, bulleSaintMartin, pastilleSaintMartin).display != "none") {
-            nomSaintMartin.style.display = "none"
-            bulleSaintMartin.style.display = "none"
-            pastilleSaintMartin.style.display = "none"
-        } else {
-            nomSaintMartin.style.display = "block"
-            bulleSaintMartin.style.display = "block"
-            pastilleSaintMartin.style.display = "block"
-        }
-    })
-    tailleBulleSaintMartin.addEventListener("click", function () {
-        if (getComputedStyle(nomSaintMartin, bulleSaintMartin, pastilleSaintMartin).display != "none") {
-            nomSaintMartin.style.display = "none"
-            bulleSaintMartin.style.display = "none"
-            pastilleSaintMartin.style.display = "none"
-        } else {
-            nomSaintMartin.style.display = "block"
-            bulleSaintMartin.style.display = "block"
-            pastilleSaintMartin.style.display = "block"
-        }
-    })
-    
-    boutonPastilleSaintMartin.addEventListener("click", function () {
-        if (getComputedStyle(pastilleSaintMartin).display != "none") {
-            pastilleSaintMartin.style.display = "none"
-        } else {
-            pastilleSaintMartin.style.display = "block"
-        }
-    })
-boutonMorlaix.addEventListener("click", function () {
-        if (getComputedStyle(villeMorlaix).display != "none") {
-            villeMorlaix.style.display = "none"
-        } else {
-            villeMorlaix.style.display = "block"
-        }
-    })
-
-    nomenclatureMorlaix.addEventListener("click", function () {
-        if (getComputedStyle(nomMorlaix, bulleMorlaix, pastilleMorlaix).display != "none") {
-            nomMorlaix.style.display = "none"
-            bulleMorlaix.style.display = "none"
-            pastilleMorlaix.display = "none"
-        } else {
-            nomMorlaix.style.display = "block"
-            bulleMorlaix.style.display = "block"
-            pastilleMorlaix.style.display = "block"
-        }
-    })
-    tailleBulleMorlaix.addEventListener("click", function () {
-        if (getComputedStyle(nomMorlaix, bulleMorlaix, pastilleMorlaix).display != "none") {
-            nomMorlaix.style.display = "none"
-            bulleMorlaix.style.display = "none"
-            pastilleMorlaix.display = "none"
-        } else {
-            nomMorlaix.style.display = "block"
-            bulleMorlaix.style.display = "block"
-            pastilleMorlaix.style.display = "block"
-        }
-    })
-    
-    boutonPastilleMorlaix.addEventListener("click", function () {
-        if (getComputedStyle(pastilleMorlaix).display != "none") {
-            pastilleMorlaix.style.display = "none"
-        } else {
-            pastilleMorlaix.style.display = "block"
-        }
-    })
-boutonLocquenole.addEventListener("click", function () {
-        if (getComputedStyle(villeLocquenole).display != "none") {
-            villeLocquenole.style.display = "none"
-        } else {
-            villeLocquenole.style.display = "block"
-        }
-    })
-
-    nomenclatureLocquenole.addEventListener("click", function () {
-        if (getComputedStyle(nomLocquenole, bulleLocquenole, pastilleLocquenole).display != "none") {
-            nomLocquenole.style.display = "none"
-            bulleLocquenole.style.display = "none"
-            pastilleLocquenole.style.display = "none"
-        } else {
-            nomLocquenole.style.display = "block"
-            bulleLocquenole.style.display = "block"
-            pastilleLocquenole.style.display = "block"
-        }
-    })
-    tailleBulleLocquenole.addEventListener("click", function () {
-        if (getComputedStyle(nomLocquenole, bulleLocquenole, pastilleLocquenole).display != "none") {
-            nomLocquenole.style.display = "none"
-            bulleLocquenole.style.display = "none"
-            pastilleLocquenole.style.display = "none"
-        } else {
-            nomLocquenole.style.display = "block"
-            bulleLocquenole.style.display = "block"
-            pastilleLocquenole.style.display = "block"
-        }
-    })
-    
-    boutonPastilleLocquenole.addEventListener("click", function () {
-        if (getComputedStyle(pastilleLocquenole).display != "none") {
-            pastilleLocquenole.style.display = "none"
-        } else {
-            pastilleLocquenole.style.display = "block"
-        }
-    })
-boutonPlourin.addEventListener("click", function () {
-        if (getComputedStyle(villePlourin).display != "none") {
-            villePlourin.style.display = "none"
-        } else {
-            villePlourin.style.display = "block"
-        }
-    })
-
-    nomenclaturePlourin.addEventListener("click", function () {
-        if (getComputedStyle(nomPlourin, bullePlourin, pastillePlourin).display != "none") {
-            nomPlourin.style.display = "none"
-            bullePlourin.style.display = "none"
-            pastillePlourin.style.display = "none"
-        } else {
-            nomPlourin.style.display = "block"
-            bullePlourin.style.display = "block"
-            pastillePlourin.style.display = "block"
-        }
-    })
-    tailleBullePlourin.addEventListener("click", function () {
-        if (getComputedStyle(nomPlourin, bullePlourin, pastillePlourin).display != "none") {
-            nomPlourin.style.display = "none"
-            bullePlourin.style.display = "none"
-            pastillePlourin.style.display = "none"
-        } else {
-            nomPlourin.style.display = "block"
-            bullePlourin.style.display = "block"
-            pastillePlourin.style.display = "block"
-        }
-    })
-    
-    boutonPastillePlourin.addEventListener("click", function () {
-        if (getComputedStyle(pastillePlourin).display != "none") {
-            pastillePlourin.style.display = "none"
-        } else {
-            pastillePlourin.style.display = "block"
-        }
-    })
-boutonLeCloitre.addEventListener("click", function () {
-        if (getComputedStyle(villeLeCloitre).display != "none") {
-            villeLeCloitre.style.display = "none"
-        } else {
-            villeLeCloitre.style.display = "block"
-        }
-    })
-
-    nomenclatureLeCloitre.addEventListener("click", function () {
-        if (getComputedStyle(nomLeCloitre, bulleLeCloitre, pastilleLeCloitre).display != "none") {
-            nomLeCloitre.style.display = "none"
-            bulleLeCloitre.style.display = "none"
-            pastilleLeCloitre.style.display = "none"
-        } else {
-            nomLeCloitre.style.display = "block"
-            bulleLeCloitre.style.display = "block"
-            pastilleLeCloitre.style.display = "block"
-        }
-    })
-    tailleBulleLeCloitre.addEventListener("click", function () {
-        if (getComputedStyle(nomLeCloitre, bulleLeCloitre.pastilleLeCloitre).display != "none") {
-            nomLeCloitre.style.display = "none"
-            bulleLeCloitre.style.display = "none"
-            pastilleLeCloitre.style.display = "none"
-        } else {
-            nomLeCloitre.style.display = "block"
-            bulleLeCloitre.style.display = "block"
-            pastilleLeCloitre.style.display = "block"
-        }
-    })
-    
-    boutonPastilleLeCloitre.addEventListener("click", function () {
-        if (getComputedStyle(pastilleLeCloitre).display != "none") {
-            pastilleLeCloitre.style.display = "none"
-        } else {
-            pastilleLeCloitre.style.display = "block"
-        }
-    })
-boutonPlougonven.addEventListener("click", function () {
-        if (getComputedStyle(villePlougonven).display != "none") {
-            villePlougonven.style.display = "none"
-        } else {
-            villePlougonven.style.display = "block"
-        }
-    })
-
-    nomenclaturePlougonven.addEventListener("click", function () {
-        if (getComputedStyle(nomPlougonven, bullePlougonven, pastillePlougonven).display != "none") {
-            nomPlougonven.style.display = "none"
-            bullePlougonven.style.display = "none"
-            pastillePlougonven.style.display = "none"
-        } else {
-            nomPlougonven.style.display = "block"
-            bullePlougonven.style.display = "block"
-            pastillePlougonven.style.display = "block"
-        }
-    })
-    tailleBullePlougonven.addEventListener("click", function () {
-        if (getComputedStyle(nomPlougonven, bullePlougonven, pastillePlougonven).display != "none") {
-            nomPlougonven.style.display = "none"
-            bullePlougonven.style.display = "none"
-            pastillePlougonven.style.display = "none"
-        } else {
-            nomPlougonven.style.display = "block"
-            bullePlougonven.style.display = "block"
-            pastillePlougonven.style.display = "block"
-        }
-    })
-    
-    boutonPastillePlougonven.addEventListener("click", function () {
-        if (getComputedStyle(pastillePlougonven).display != "none") {
-            pastillePlougonven.style.display = "none"
-        } else {
-            pastillePlougonven.style.display = "block"
-        }
-    })
-boutonLanneanou.addEventListener("click", function () {
-        if (getComputedStyle(villeLanneanou).display != "none") {
-            villeLanneanou.style.display = "none"
-        } else {
-            villeLanneanou.style.display = "block"
-        }
-    })
-
-    nomenclatureLanneanou.addEventListener("click", function () {
-        if (getComputedStyle(nomLanneanou, bulleLanneanou, pastilleLanneanou).display != "none") {
-            nomLanneanou.style.display = "none"
-            bulleLanneanou.style.display = "none"
-            pastilleLanneanou.style.display = "none"
-        } else {
-            nomLanneanou.style.display = "block"
-            bulleLanneanou.style.display = "block"
-            pastilleLanneanou.style.display = "block"
-        }
-    })
-    tailleBulleLanneanou.addEventListener("click", function () {
-        if (getComputedStyle(nomLanneanou, bulleLanneanou, pastilleLanneanou).display != "none") {
-            nomLanneanou.style.display = "none"
-            bulleLanneanou.style.display = "none"
-            pastilleLanneanou.style.display = "none"
-        } else {
-            nomLanneanou.style.display = "block"
-            bulleLanneanou.style.display = "block"
-            pastilleLanneanou.style.display = "block"
-        }
-    })
-    
-    boutonPastilleLanneanou.addEventListener("click", function () {
-        if (getComputedStyle(pastilleLanneanou).display != "none") {
-            pastilleLanneanou.style.display = "none"
-        } else {
-            pastilleLanneanou.style.display = "block"
-        }
-    })
-boutonPlouigneau.addEventListener("click", function () {
-        if (getComputedStyle(villePlouigneau).display != "none") {
-            villePlouigneau.style.display = "none"
-        } else {
-            villePlouigneau.style.display = "block"
-        }
-    })
-
-    nomenclaturePlouigneau.addEventListener("click", function () {
-        if (getComputedStyle(nomPlouigneau, bullePlouigneau, pastillePlouigneau).display != "none") {
-            nomPlouigneau.style.display = "none"
-            bullePlouigneau.style.display = "none"
-            pastillePlouigneau.style.display = "none"
-        } else {
-            nomPlouigneau.style.display = "block"
-            bullePlouigneau.style.display = "block"
-            pastillePlouigneau.style.display = "block"
-        }
-    })
-    tailleBullePlouigneau.addEventListener("click", function () {
-        if (getComputedStyle(nomPlouigneau, bullePlouigneau, pastillePlouigneau).display != "none") {
-            nomPlouigneau.style.display = "none"
-            bullePlouigneau.style.display = "none"
-            pastillePlouigneau.style.display = "none"
-        } else {
-            nomPlouigneau.style.display = "block"
-            bullePlouigneau.style.display = "block"
-            pastillePlouigneau.style.display = "block"
-        }
-    })
-    
-    boutonPastillePlouigneau.addEventListener("click", function () {
-        if (getComputedStyle(pastillePlouigneau).display != "none") {
-            pastillePlouigneau.style.display = "none"
-        } else {
-            pastillePlouigneau.style.display = "block"
-        }
-    })
-boutonGarlan.addEventListener("click", function () {
-        if (getComputedStyle(villeGarlan).display != "none") {
-            villeGarlan.style.display = "none"
-        } else {
-            villeGarlan.style.display = "block"
-        }
-    })
-
-    nomenclatureGarlan.addEventListener("click", function () {
-        if (getComputedStyle(nomGarlan, bulleGarlan, pastilleGarlan).display != "none") {
-            nomGarlan.style.display = "none"
-            bulleGarlan.style.display = "none"
-            pastilleGarlan.style.display = "none"
-        } else {
-            nomGarlan.style.display = "block"
-            bulleGarlan.style.display = "block"
-            pastilleGarlan.style.display = "block"
-        }
-    })
-    tailleBulleGarlan.addEventListener("click", function () {
-        if (getComputedStyle(nomGarlan, bulleGarlan, pastilleGarlan).display != "none") {
-            nomGarlan.style.display = "none"
-            bulleGarlan.style.display = "none"
-            pastilleGarlan.style.display = "none"
-        } else {
-            nomGarlan.style.display = "block"
-            bulleGarlan.style.display = "block"
-            pastilleGarlan.style.display = "block"
-        }
-    })
-    
-    boutonPastilleGarlan.addEventListener("click", function () {
-        if (getComputedStyle(pastilleGarlan).display != "none") {
-            pastilleGarlan.style.display = "none"
-        } else {
-            pastilleGarlan.style.display = "block"
-        }
-    })
-boutonPlouezoch.addEventListener("click", function () {
-        if (getComputedStyle(villePlouezoch).display != "none") {
-            villePlouezoch.style.display = "none"
-        } else {
-            villePlouezoch.style.display = "block"
-        }
-    })
-
-    nomenclaturePlouezoch.addEventListener("click", function () {
-        if (getComputedStyle(nomPlouezoch, bullePlouezoch, pastillePlouezoch).display != "none") {
-            nomPlouezoch.style.display = "none"
-            bullePlouezoch.style.display = "none"
-            pastillePlouezoch.style.display = "none"
-        } else {
-            nomPlouezoch.style.display = "block"
-            bullePlouezoch.style.display = "block"
-            pastillePlouezoch.style.display = "block"
-        }
-    })
-    tailleBullePlouezoch.addEventListener("click", function () {
-        if (getComputedStyle(nomPlouezoch, bullePlouezoch, pastillePlouezoch).display != "none") {
-            nomPlouezoch.style.display = "none"
-            bullePlouezoch.style.display = "none"
-            pastillePlouezoch.style.display = "none"
-        } else {
-            nomPlouezoch.style.display = "block"
-            bullePlouezoch.style.display = "block"
-            pastillePlouezoch.style.display = "block"
-        }
-    })
-    
-    boutonPastillePlouezoch.addEventListener("click", function () {
-        if (getComputedStyle(pastillePlouezoch).display != "none") {
-            pastillePlouezoch.style.display = "none"
-        } else {
-            pastillePlouezoch.style.display = "block"
-        }
-    })
-boutonBotsorhel.addEventListener("click", function () {
-        if (getComputedStyle(villeBotsorhel).display != "none") {
-            villeBotsorhel.style.display = "none"
-        } else {
-            villeBotsorhel.style.display = "block"
-        }
-    })
-
-    nomenclatureBotsorhel.addEventListener("click", function () {
-        if (getComputedStyle(nomBotsorhel, bulleBotsorhel, pastilleBotsorhel).display != "none") {
-            nomBotsorhel.style.display = "none"
-            bulleBotsorhel.style.display = "none"
-            pastilleBotsorhel.style.display = "none"
-        } else {
-            nomBotsorhel.style.display = "block"
-            bulleBotsorhel.style.display = "block"
-            pastilleBotsorhel.style.display = "block"
-        }
-    })
-    tailleBulleBotsorhel.addEventListener("click", function () {
-        if (getComputedStyle(nomBotsorhel, bulleBotsorhel, pastilleBotsorhel).display != "none") {
-            nomBotsorhel.style.display = "none"
-            bulleBotsorhel.style.display = "none"
-            pastilleBotsorhel.style.display = "none"
-        } else {
-            nomBotsorhel.style.display = "block"
-            bulleBotsorhel.style.display = "block"
-            pastilleBotsorhel.style.display = "block"
-        }
-    })
-    
-    boutonPastilleBotsorhel.addEventListener("click", function () {
-        if (getComputedStyle(pastilleBotsorhel).display != "none") {
-            pastilleBotsorhel.style.display = "none"
-        } else {
-            pastilleBotsorhel.style.display = "block"
-        }
-    })
-boutonGuerlesquin.addEventListener("click", function () {
-        if (getComputedStyle(villeGuerlesquin).display != "none") {
-            villeGuerlesquin.style.display = "none"
-        } else {
-            villeGuerlesquin.style.display = "block"
-        }
-    })
-
-    nomenclatureGuerlesquin.addEventListener("click", function () {
-        if (getComputedStyle(nomGuerlesquin, bulleGuerlesquin, pastilleGuerlesquin).display != "none") {
-            nomGuerlesquin.style.display = "none"
-            bulleGuerlesquin.style.display = "none"
-            pastilleGuerlesquin.style.display = "none"
-        } else {
-            nomGuerlesquin.style.display = "block"
-            bulleGuerlesquin.style.display = "block"
-            pastilleGuerlesquin.style.display = "block"
-        }
-    })
-    tailleBulleGuerlesquin.addEventListener("click", function () {
-        if (getComputedStyle(nomGuerlesquin, bulleGuerlesquin, pastilleGuerlesquin).display != "none") {
-            nomGuerlesquin.style.display = "none"
-            bulleGuerlesquin.style.display = "none"
-            pastilleGuerlesquin.style.display = "none"
-        } else {
-            nomGuerlesquin.style.display = "block"
-            bulleGuerlesquin.style.display = "block"
-            pastilleGuerlesquin.style.display = "block"
-        }
-    })
-    
-    boutonPastilleGuerlesquin.addEventListener("click", function () {
-        if (getComputedStyle(pastilleGuerlesquin).display != "none") {
-            pastilleGuerlesquin.style.display = "none"
-        } else {
-            pastilleGuerlesquin.style.display = "block"
-        }
-    })
-boutonMoysan.addEventListener("click", function () {
-        if (getComputedStyle(villeMoysan).display != "none") {
-            villeMoysan.style.display = "none"
-        } else {
-            villeMoysan.style.display = "block"
-        }
-    })
-
-    nomenclatureMoysan.addEventListener("click", function () {
-        if (getComputedStyle(nomMoysan, bulleMoysan, pastilleMoysan).display != "none") {
-            nomMoysan.style.display = "none"
-            bulleMoysan.style.display = "none"
-            pastilleMoysan.style.display = "none"
-        } else {
-            nomMoysan.style.display = "block"
-            bulleMoysan.style.display = "block"
-            pastilleMoysan.style.display = "block"
-        }
-    })
-    tailleBulleMoysan.addEventListener("click", function () {
-        if (getComputedStyle(nomMoysan, bulleMoysan, pastilleMoysan).display != "none") {
-            nomMoysan.style.display = "none"
-            bulleMoysan.style.display = "none"
-            pastilleMoysan.style.display = "none"
-        } else {
-            nomMoysan.style.display = "block"
-            bulleMoysan.style.display = "block"
-            pastilleMoysan.style.display = "block"
-        }
-    })
-    
-    boutonPastilleMoysan.addEventListener("click", function () {
-        if (getComputedStyle(pastilleMoysan).display != "none") {
-            pastilleMoysan.style.display = "none"
-        } else {
-            pastilleMoysan.style.display = "block"
-        }
-    })
-boutonGuerrand.addEventListener("click", function () {
-        if (getComputedStyle(villeGuerrand).display != "none") {
-            villeGuerrand.style.display = "none"
-        } else {
-            villeGuerrand.style.display = "block"
-        }
-    })
-
-    nomenclatureGuerrand.addEventListener("click", function () {
-        if (getComputedStyle(nomGuerrand, bulleGuerrand, pastilleGuerrand).display != "none") {
-            nomGuerrand.style.display = "none"
-            bulleGuerrand.style.display = "none"
-            pastilleGuerrand.style.display = "none"
-        } else {
-            nomGuerrand.style.display = "block"
-            bulleGuerrand.style.display = "block"
-            pastilleGuerrand.style.display = "block"
-        }
-    })
-    tailleBulleGuerrand.addEventListener("click", function () {
-        if (getComputedStyle(nomGuerrand, bulleGuerrand, pastilleGuerrand).display != "none") {
-            nomGuerrand.style.display = "none"
-            bulleGuerrand.style.display = "none"
-            pastilleGuerrand.style.display = "none"
-        } else {
-            nomGuerrand.style.display = "block"
-            bulleGuerrand.style.display = "block"
-            pastilleGuerrand.style.display = "block"
-        }
-    })
-    
-    boutonPastilleGuerrand.addEventListener("click", function () {
-        if (getComputedStyle(pastilleGuerrand).display != "none") {
-            pastilleGuerrand.style.display = "none"
-        } else {
-            pastilleGuerrand.style.display = "block"
-        }
-    })
-boutonLanmeur.addEventListener("click", function () {
-        if (getComputedStyle(villeLanmeur).display != "none") {
-            villeLanmeur.style.display = "none"
-        } else {
-            villeLanmeur.style.display = "block"
-        }
-    })
-
-    nomenclatureLanmeur.addEventListener("click", function () {
-        if (getComputedStyle(nomLanmeur, bulleLanmeur, pastilleLanmeur).display != "none") {
-            nomLanmeur.style.display = "none"
-            bulleLanmeur.style.display = "none"
-            pastilleLanmeur.style.display = "none"
-        } else {
-            nomLanmeur.style.display = "block"
-            bulleLanmeur.style.display = "block"
-            pastilleLanmeur.style.display = "block"
-        }
-    })
-    tailleBulleLanmeur.addEventListener("click", function () {
-        if (getComputedStyle(nomLanmeur, bulleLanmeur, pastilleLanmeur).display != "none") {
-            nomLanmeur.style.display = "none"
-            bulleLanmeur.style.display = "none"
-            pastilleLanmeur.style.display = "none"
-        } else {
-            nomLanmeur.style.display = "block"
-            bulleLanmeur.style.display = "block"
-            pastilleLanmeur.style.display = "block"
-        }
-    })
-    
-    boutonPastilleLanmeur.addEventListener("click", function () {
-        if (getComputedStyle(pastilleLanmeur).display != "none") {
-            pastilleLanmeur.style.display = "none"
-        } else {
-            pastilleLanmeur.style.display = "block"
-        }
-    })
-boutonGuimaec.addEventListener("click", function () {
-        if (getComputedStyle(villeGuimaec).display != "none") {
-            villeGuimaec.style.display = "none"
-        } else {
-            villeGuimaec.style.display = "block"
-        }
-    })
-
-    nomenclatureGuimaec.addEventListener("click", function () {
-        if (getComputedStyle(nomGuimaec, bulleGuimaec, pastilleGuimaec).display != "none") {
-            nomGuimaec.style.display = "none"
-            bulleGuimaec.style.display = "none"
-            pastilleGuimaec.style.display = "none"
-        } else {
-            nomGuimaec.style.display = "block"
-            bulleGuimaec.style.display = "block"
-            pastilleGuimaec.style.display = "block"
-        }
-    })
-    tailleBulleGuimaec.addEventListener("click", function () {
-        if (getComputedStyle(nomGuimaec, bulleGuimaec, pastilleGuimaec).display != "none") {
-            nomGuimaec.style.display = "none"
-            bulleGuimaec.style.display = "none"
-            pastilleGuimaec.style.display = "none"
-        } else {
-            nomGuimaec.style.display = "block"
-            bulleGuimaec.style.display = "block"
-            pastilleGuimaec.style.display = "block"
-        }
-    })
-    
-    boutonPastilleGuimaec.addEventListener("click", function () {
-        if (getComputedStyle(pastilleGuimaec).display != "none") {
-            pastilleGuimaec.style.display = "none"
-        } else {
-            pastilleGuimaec.style.display = "block"
-        }
-    })
-boutonLocquirec.addEventListener("click", function () {
-        if (getComputedStyle(villeLocquirec).display != "none") {
-            villeLocquirec.style.display = "none"
-        } else {
-            villeLocquirec.style.display = "block"
-        }
-    })
-
-    nomenclatureLocquirec.addEventListener("click", function () {
-        if (getComputedStyle(nomLocquirec, bulleLocquirec, pastilleLocquirec).display != "none") {
-            nomLocquirec.style.display = "none"
-            bulleLocquirec.style.display = "none"
-            pastilleLocquirec.style.display = "none"
-        } else {
-            nomLocquirec.style.display = "block"
-            bulleLocquirec.style.display = "block"
-            pastilleLocquirec.style.display = "block"
-        }
-    })
-    tailleBulleLocquirec.addEventListener("click", function () {
-        if (getComputedStyle(nomLocquirec, bulleLocquirec, pastilleLocquirec).display != "none") {
-            nomLocquirec.style.display = "none"
-            bulleLocquirec.style.display = "none"
-            pastilleLocquirec.style.display = "none"
-        } else {
-            nomLocquirec.style.display = "block"
-            bulleLocquirec.style.display = "block"
-            pastilleLocquirec.style.display = "block"
-        }
-    })
-    
-    boutonPastilleLocquirec.addEventListener("click", function () {
-        if (getComputedStyle(pastilleLocquirec).display != "none") {
-            pastilleLocquirec.style.display = "none"
-        } else {
-            pastilleLocquirec.style.display = "block"
-        }
-    })
-boutonSaintJean.addEventListener("click", function () {
-        if (getComputedStyle(villeSaintJean).display != "none") {
-            villeSaintJean.style.display = "none"
-        } else {
-            villeSaintJean.style.display = "block"
-        }
-    })
-
-    nomenclatureSaintJean.addEventListener("click", function () {
-        if (getComputedStyle(nomSaintJean, bulleSaintJean, pastilleSaintJean).display != "none") {
-            nomSaintJean.style.display = "none"
-            bulleSaintJean.style.display = "none"
-            pastilleSaintJean.style.display = "none"
-        } else {
-            nomSaintJean.style.display = "block"
-            bulleSaintJean.style.display = "block"
-            pastilleSaintJean.style.display = "block"
-        }
-    })
-    tailleBulleSaintJean.addEventListener("click", function () {
-        if (getComputedStyle(nomSaintJean, bulleSaintJean, pastilleSaintJean).display != "none") {
-            nomSaintJean.style.display = "none"
-            bulleSaintJean.style.display = "none"
-            pastilleSaintJean.style.display = "none"
-        } else {
-            nomSaintJean.style.display = "block"
-            bulleSaintJean.style.display = "block"
-            pastilleSaintJean.style.display = "block"
-        }
-    })
-    
-    boutonPastilleSaintJean.addEventListener("click", function () {
-        if (getComputedStyle(pastilleSaintJean).display != "none") {
-            pastilleSaintJean.style.display = "none"
-        } else {
-            pastilleSaintJean.style.display = "block"
-        }
-    })
-boutonPlougasnou.addEventListener("click", function () {
-        if (getComputedStyle(villePlougasnou).display != "none") {
-            villePlougasnou.style.display = "none"
-        } else {
-            villePlougasnou.style.display = "block"
+            villePlouneourMenez.style.display = "none";
         }
     });
 
+    nomenclaturePlouneour.addEventListener("click", function () {
+        if (getComputedStyle(nomPlouneourMenez, bullePlouneourMenez, pastillePlouneourMenez).display != "none") {
+            nomPlouneourMenez.style.display = "none";
+            bullePlouneourMenez.style.display = "none";
+            pastillePlouneourMenez.style.display = "none";
+        } else {
+            nomPlouneourMenez.style.display = "block";
+            bullePlouneourMenez.style.display = "block";
+            pastillePlouneourMenez.style.display = "block";
+        }
+    });
+    tailleBullePlouneour.addEventListener("click", function () {
+        if (getComputedStyle(nomPlouneourMenez, bullePlouneourMenez, pastillePlouneourMenez).display != "none") {
+            nomPlouneourMenez.style.display = "none";
+            bullePlouneourMenez.style.display = "none";
+            pastillePlouneourMenez.style.display = "none";
+        } else {
+            nomPlouneourMenez.style.display = "block";
+            bullePlouneourMenez.style.display = "block";
+            pastillePlouneourMenez.style.display = "none";
+        }
+    });;
+    
+    boutonPastillePlouneour.addEventListener("click", function () { 
+        if (getComputedStyle(pastillePlouneourMenez).display == "block") {
+            pastillePlouneourMenez.style.display = "block";
+        } else {
+            pastillePlouneourMenez.style.display = "none";
+        }
+    });
+boutonPleyber.addEventListener("click", function () {
+        if (getComputedStyle(villePleyberChrist).display != "none") {
+            villePleyberChrist.style.display = "none";
+        } else {
+            villePleyberChrist.style.display = "block";
+        }
+    });
+
+    nomenclaturePleyber.addEventListener("click", function () {
+        if (getComputedStyle(nomPleyber, bullePleyber, pastillePleyberChrist).display != "none") {
+            nomPleyber.style.display = "none";
+            bullePleyber.style.display = "none";
+            pastillePleyberChrist.style.display = "none";
+        } else {
+            nomPleyber.style.display = "block";
+            bullePleyber.style.display = "block";
+            pastillePleyberChrist.style.display = "block";
+        }
+    });
+    tailleBullePleyber.addEventListener("click", function () {
+        if (getComputedStyle(nomPleyber, bullePleyber, pastillePleyberChrist).display != "none") {
+            nomPleyber.style.display = "none";
+            bullePleyber.style.display = "none";
+            pastillePleyberChrist.style.display = "none";
+        } else {
+            nomPleyber.style.display = "block";
+            bullePleyber.style.display = "block";
+            pastillePleyberChrist.style.display = "block";
+        }
+    });
+    
+    boutonPastillePleyber.addEventListener("click", function () {
+        if (getComputedStyle(pastillePleyberChrist).display != "block") {
+            pastillePleyberChrist.style.display = "block";
+        } else {
+            pastillePleyberChrist.style.display = "none";
+        }
+    });
+boutonSaintTheg.addEventListener("click", function () {
+        if (getComputedStyle(villeSaintThegonnec).display != "none") {
+            villeSaintThegonnec.style.display = "none";
+        } else {
+            villeSaintThegonnec.style.display = "block";
+        }
+    });
+
+    nomenclatureSaintTheg.addEventListener("click", function () {
+        if (getComputedStyle(nomSaintTheg, bulleSaintTheg, pastilleSaintThegonnec).display != "none") {
+            nomSaintTheg.style.display = "none";
+            bulleSaintTheg.style.display = "none";
+            pastilleSaintThegonnec.style.display = "none";
+        } else {
+            nomSaintTheg.style.display = "block";
+            bulleSaintTheg.style.display = "block";
+            pastilleSaintThegonnec.style.display = "block";
+        }
+    });
+    tailleBulleSaintTheg.addEventListener("click", function () {
+        if (getComputedStyle(nomSaintTheg, bulleSaintTheg, pastilleSaintThegonnec).display != "none") {
+            nomSaintTheg.style.display = "none";
+            bulleSaintTheg.style.display = "none";
+            pastilleSaintThegonnec.style.display = "none";
+        } else {
+            nomSaintTheg.style.display = "block";
+            bulleSaintTheg.style.display = "block";
+            pastilleSaintThegonnec.style.display = "block";
+        }
+    });
+    
+    boutonPastilleSaintTheg.addEventListener("click", function () {
+        if (getComputedStyle(pastilleSaintThegonnec).display != "none") {
+            pastilleSaintThegonnec.style.display = "none";
+        } else {
+            pastilleSaintThegonnec.style.display = "block";
+        }
+    });
+boutonSaintSeve.addEventListener("click", function () {
+        if (getComputedStyle(villeSaintSeve).display != "none") {
+            villeSaintSeve.style.display = "none";
+        } else {
+            villeSaintSeve.style.display = "block";
+        }
+    });
+
+    nomenclatureSainteSeve.addEventListener("click", function () {
+        if (getComputedStyle(nomSainteSeve, bulleSainteSeve, pastilleSaintSeve).display != "none") {
+            nomSainteSeve.style.display = "none";
+            bulleSainteSeve.style.display = "none";
+            pastilleSaintSeve.style.display = "none";
+        } else {
+            nomSainteSeve.style.display = "block";
+            bulleSainteSeve.style.display = "block";
+            pastilleSaintSeve.style.display = "block";
+        }
+    });
+    tailleBulleSaintSeve.addEventListener("click", function () {
+        if (getComputedStyle(nomSainteSeve, bulleSainteSeve, pastilleSaintSeve).display != "none") {
+            nomSainteSeve.style.display = "none";
+            bulleSainteSeve.style.display = "none";
+            pastilleSaintSeve.style.display = "none";
+        } else {
+            nomSainteSeve.style.display = "block";
+            bulleSainteSeve.style.display = "block";
+            pastilleSaintSeve.style.display = "block";
+        }
+    });
+    
+    boutonPastilleSaintSeve.addEventListener("click", function () {
+        if (getComputedStyle(pastilleSaintSeve).display != "none") {
+            pastilleSainteSeve.style.display = "none";
+        } else {
+            pastilleSainteSeve.style.display = "block";
+        }
+    });
+boutonTaule.addEventListener("click", function () {
+        if (getComputedStyle(villeTaule).display != "none") {
+            villeTaule.style.display = "none";
+        } else {
+            villeTaule.style.display = "block";
+        }
+    });
+
+    nomenclatureTaule.addEventListener("click", function () {
+        if (getComputedStyle(nomTaule, bulleTaule, pastilleTaule).display != "none") {
+            nomTaule.style.display = "none";
+            bulleTaule.style.display = "none";
+            pastilleTaule.style.display = "none";
+        } else {
+            nomTaule.style.display = "block";
+            bulleTaule.style.display = "block";
+            pastilleTaule.style.display = "block";
+        }
+    });
+    tailleBulleTaule.addEventListener("click", function () {
+        if (getComputedStyle(nomTaule, bulleTaule, pastilleTaule).display != "none") {
+            nomTaule.style.display = "none";
+            bulleTaule.style.display = "none";
+            pastilleTaule.style.display = "none";
+        } else {
+            nomTaule.style.display = "block";
+            bulleTaule.style.display = "block";
+            pastilleTaule.style.display = "block";
+        }
+    });
+    
+    boutonPastilleTaule.addEventListener("click", function () {
+        if (getComputedStyle(pastilleTaule).display != "none") {
+            pastilleTaule.style.display = "none";
+        } else {
+            pastilleTaule.style.display = "block";
+        }
+    });
+boutonHenvic.addEventListener("click", function () {
+        if (getComputedStyle(villeHenvic).display != "none") {
+            villeHenvic.style.display = "none";
+        } else {
+            villeHenvic.style.display = "block";
+        }
+    });
+
+    nomenclatureHenvic.addEventListener("click", function () {
+        if (getComputedStyle(nomHenvic, bulleHenvic, pastilleHenvic).display != "none") {
+            nomHenvic.style.display = "none";
+            bulleHenvic.style.display = "none";
+            pastilleHenvic.style.display = "none";
+        } else {
+            nomHenvic.style.display = "block";
+            bulleHenvic.style.display = "block";
+            pastilleHenvic.style.display = "block";
+        }
+    });
+    tailleBulleHenvic.addEventListener("click", function () {
+        if (getComputedStyle(nomHenvic, bulleHenvic, pastilleHenvic).display != "none") {
+            nomHenvic.style.display = "none";
+            bulleHenvic.style.display = "none";
+            pastilleHenvic.style.display = "none";
+        } else {
+            nomHenvic.style.display = "block";
+            bulleHenvic.style.display = "block";
+            pastilleHenvic.style.display = "block";
+        }
+    });
+    
+    boutonPastilleHenvic.addEventListener("click", function () {
+        if (getComputedStyle(pastilleHenvic).display != "none") {
+            pastilleHenvic.style.display = "none";
+        } else {
+            pastilleHenvic.style.display = "block";
+        }
+    });
+boutonCarantec.addEventListener("click", function () {
+        if (getComputedStyle(villeCarantec).display != "none") {
+            villeCarantec.style.display = "none";
+        } else {
+            villeCarantec.style.display = "block";
+        }
+    });
+
+    nomenclatureCarantec.addEventListener("click", function () {
+        if (getComputedStyle(nomCarantec, bulleCarantec, pastilleCarantec).display != "none") {
+            nomCarantec.style.display = "none";
+            bulleCarantec.style.display = "none";
+            pastilleCarantec.style.display = "none";
+        } else {
+            nomCarantec.style.display = "block";
+            bulleCarantec.style.display = "block";
+            pastilleCarantec.style.display = "block";
+        }
+    });
+    tailleBulleCarantec.addEventListener("click", function () {
+        if (getComputedStyle(nomCarantec, bulleCarantec, pastilleCarantec).display != "none") {
+            nomCarantec.style.display = "none";
+            bulleCarantec.style.display = "none";
+            pastilleCarantec.style.display = "none";
+        } else {
+            nomCarantec.style.display = "block";
+            bulleCarantec.style.display = "block";
+            pastilleCarantec.style.display = "block";
+        }
+    });
+    
+    boutonPastilleCarantec.addEventListener("click", function () {
+        if (getComputedStyle(pastilleCarantec).display != "none") {
+            pastilleCarantec.style.display = "none";
+        } else {
+            pastilleCarantec.style.display = "block";
+        }
+    });
+boutonSaintMartin.addEventListener("click", function () {
+        if (getComputedStyle(villeSaintMartin).display != "none") {
+            villeSaintMartin.style.display = "none";
+        } else {
+            villeSaintMartin.style.display = "block";
+        }
+    });
+
+    nomenclatureSaintMartin.addEventListener("click", function () {
+        if (getComputedStyle(nomSaintMartin, bulleSaintMartin, pastilleSaintMartin).display != "none") {
+            nomSaintMartin.style.display = "none";
+            bulleSaintMartin.style.display = "none";
+            pastilleSaintMartin.style.display = "none";
+        } else {
+            nomSaintMartin.style.display = "block";
+            bulleSaintMartin.style.display = "block";
+            pastilleSaintMartin.style.display = "block";
+        }
+    });
+    tailleBulleSaintMartin.addEventListener("click", function () {
+        if (getComputedStyle(nomSaintMartin, bulleSaintMartin, pastilleSaintMartin).display != "none") {
+            nomSaintMartin.style.display = "none";
+            bulleSaintMartin.style.display = "none";
+            pastilleSaintMartin.style.display = "none";
+        } else {
+            nomSaintMartin.style.display = "block";
+            bulleSaintMartin.style.display = "block";
+            pastilleSaintMartin.style.display = "block";
+        }
+    });
+    
+    boutonPastilleSaintMartin.addEventListener("click", function () {
+        if (getComputedStyle(pastilleSaintMartin).display != "none") {
+            pastilleSaintMartin.style.display = "none";
+        } else {
+            pastilleSaintMartin.style.display = "block";
+        }
+    });
+boutonMorlaix.addEventListener("click", function () {
+        if (getComputedStyle(villeMorlaix).display != "none") {
+            villeMorlaix.style.display = "none";
+        } else {
+            villeMorlaix.style.display = "block";
+        }
+    });
+
+    nomenclatureMorlaix.addEventListener("click", function () {
+        if (getComputedStyle(nomMorlaix, bulleMorlaix, pastilleMorlaix).display != "none") {
+            nomMorlaix.style.display = "none";
+            bulleMorlaix.style.display = "none";
+            pastilleMorlaix.display = "none";
+        } else {
+            nomMorlaix.style.display = "block";
+            bulleMorlaix.style.display = "block";
+            pastilleMorlaix.style.display = "block";
+        }
+    });
+    tailleBulleMorlaix.addEventListener("click", function () {
+        if (getComputedStyle(nomMorlaix, bulleMorlaix, pastilleMorlaix).display != "none") {
+            nomMorlaix.style.display = "none";
+            bulleMorlaix.style.display = "none";
+            pastilleMorlaix.display = "none";
+        } else {
+            nomMorlaix.style.display = "block";
+            bulleMorlaix.style.display = "block";
+            pastilleMorlaix.style.display = "block";
+        }
+    });
+    
+    boutonPastilleMorlaix.addEventListener("click", function () {
+        if (getComputedStyle(pastilleMorlaix).display != "none") {
+            pastilleMorlaix.style.display = "none";
+        } else {
+            pastilleMorlaix.style.display = "block";
+        }
+    });
+boutonLocquenole.addEventListener("click", function () {
+        if (getComputedStyle(villeLocquenole).display != "none") {
+            villeLocquenole.style.display = "none";
+        } else {
+            villeLocquenole.style.display = "block";
+        }
+    });
+
+    nomenclatureLocquenole.addEventListener("click", function () {
+        if (getComputedStyle(nomLocquenole, bulleLocquenole, pastilleLocquenole).display != "none") {
+            nomLocquenole.style.display = "none";
+            bulleLocquenole.style.display = "none";
+            pastilleLocquenole.style.display = "none";
+        } else {
+            nomLocquenole.style.display = "block";
+            bulleLocquenole.style.display = "block";
+            pastilleLocquenole.style.display = "block";
+        }
+    });
+    tailleBulleLocquenole.addEventListener("click", function () {
+        if (getComputedStyle(nomLocquenole, bulleLocquenole, pastilleLocquenole).display != "none") {
+            nomLocquenole.style.display = "none";
+            bulleLocquenole.style.display = "none";
+            pastilleLocquenole.style.display = "none";
+        } else {
+            nomLocquenole.style.display = "block";
+            bulleLocquenole.style.display = "block";
+            pastilleLocquenole.style.display = "block";
+        }
+    });
+    
+    boutonPastilleLocquenole.addEventListener("click", function () {
+        if (getComputedStyle(pastilleLocquenole).display != "none") {
+            pastilleLocquenole.style.display = "none";
+        } else {
+            pastilleLocquenole.style.display = "block";
+        }
+    });
+boutonPlourin.addEventListener("click", function () {
+        if (getComputedStyle(villePlourin).display != "none") {
+            villePlourin.style.display = "none";
+        } else {
+            villePlourin.style.display = "block";
+        }
+    });
+
+    nomenclaturePlourin.addEventListener("click", function () {
+        if (getComputedStyle(nomPlourin, bullePlourin, pastillePlourin).display != "none") {
+            nomPlourin.style.display = "none";
+            bullePlourin.style.display = "none";
+            pastillePlourin.style.display = "none";
+        } else {
+            nomPlourin.style.display = "block";
+            bullePlourin.style.display = "block";
+            pastillePlourin.style.display = "block";
+        }
+    });
+    tailleBullePlourin.addEventListener("click", function () {
+        if (getComputedStyle(nomPlourin, bullePlourin, pastillePlourin).display != "none") {
+            nomPlourin.style.display = "none";
+            bullePlourin.style.display = "none";
+            pastillePlourin.style.display = "none";
+        } else {
+            nomPlourin.style.display = "block";
+            bullePlourin.style.display = "block";
+            pastillePlourin.style.display = "block";
+        }
+    });
+    
+    boutonPastillePlourin.addEventListener("click", function () {
+        if (getComputedStyle(pastillePlourin).display != "none") {
+            pastillePlourin.style.display = "none";
+        } else {
+            pastillePlourin.style.display = "block";
+        }
+    });
+boutonLeCloitre.addEventListener("click", function () {
+        if (getComputedStyle(villeLeCloitre).display != "none") {
+            villeLeCloitre.style.display = "none";
+        } else {
+            villeLeCloitre.style.display = "block";
+        }
+    });
+
+    nomenclatureLeCloitre.addEventListener("click", function () {
+        if (getComputedStyle(nomLeCloitre, bulleLeCloitre, pastilleLeCloitre).display != "none") {
+            nomLeCloitre.style.display = "none";
+            bulleLeCloitre.style.display = "none";
+            pastilleLeCloitre.style.display = "none";
+        } else {
+            nomLeCloitre.style.display = "block";
+            bulleLeCloitre.style.display = "block";
+            pastilleLeCloitre.style.display = "block";
+        }
+    });
+    tailleBulleLeCloitre.addEventListener("click", function () {
+        if (getComputedStyle(nomLeCloitre, bulleLeCloitre.pastilleLeCloitre).display != "none") {
+            nomLeCloitre.style.display = "none";
+            bulleLeCloitre.style.display = "none";
+            pastilleLeCloitre.style.display = "none";
+        } else {
+            nomLeCloitre.style.display = "block";
+            bulleLeCloitre.style.display = "block";
+            pastilleLeCloitre.style.display = "block";
+        }
+    });
+    
+    boutonPastilleLeCloitre.addEventListener("click", function () {
+        if (getComputedStyle(pastilleLeCloitre).display != "none") {
+            pastilleLeCloitre.style.display = "none";
+        } else {
+            pastilleLeCloitre.style.display = "block";
+        }
+    });
+boutonPlougonven.addEventListener("click", function () {
+        if (getComputedStyle(villePlougonven).display != "none") {
+            villePlougonven.style.display = "none";
+        } else {
+            villePlougonven.style.display = "block";
+        }
+    });
+
+    nomenclaturePlougonven.addEventListener("click", function () {
+        if (getComputedStyle(nomPlougonven, bullePlougonven, pastillePlougonven).display != "none") {
+            nomPlougonven.style.display = "none";
+            bullePlougonven.style.display = "none";
+            pastillePlougonven.style.display = "none";
+        } else {
+            nomPlougonven.style.display = "block";
+            bullePlougonven.style.display = "block";
+            pastillePlougonven.style.display = "block";
+        }
+    });
+    tailleBullePlougonven.addEventListener("click", function () {
+        if (getComputedStyle(nomPlougonven, bullePlougonven, pastillePlougonven).display != "none") {
+            nomPlougonven.style.display = "none";
+            bullePlougonven.style.display = "none";
+            pastillePlougonven.style.display = "none";
+        } else {
+            nomPlougonven.style.display = "block";
+            bullePlougonven.style.display = "block";
+            pastillePlougonven.style.display = "block";
+        }
+    });
+    
+    boutonPastillePlougonven.addEventListener("click", function () {
+        if (getComputedStyle(pastillePlougonven).display != "none") {
+            pastillePlougonven.style.display = "none";
+        } else {
+            pastillePlougonven.style.display = "block";
+        }
+    });
+boutonLanneanou.addEventListener("click", function () {
+        if (getComputedStyle(villeLanneanou).display != "none") {
+            villeLanneanou.style.display = "none";
+        } else {
+            villeLanneanou.style.display = "block";
+        }
+    });
+
+    nomenclatureLanneanou.addEventListener("click", function () {
+        if (getComputedStyle(nomLanneanou, bulleLanneanou, pastilleLanneanou).display != "none") {
+            nomLanneanou.style.display = "none";
+            bulleLanneanou.style.display = "none";
+            pastilleLanneanou.style.display = "none";
+        } else {
+            nomLanneanou.style.display = "block";
+            bulleLanneanou.style.display = "block";
+            pastilleLanneanou.style.display = "block";
+        }
+    });
+    tailleBulleLanneanou.addEventListener("click", function () {
+        if (getComputedStyle(nomLanneanou, bulleLanneanou, pastilleLanneanou).display != "none") {
+            nomLanneanou.style.display = "none";
+            bulleLanneanou.style.display = "none";
+            pastilleLanneanou.style.display = "none";
+        } else {
+            nomLanneanou.style.display = "block";
+            bulleLanneanou.style.display = "block";
+            pastilleLanneanou.style.display = "block";
+        }
+    });
+    
+    boutonPastilleLanneanou.addEventListener("click", function () {
+        if (getComputedStyle(pastilleLanneanou).display != "none") {
+            pastilleLanneanou.style.display = "none";
+        } else {
+            pastilleLanneanou.style.display = "block";
+        }
+    });
+boutonPlouigneau.addEventListener("click", function () {
+        if (getComputedStyle(villePlouigneau).display != "none") {
+            villePlouigneau.style.display = "none";
+        } else {
+            villePlouigneau.style.display = "block";
+        }
+    });
+
+    nomenclaturePlouigneau.addEventListener("click", function () {
+        if (getComputedStyle(nomPlouigneau, bullePlouigneau, pastillePlouigneau).display != "none") {
+            nomPlouigneau.style.display = "none";
+            bullePlouigneau.style.display = "none";
+            pastillePlouigneau.style.display = "none";
+        } else {
+            nomPlouigneau.style.display = "block";
+            bullePlouigneau.style.display = "block";
+            pastillePlouigneau.style.display = "block";
+        }
+    });
+    tailleBullePlouigneau.addEventListener("click", function () {
+        if (getComputedStyle(nomPlouigneau, bullePlouigneau, pastillePlouigneau).display != "none") {
+            nomPlouigneau.style.display = "none";
+            bullePlouigneau.style.display = "none";
+            pastillePlouigneau.style.display = "none";
+        } else {
+            nomPlouigneau.style.display = "block";
+            bullePlouigneau.style.display = "block";
+            pastillePlouigneau.style.display = "block";
+        }
+    });
+    
+    boutonPastillePlouigneau.addEventListener("click", function () {
+        if (getComputedStyle(pastillePlouigneau).display != "none") {
+            pastillePlouigneau.style.display = "none";
+        } else {
+            pastillePlouigneau.style.display = "block";
+        }
+    });
+boutonGarlan.addEventListener("click", function () {
+        if (getComputedStyle(villeGarlan).display != "none") {
+            villeGarlan.style.display = "none";
+        } else {
+            villeGarlan.style.display = "block";
+        }
+    });
+
+    nomenclatureGarlan.addEventListener("click", function () {
+        if (getComputedStyle(nomGarlan, bulleGarlan, pastilleGarlan).display != "none") {
+            nomGarlan.style.display = "none";
+            bulleGarlan.style.display = "none";
+            pastilleGarlan.style.display = "none";
+        } else {
+            nomGarlan.style.display = "block";
+            bulleGarlan.style.display = "block";
+            pastilleGarlan.style.display = "block";
+        }
+    });
+    tailleBulleGarlan.addEventListener("click", function () {
+        if (getComputedStyle(nomGarlan, bulleGarlan, pastilleGarlan).display != "none") {
+            nomGarlan.style.display = "none";
+            bulleGarlan.style.display = "none";
+            pastilleGarlan.style.display = "none";
+        } else {
+            nomGarlan.style.display = "block";
+            bulleGarlan.style.display = "block";
+            pastilleGarlan.style.display = "block";
+        }
+    });
+    
+    boutonPastilleGarlan.addEventListener("click", function () {
+        if (getComputedStyle(pastilleGarlan).display != "none") {
+            pastilleGarlan.style.display = "none";
+        } else {
+            pastilleGarlan.style.display = "block";
+        }
+    });
+boutonPlouezoch.addEventListener("click", function () {
+        if (getComputedStyle(villePlouezoch).display != "none") {
+            villePlouezoch.style.display = "none";
+        } else {
+            villePlouezoch.style.display = "block";
+        }
+    });
+
+    nomenclaturePlouezoch.addEventListener("click", function () {
+        if (getComputedStyle(nomPlouezoch, bullePlouezoch, pastillePlouezoch).display != "none") {
+            nomPlouezoch.style.display = "none";
+            bullePlouezoch.style.display = "none";
+            pastillePlouezoch.style.display = "none";
+        } else {
+            nomPlouezoch.style.display = "block";
+            bullePlouezoch.style.display = "block";
+            pastillePlouezoch.style.display = "block";
+        }
+    });
+    tailleBullePlouezoch.addEventListener("click", function () {
+        if (getComputedStyle(nomPlouezoch, bullePlouezoch, pastillePlouezoch).display != "none") {
+            nomPlouezoch.style.display = "none";
+            bullePlouezoch.style.display = "none";
+            pastillePlouezoch.style.display = "none";
+        } else {
+            nomPlouezoch.style.display = "block";
+            bullePlouezoch.style.display = "block";
+            pastillePlouezoch.style.display = "block";
+        }
+    });
+    
+    boutonPastillePlouezoch.addEventListener("click", function () {
+        if (getComputedStyle(pastillePlouezoch).display != "none") {
+            pastillePlouezoch.style.display = "none";
+        } else {
+            pastillePlouezoch.style.display = "block";
+        }
+    });
+boutonBotsorhel.addEventListener("click", function () {
+        if (getComputedStyle(villeBotsorhel).display != "none") {
+            villeBotsorhel.style.display = "none";
+        } else {
+            villeBotsorhel.style.display = "block";
+        }
+    });
+
+    nomenclatureBotsorhel.addEventListener("click", function () {
+        if (getComputedStyle(nomBotsorhel, bulleBotsorhel, pastilleBotsorhel).display != "none") {
+            nomBotsorhel.style.display = "none";
+            bulleBotsorhel.style.display = "none";
+            pastilleBotsorhel.style.display = "none";
+        } else {
+            nomBotsorhel.style.display = "block";
+            bulleBotsorhel.style.display = "block";
+            pastilleBotsorhel.style.display = "block";
+        }
+    });
+    tailleBulleBotsorhel.addEventListener("click", function () {
+        if (getComputedStyle(nomBotsorhel, bulleBotsorhel, pastilleBotsorhel).display != "none") {
+            nomBotsorhel.style.display = "none";
+            bulleBotsorhel.style.display = "none";
+            pastilleBotsorhel.style.display = "none";
+        } else {
+            nomBotsorhel.style.display = "block";
+            bulleBotsorhel.style.display = "block";
+            pastilleBotsorhel.style.display = "block";
+        }
+    });
+    
+    boutonPastilleBotsorhel.addEventListener("click", function () {
+        if (getComputedStyle(pastilleBotsorhel).display != "none") {
+            pastilleBotsorhel.style.display = "none";
+        } else {
+            pastilleBotsorhel.style.display = "block";
+        }
+    });
+boutonGuerlesquin.addEventListener("click", function () {
+        if (getComputedStyle(villeGuerlesquin).display != "none") {
+            villeGuerlesquin.style.display = "none";
+        } else {
+            villeGuerlesquin.style.display = "block";
+        }
+    });
+
+    nomenclatureGuerlesquin.addEventListener("click", function () {
+        if (getComputedStyle(nomGuerlesquin, bulleGuerlesquin, pastilleGuerlesquin).display != "none") {
+            nomGuerlesquin.style.display = "none";
+            bulleGuerlesquin.style.display = "none";
+            pastilleGuerlesquin.style.display = "none";
+        } else {
+            nomGuerlesquin.style.display = "block";
+            bulleGuerlesquin.style.display = "block";
+            pastilleGuerlesquin.style.display = "block";
+        }
+    });
+    tailleBulleGuerlesquin.addEventListener("click", function () {
+        if (getComputedStyle(nomGuerlesquin, bulleGuerlesquin, pastilleGuerlesquin).display != "none") {
+            nomGuerlesquin.style.display = "none";
+            bulleGuerlesquin.style.display = "none";
+            pastilleGuerlesquin.style.display = "none";
+        } else {
+            nomGuerlesquin.style.display = "block";
+            bulleGuerlesquin.style.display = "block";
+            pastilleGuerlesquin.style.display = "block";
+        }
+    });
+    
+    boutonPastilleGuerlesquin.addEventListener("click", function () {
+        if (getComputedStyle(pastilleGuerlesquin).display != "none") {
+            pastilleGuerlesquin.style.display = "none";
+        } else {
+            pastilleGuerlesquin.style.display = "block";
+        }
+    });
+boutonMoysan.addEventListener("click", function () {
+        if (getComputedStyle(villeMoysan).display != "none") {
+            villeMoysan.style.display = "none";
+        } else {
+            villeMoysan.style.display = "block";
+        }
+    });
+
+    nomenclatureMoysan.addEventListener("click", function () {
+        if (getComputedStyle(nomMoysan, bulleMoysan, pastilleMoysan).display != "none") {
+            nomMoysan.style.display = "none";
+            bulleMoysan.style.display = "none";
+            pastilleMoysan.style.display = "none";
+        } else {
+            nomMoysan.style.display = "block";
+            bulleMoysan.style.display = "block";
+            pastilleMoysan.style.display = "block";
+        }
+    });
+    tailleBulleMoysan.addEventListener("click", function () {
+        if (getComputedStyle(nomMoysan, bulleMoysan, pastilleMoysan).display != "none") {
+            nomMoysan.style.display = "none";
+            bulleMoysan.style.display = "none";
+            pastilleMoysan.style.display = "none";
+        } else {
+            nomMoysan.style.display = "block";
+            bulleMoysan.style.display = "block";
+            pastilleMoysan.style.display = "block";
+        }
+    });
+    
+    boutonPastilleMoysan.addEventListener("click", function () {
+        if (getComputedStyle(pastilleMoysan).display != "none") {
+            pastilleMoysan.style.display = "none";
+        } else {
+            pastilleMoysan.style.display = "block";
+        }
+    });
+boutonGuerrand.addEventListener("click", function () {
+        if (getComputedStyle(villeGuerrand).display != "none") {
+            villeGuerrand.style.display = "none";
+        } else {
+            villeGuerrand.style.display = "block";
+        }
+    });
+
+    nomenclatureGuerrand.addEventListener("click", function () {
+        if (getComputedStyle(nomGuerrand, bulleGuerrand, pastilleGuerrand).display != "none") {
+            nomGuerrand.style.display = "none";
+            bulleGuerrand.style.display = "none";
+            pastilleGuerrand.style.display = "none";
+        } else {
+            nomGuerrand.style.display = "block";
+            bulleGuerrand.style.display = "block";
+            pastilleGuerrand.style.display = "block";
+        }
+    });
+    tailleBulleGuerrand.addEventListener("click", function () {
+        if (getComputedStyle(nomGuerrand, bulleGuerrand, pastilleGuerrand).display != "none") {
+            nomGuerrand.style.display = "none";
+            bulleGuerrand.style.display = "none";
+            pastilleGuerrand.style.display = "none";
+        } else {
+            nomGuerrand.style.display = "block";
+            bulleGuerrand.style.display = "block";
+            pastilleGuerrand.style.display = "block";
+        }
+    });
+    
+    boutonPastilleGuerrand.addEventListener("click", function () {
+        if (getComputedStyle(pastilleGuerrand).display != "none") {
+            pastilleGuerrand.style.display = "none";
+        } else {
+            pastilleGuerrand.style.display = "block";
+        }
+    });
+boutonLanmeur.addEventListener("click", function () {
+        if (getComputedStyle(villeLanmeur).display != "none") {
+            villeLanmeur.style.display = "none";
+        } else {
+            villeLanmeur.style.display = "block";
+        }
+    });
+
+    nomenclatureLanmeur.addEventListener("click", function () {
+        if (getComputedStyle(nomLanmeur, bulleLanmeur, pastilleLanmeur).display != "none") {
+            nomLanmeur.style.display = "none";
+            bulleLanmeur.style.display = "none";
+            pastilleLanmeur.style.display = "none";
+        } else {
+            nomLanmeur.style.display = "block";
+            bulleLanmeur.style.display = "block";
+            pastilleLanmeur.style.display = "block";
+        }
+    });
+    tailleBulleLanmeur.addEventListener("click", function () {
+        if (getComputedStyle(nomLanmeur, bulleLanmeur, pastilleLanmeur).display != "none") {
+            nomLanmeur.style.display = "none";
+            bulleLanmeur.style.display = "none";
+            pastilleLanmeur.style.display = "none";
+        } else {
+            nomLanmeur.style.display = "block";
+            bulleLanmeur.style.display = "block";
+            pastilleLanmeur.style.display = "block";
+        }
+    });
+    
+    boutonPastilleLanmeur.addEventListener("click", function () {
+        if (getComputedStyle(pastilleLanmeur).display != "none") {
+            pastilleLanmeur.style.display = "none";
+        } else {
+            pastilleLanmeur.style.display = "block";
+        }
+    });
+boutonGuimaec.addEventListener("click", function () {
+        if (getComputedStyle(villeGuimaec).display != "none") {
+            villeGuimaec.style.display = "none";
+        } else {
+            villeGuimaec.style.display = "block";
+        }
+    });
+
+    nomenclatureGuimaec.addEventListener("click", function () {
+        if (getComputedStyle(nomGuimaec, bulleGuimaec, pastilleGuimaec).display != "none") {
+            nomGuimaec.style.display = "none";
+            bulleGuimaec.style.display = "none";
+            pastilleGuimaec.style.display = "none";
+        } else {
+            nomGuimaec.style.display = "block";
+            bulleGuimaec.style.display = "block";
+            pastilleGuimaec.style.display = "block";
+        }
+    });
+    tailleBulleGuimaec.addEventListener("click", function () {
+        if (getComputedStyle(nomGuimaec, bulleGuimaec, pastilleGuimaec).display != "none") {
+            nomGuimaec.style.display = "none";
+            bulleGuimaec.style.display = "none";
+            pastilleGuimaec.style.display = "none";
+        } else {
+            nomGuimaec.style.display = "block";
+            bulleGuimaec.style.display = "block";
+            pastilleGuimaec.style.display = "block";
+        }
+    });
+    
+    boutonPastilleGuimaec.addEventListener("click", function () {
+        if (getComputedStyle(pastilleGuimaec).display != "none") {
+            pastilleGuimaec.style.display = "none";
+        } else {
+            pastilleGuimaec.style.display = "block";
+        }
+    });
+boutonLocquirec.addEventListener("click", function () {
+        if (getComputedStyle(villeLocquirec).display != "none") {
+            villeLocquirec.style.display = "none";
+        } else {
+            villeLocquirec.style.display = "block";
+        }
+    });
+
+    nomenclatureLocquirec.addEventListener("click", function () {
+        if (getComputedStyle(nomLocquirec, bulleLocquirec, pastilleLocquirec).display != "none") {
+            nomLocquirec.style.display = "none";
+            bulleLocquirec.style.display = "none";
+            pastilleLocquirec.style.display = "none";
+        } else {
+            nomLocquirec.style.display = "block";
+            bulleLocquirec.style.display = "block";
+            pastilleLocquirec.style.display = "block";
+        }
+    });
+    tailleBulleLocquirec.addEventListener("click", function () {
+        if (getComputedStyle(nomLocquirec, bulleLocquirec, pastilleLocquirec).display != "none") {
+            nomLocquirec.style.display = "none";
+            bulleLocquirec.style.display = "none";
+            pastilleLocquirec.style.display = "none";
+        } else {
+            nomLocquirec.style.display = "block";
+            bulleLocquirec.style.display = "block";
+            pastilleLocquirec.style.display = "block";
+        }
+    });
+    
+    boutonPastilleLocquirec.addEventListener("click", function () {
+        if (getComputedStyle(pastilleLocquirec).display != "none") {
+            pastilleLocquirec.style.display = "none";
+        } else {
+            pastilleLocquirec.style.display = "block";
+        }
+    });
+boutonSaintJean.addEventListener("click", function () {
+        if (getComputedStyle(villeSaintJean).display != "none") {
+            villeSaintJean.style.display = "none";
+        } else {
+            villeSaintJean.style.display = "block";
+        }
+    });
+
+    nomenclatureSaintJean.addEventListener("click", function () {
+        if (getComputedStyle(nomSaintJean, bulleSaintJean, pastilleSaintJean).display != "none") {
+            nomSaintJean.style.display = "none";
+            bulleSaintJean.style.display = "none";
+            pastilleSaintJean.style.display = "none";
+        } else {
+            nomSaintJean.style.display = "block";
+            bulleSaintJean.style.display = "block";
+            pastilleSaintJean.style.display = "block";
+        }
+    });
+    tailleBulleSaintJean.addEventListener("click", function () {
+        if (getComputedStyle(nomSaintJean, bulleSaintJean, pastilleSaintJean).display != "none") {
+            nomSaintJean.style.display = "none";
+            bulleSaintJean.style.display = "none";
+            pastilleSaintJean.style.display = "none";
+        } else {
+            nomSaintJean.style.display = "block";
+            bulleSaintJean.style.display = "block";
+            pastilleSaintJean.style.display = "block";
+        }
+    });
+    
+    boutonPastilleSaintJean.addEventListener("click", function () {
+        if (getComputedStyle(pastilleSaintJean).display != "none") {
+            pastilleSaintJean.style.display = "none";
+        } else {
+            pastilleSaintJean.style.display = "block";
+        }
+    });
+boutonPlougasnou.addEventListener("click", function () {
+        if (getComputedStyle(villePlougasnou).display != "none") {
+            villePlougasnou.style.display = "none";
+        } else {
+            villePlougasnou.style.display = "block";
+        }
+    });;
+
     nomenclaturePlougasnou.addEventListener("click", function () {
         if (getComputedStyle(nomPlougasnou, bullePlougasnou, pastillePlougasnou).display != "none") {
-            nomPlougasnou.style.display = "none"
-            bullePlougasnou.style.display = "none"
-            pastillePlougasnou.style.display = "none"
+            nomPlougasnou.style.display = "none";
+            bullePlougasnou.style.display = "none";
+            pastillePlougasnou.style.display = "none";
         } else {
-            nomPlougasnou.style.display = "block"
-            bullePlougasnou.style.display = "block"
-            pastillePlougasnou.style.display = "block"
+            nomPlougasnou.style.display = "block";
+            bullePlougasnou.style.display = "block";
+            pastillePlougasnou.style.display = "block";
         }
-    })
+    });
     tailleBullePlougasnou.addEventListener("click", function () {
         if (getComputedStyle(nomPlougasnou, bullePlougasnou, pastillePlougasnou).display != "none") {
-            nomPlougasnou.style.display = "none"
-            bullePlougasnou.style.display = "none"
-            pastillePlougasnou.style.display = "none"
+            nomPlougasnou.style.display = "none";
+            bullePlougasnou.style.display = "none";
+            pastillePlougasnou.style.display = "none";
         } else {
-            nomPlougasnou.style.display = "block"
-            bullePlougasnou.style.display = "block"
-            pastillePlougasnou.style.display = "block"
+            nomPlougasnou.style.display = "block";
+            bullePlougasnou.style.display = "block";
+            pastillePlougasnou.style.display = "block";
         }
-    })
+    });
     
     boutonPastillePlougasnou.addEventListener("click", function () {
         if (getComputedStyle(pastillePlougasnou).display != "none") {
-            pastillePlougasnou.style.display = "none"
+            pastillePlougasnou.style.display = "none";
         } else {
-            pastillePlougasnou.style.display = "block"
+            pastillePlougasnou.style.display = "block";
         }
     });
 
