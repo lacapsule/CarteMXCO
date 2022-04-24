@@ -132,10 +132,10 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
         }
     })
     boutonPastillePleyber.addEventListener("click", function () {
-        if (getComputedStyle(pastillePleyberChrist).display != "none") {
-            pastillePleyberChrist.style.display = "none"
-        } else {
+        if (getComputedStyle(pastillePleyberChrist).display != "block") {
             pastillePleyberChrist.style.display = "block"
+        } else {
+            pastillePleyberChrist.style.display = "none"
         }
     })
     nomenclatureSaintTheg.addEventListener("click", function () {

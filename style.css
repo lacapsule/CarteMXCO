@@ -15,8 +15,6 @@
   font-style: normal;
 }
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-flow: column wrap;
   align-items: space-between;
@@ -25,14 +23,12 @@ body {
   font-family: 'passion_onebold', Verdana, 'Geneva', Tahoma, sans-serif;
   width: 100vw;
   height: auto;
+  z-index: 0;
   margin: 0;
   padding: 0;
-  z-index: 0;
 }
 
 main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
   flex-flow: row wrap;
@@ -76,8 +72,6 @@ aside {
   z-index: 4;
 }
 p {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -136,8 +130,6 @@ input[type="color"]:hover {
   z-index: 5;
 }
 span {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -158,7 +150,7 @@ aside {
 #optionGeneral,
 #optionCommunes,
 #optionBulles {
-  width: 10em;
+  width: 90%;
 }
 input[type="color"] {
   width: 2.8em;
@@ -166,7 +158,7 @@ input[type="color"] {
   border-radius: 50px;
 }
 span {
-  width: 3.2em;
+  width: 4.2em;
 }
 }
 @media screen and (max-width: 750px) {
