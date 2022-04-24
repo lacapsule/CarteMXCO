@@ -1,4 +1,6 @@
 function download() {
-    var iframe = document.getElementById('invisible');
-    iframe.src = "carteMorlaixCommunaute.png";
-}
+    boutonMenuEnregistrer.addEventListener("click", () => {
+    var downloading = browser.downloads.download("#imprimer")
+    var dl = document.getElementById('#imprimer');
+    dl.src = "carteMorlaixCommunaute.png";
+})}

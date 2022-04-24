@@ -56,11 +56,11 @@ aside {
   box-shadow:  3px 3px 3px #2c568b,
              -3px -3px 3px #3c74bd;
   width: 100%;
-  height: auto;
+  height: 100%;
   font-size: 2.8em;
   font-weight: bolder;
   transition: 0.3s ease-in-out;
-  z-index: 0;
+  z-index: 4;
 }
 #optionGeneral,
 #optionCommunes,
@@ -73,6 +73,7 @@ aside {
   width: 10em;
   height: auto;
   padding: 0 0 5% 5%;
+  z-index: 4;
 }
 p {
   display: -webkit-box;
@@ -98,6 +99,7 @@ p {
            -3px -3px 3px #3c74bd;
   border-radius: 5% 5px 5px 5px;
   background-color: #2f5b94;
+  z-index: 4;
 }
 input[type="color"] {
   -webkit-appearance: none;
@@ -116,6 +118,7 @@ input[type="color"] {
   overflow: hidden;
   margin-left: 0.5em;
   padding: 0;
+  z-index: 4;
 }
 input[type="color"]::-webkit-color-swatch {
   border: none;
@@ -130,7 +133,7 @@ input[type="color"]::-webkit-color-swatch {
 input[type="color"]:hover {
   transform: scale(1.1);
   border: 3px solid rgb(242, 242, 250);
-  z-index: 4;
+  z-index: 5;
 }
 span {
   display: -webkit-box;
@@ -141,11 +144,11 @@ span {
   justify-content: flex-start;
   width: 4.5em;
   margin: 0.5%;
+  z-index: 4;
 }
 .vide {
-  width: 100%;
+  width: 10%;
   height: 100%;
-  font-family: 'passion_oneregular';
 }
 
 @media screen and (max-width: 1400px) {
@@ -158,9 +161,9 @@ aside {
   width: 10em;
 }
 input[type="color"] {
-  width: 1.8em;
-  height: 4.2em;
-  border-radius: 2px 20px 20px 2px;
+  width: 2.8em;
+  height: 2.8em;
+  border-radius: 50px;
 }
 span {
   width: 3.2em;
@@ -169,18 +172,18 @@ span {
 @media screen and (max-width: 750px) {
 aside {
   width: 90%;
-  height: auto;
+  height: 100%;
 } 
 input[type="color"] {
-  width: 1em;
-  height: 4em;
+  width: 3em;
+  height: 3em;
 }
 span {
-  width: 2.6;
+  width: 4.2em;
 }
 p {
   width: 5em;
-  height: 4em;
+  height: 2em;
 }
 #optionGeneral,
 #optionCommunes,
@@ -191,5 +194,9 @@ p {
   justify-content: flex-start;
   width: 100%;
   height: auto;
+}
+.vide {
+  width: 0;
+  height: 0;
 }
 }

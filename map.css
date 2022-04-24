@@ -3,8 +3,9 @@
     position: relative;
     align-self: space-around;
     justify-content: space-around;
-    width: 50%;
-    height: auto;
+    width: 90%;
+    height: 100%;
+    z-index: 1;
   }
   canvas {
     position: absolute;
@@ -22,10 +23,10 @@
         -ms-grid-row-align: center;
         align-self: center;
         box-sizing: border-box;
-      width: 90%;
-      height: auto;
-      padding: 0;
-      z-index: 3;
+      width: 95%;
+    height: auto;
+    padding: 0;
+    z-index: 1;
   }
   g {
     width: auto;
@@ -91,42 +92,6 @@
     stroke: #000;
   }
 
-  @media screen and (max-width: 1400px) {
-    svg {
-      position: relative;
-      -ms-flex-item-align: center;
-          -ms-grid-row-align: center;
-          align-self: center;
-        width: 90%;
-        top: 2%;
-        margin: 5%;
-        padding-top: 0;
-        z-index: 3;
-    }
-  }
-  @media screen and (max-height: 850px) {
-    svg {
-      position: relative;
-      -ms-flex-item-align: center;
-          -ms-grid-row-align: center;
-          align-self: center;
-        width: 90%;
-        top: 1%;
-        margin: 5%;
-        z-index: 3;
-    }
-  }
-  @media screen and (max-width: 750px) {
-    svg {
-      position: relative;
-      -ms-flex-item-align: center;
-          -ms-grid-row-align: center;
-          align-self: center;
-        width: 90%;
-        top: 2%;
-        margin: 5%;
-        z-index: 3;
-    }}
     @media print {
       * {
         width: 21cm;
@@ -156,3 +121,4 @@
       width: 21cm;
       height: 29.7cm;
     }
+  

@@ -85,7 +85,7 @@ boutonAffichageLegendes.addEventListener("click", () => {
 function toggleaside(id) {
   document.querySelectorAll(".option").forEach(function(aside) {
     if (aside.id == id) {
-      aside.style.display = aside.style.display == "block" ? "block" : "none";
+      aside.style.display = aside.style.display == "flex" ? "flex" : "none";
     } else {
       aside.style.display = "none";
     }})}

@@ -19,6 +19,7 @@
     <img src="media/img/bulles.png" alt="Bulles" id="boutonMenuBulles" onclick="toggleaside('optionBulles')" title="Afficher les paramètres des bulles" value="Bulles"/>
     <img src="media/img/pastilles.png" alt="Pastilles" id="boutonMenuPastilles" onclick="toggleaside('optionPastilles')" title="Afficher les paramètres des pastilles" value="Pastilles"/>
     <img src="media/img/apercu.png" alt="Aperçu" id="boutonMenuAperçu" onclick="toggleaside('optionFermer')" title="Fermer les menus" value="Aperçu"/>
+    <!--<img src="media/img/enregistrer.png" alt="Enregistrer" id="boutonMenuEnregistrer" onclick="toggleaside('enregistrer')" title="Enregistrer votre carte" value="Enregistrer"/>-->
     <img src="media/img/imprimer.png" alt="Imprimer" id="boutonMenuImprimer" onclick="printDiv('imprimer')" title="Vous pouvez imprimer votre carte dans un PDF" value="Imprimer"/>
      </menu>  
   <h1>Carte interactive de Morlaix communauté</h1>
@@ -160,12 +161,12 @@
     <a href="#"><path class="fond" d="M416.71578,342.88422" transform="translate(-27.00793 -26.0553)"/></a>
   </g>
   <g id="a727460c-61b4-431d-9513-74f86d1c72e5" class="legendes" fill="#22235e" data-name="LEGENDE MARQUAGE 01">
-    <circle class="e4336bf5-ae8c-4688-ae89-8a38a006b2f7" cx="670.44423" cy="495.28559" r="9.05906"/>
-    <circle class="e4336bf5-ae8c-4688-ae89-8a38a006b2f7" cx="670.02436" cy="522.72581" r="9.05906"/>
+    <circle id="premierRond" class="e4336bf5-ae8c-4688-ae89-8a38a006b2f7" cx="670.44423" cy="495.28559" r="9.05906"/>
+    <circle id="secondRond" class="e4336bf5-ae8c-4688-ae89-8a38a006b2f7" cx="670.02436" cy="522.72581" r="9.05906"/>
     <text class="f78ce071-44cf-4d4c-8126-16af981f96a4" transform="translate(687.95553 500.93585)"><tspan>Titre 01</tspan></text>
     <text class="f78ce071-44cf-4d4c-8126-16af981f96a4" transform="translate(688.04928 529.13116)"><tspan>Titre 02</tspan></text>
-    <circle class="e4336bf5-ae8c-4688-ae89-8a38a006b2f7" cx="669.44423" cy="550.28559" r="9.05906"/>
-    <circle class="e4336bf5-ae8c-4688-ae89-8a38a006b2f7" cx="669.02436" cy="577.72581" r="9.05906"/>
+    <circle id="troisiemeRond" class="e4336bf5-ae8c-4688-ae89-8a38a006b2f7" cx="669.44423" cy="550.28559" r="9.05906"/>
+    <circle id="quatriemeRond" class="e4336bf5-ae8c-4688-ae89-8a38a006b2f7" cx="669.02436" cy="577.72581" r="9.05906"/>
     <text class="f78ce071-44cf-4d4c-8126-16af981f96a4" transform="translate(686.95553 555.93585)"><tspan>Titre 03</tspan></text>
     <text class="f78ce071-44cf-4d4c-8126-16af981f96a4" transform="translate(687.04928 584.13116)"><tspan>Titre 04</tspan></text>
   </g>
@@ -258,12 +259,12 @@
     <div id="vide"></div>
 </main>
 
-      <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-      <script type="text/javascript" src="boutons.js"></script>
+     <script type="text/javascript" src="boutons.js"></script>
       <script type="text/javascript" src="boutonsVilles.js"></script>
       <script type="text/javascript" src="couleurVilles.js"></script>
       <script type="text/javascript" src="boutonsBulles.js"></script>
       <script type="text/javascript" src="pastilles.js"></script>
+      <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
       <script type="text/javascript" src="imprimer.js"></script> 
     </body>
 </html>
