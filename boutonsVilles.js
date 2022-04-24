@@ -1,3 +1,30 @@
+let villePlouneourMenez = document.getElementById("ad8ce1cf-d7bf-4e6a-8a01-1381f5bedaab");
+let villePleyberChrist = document.getElementById("f67bab1d-f4dd-4f82-a9cf-1f03da6055cc");
+let villeSaintThegonnec = document.getElementById("b72b22dd-8b5d-48e2-9a31-ade134b628f4");
+let villeSaintSeve = document.getElementById("e65c9bae-f9c5-4dac-a8aa-34a15a6012c0");
+let villeTaule = document.getElementById("bc446247-e92f-4903-b995-ca414dda1396");
+let villeHenvic = document.getElementById("ee8323d8-0ff8-49a7-9f68-be914d95516d");
+let villeCarantec = document.getElementById("b1478828-1576-4b59-ad35-0de024f348cc");
+let villeSaintMartin = document.getElementById("f8bb002d-efde-4956-ad6f-86c552439a83");
+let villeMorlaix = document.getElementById("bfd61b45-0d71-4b6d-9dd9-5ea7e9c920c4");
+let villeLocquenole = document.getElementById("fc6ca94b-ec6c-445c-be29-3e26ed36be18");
+let villePlourin = document.getElementById("b9293e63-f983-4c87-8546-cc078ce15509");
+let villeLeCloitre = document.getElementById("f4876ba0-75e0-4f79-9a2b-6bbd78075fdb");
+let villePlougonven = document.getElementById("a2a7cd6f-59dc-429c-972e-e9504ff8c960");
+let villeLanneanou = document.getElementById("af2dc544-982c-4e1d-8b05-f8b33da9ce85");
+let villePlouigneau = document.getElementById("af01d8cb-db7e-4a7f-abd0-a0a25b9a3146");
+let villeGarlan = document.getElementById("a35271df-8a6a-49e0-86e6-502423d7c931");
+let villePlouezoch = document.getElementById("a7f5976f-6ce6-4a95-bade-1ec28bcf3a1f");
+let villeBotsorhel = document.getElementById("eeca40ee-0584-4ea1-9253-2e2562856737");
+let villeGuerlesquin = document.getElementById("e7ffc33b-529f-497d-95a8-de5d17f543f6");
+let villeMoysan = document.getElementById("ab41bafd-5fce-43cf-9036-8160aa5288f5");
+let villeGuerrand = document.getElementById("fce91cc1-7f02-4894-933f-1911a31101f1");
+let villeLanmeur = document.getElementById("bdb52ed4-5d70-47a8-ba84-807496ae4970");
+let villeGuimaec = document.getElementById("b0e22cd6-8e74-49f6-a06a-b336e9c6896f");
+let villeLocquirec = document.getElementById("bd83b1b3-42cf-403f-a79a-f2455337aba5");
+let villeSaintJean = document.getElementById("e3b68945-2e34-4c9c-83a3-3158a252e9b2");
+let villePlougasnou = document.getElementById("b476af40-0d89-400f-9515-14ddd604b8be");
+
 let nomenclaturePlouneour = document.getElementById("ad8ce1cf-d7bf-4e6a-8a01-1381f5bedaab", "b3249896-57a9-4577-aeea-01ddb36698f9");
 let nomenclaturePleyber = document.getElementById("f67bab1d-f4dd-4f82-a9cf-1f03da6055cc", "f40fa5bf-0aff-43df-bc6b-ca726dbc0805");
 let nomenclatureSaintTheg = document.getElementById("b72b22dd-8b5d-48e2-9a31-ade134b628f4", "f436e6f3-fc9d-484c-a7b1-8d604869d30a");
@@ -80,6 +107,18 @@ let boutonLocquirec = document.getElementById("boutonLocquirec");
 let boutonSaintJean = document.getElementById("boutonSaintJean");
 let boutonPlougasnou = document.getElementById("boutonPlougasnou");
 
+//bouton* = affichage des communes
+//nomenclature* = affichage des bulles
+//taille
+
+boutonPlouneour.addEventListener("click", function () {
+        if (getComputedStyle(villePlouneourMenez).display == "block") {
+            villePlouneourMenez.style.display = "block"
+        } else {
+            villePlouneourMenez.style.display = "none"
+        }
+    })
+
     nomenclaturePlouneour.addEventListener("click", function () {
         if (getComputedStyle(nomPlouneourMenez, bullePlouneourMenez, pastillePlouneourMenez).display != "none") {
             nomPlouneourMenez.style.display = "none"
@@ -91,7 +130,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlouneourMenez.style.display = "block"
         }
     })
-    boutonPlouneour.addEventListener("click", function () {
+    tailleBullePlouneour.addEventListener("click", function () {
         if (getComputedStyle(nomPlouneourMenez, bullePlouneourMenez, pastillePlouneourMenez).display != "none") {
             nomPlouneourMenez.style.display = "none"
             bullePlouneourMenez.style.display = "none"
@@ -102,13 +141,22 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlouneourMenez.style.display = "none"
         }
     })
-    boutonPastillePlouneour.addEventListener("click", function () {
+    
+    boutonPastillePlouneour.addEventListener("click", function () { 
         if (getComputedStyle(pastillePlouneourMenez).display == "block") {
             pastillePlouneourMenez.style.display = "block"
         } else {
             pastillePlouneourMenez.style.display = "none"
         }
     })
+boutonPleyber.addEventListener("click", function () {
+        if (getComputedStyle(villePleyberChrist).display != "block") {
+            villePleyberChrist.style.display = "block"
+        } else {
+            villePleyberChrist.style.display = "none"
+        }
+    })
+
     nomenclaturePleyber.addEventListener("click", function () {
         if (getComputedStyle(nomPleyber, bullePleyber, pastillePleyberChrist).display != "none") {
             nomPleyber.style.display = "none"
@@ -120,7 +168,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePleyberChrist.style.display = "block"
         }
     })
-    boutonPleyber.addEventListener("click", function () {
+    tailleBullePleyber.addEventListener("click", function () {
         if (getComputedStyle(nomPleyber, bullePleyber, pastillePleyberChrist).display != "none") {
             nomPleyber.style.display = "none"
             bullePleyber.style.display = "none"
@@ -131,6 +179,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePleyberChrist.style.display = "block"
         }
     })
+    
     boutonPastillePleyber.addEventListener("click", function () {
         if (getComputedStyle(pastillePleyberChrist).display != "block") {
             pastillePleyberChrist.style.display = "block"
@@ -138,6 +187,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePleyberChrist.style.display = "none"
         }
     })
+boutonSaintTheg.addEventListener("click", function () {
+        if (getComputedStyle(villeSaintThegonnec).display != "none") {
+            villeSaintThegonnec.style.display = "none"
+        } else {
+            villeSaintThegonnec.style.display = "block"
+        }
+    })
+
     nomenclatureSaintTheg.addEventListener("click", function () {
         if (getComputedStyle(nomSaintTheg, bulleSaintTheg, pastilleSaintThegonnec).display != "none") {
             nomSaintTheg.style.display = "none"
@@ -149,7 +206,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSaintThegonnec.style.display = "block"
         }
     })
-    boutonSaintTheg.addEventListener("click", function () {
+    tailleBulleSaintTheg.addEventListener("click", function () {
         if (getComputedStyle(nomSaintTheg, bulleSaintTheg, pastilleSaintThegonnec).display != "none") {
             nomSaintTheg.style.display = "none"
             bulleSaintTheg.style.display = "none"
@@ -160,6 +217,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSaintThegonnec.style.display = "block"
         }
     })
+    
     boutonPastilleSaintTheg.addEventListener("click", function () {
         if (getComputedStyle(pastilleSaintThegonnec).display != "none") {
             pastilleSaintThegonnec.style.display = "none"
@@ -167,6 +225,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSaintThegonnec.style.display = "block"
         }
     })
+boutonSaintSeve.addEventListener("click", function () {
+        if (getComputedStyle(villeSaintSeve).display != "none") {
+            villeSaintSeve.style.display = "none"
+        } else {
+            villeSaintSeve.style.display = "block"
+        }
+    })
+
     nomenclatureSainteSeve.addEventListener("click", function () {
         if (getComputedStyle(nomSainteSeve, bulleSainteSeve, pastilleSaintSeve).display != "none") {
             nomSainteSeve.style.display = "none"
@@ -178,7 +244,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSaintSeve.style.display = "block"
         }
     })
-    boutonSaintSeve.addEventListener("click", function () {
+    tailleBulleSaintSeve.addEventListener("click", function () {
         if (getComputedStyle(nomSainteSeve, bulleSainteSeve, pastilleSaintSeve).display != "none") {
             nomSainteSeve.style.display = "none"
             bulleSainteSeve.style.display = "none"
@@ -189,6 +255,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSaintSeve.style.display = "block"
         }
     })
+    
     boutonPastilleSaintSeve.addEventListener("click", function () {
         if (getComputedStyle(pastilleSaintSeve).display != "none") {
             pastilleSainteSeve.style.display = "none"
@@ -196,6 +263,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSainteSeve.style.display = "block"
         }
     })
+boutonTaule.addEventListener("click", function () {
+        if (getComputedStyle(villeTaule).display != "none") {
+            villeTaule.style.display = "none"
+        } else {
+            villeTaule.style.display = "block"
+        }
+    })
+
     nomenclatureTaule.addEventListener("click", function () {
         if (getComputedStyle(nomTaule, bulleTaule, pastilleTaule).display != "none") {
             nomTaule.style.display = "none"
@@ -207,7 +282,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleTaule.style.display = "block"
         }
     })
-    boutonTaule.addEventListener("click", function () {
+    tailleBulleTaule.addEventListener("click", function () {
         if (getComputedStyle(nomTaule, bulleTaule, pastilleTaule).display != "none") {
             nomTaule.style.display = "none"
             bulleTaule.style.display = "none"
@@ -218,6 +293,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleTaule.style.display = "block"
         }
     })
+    
     boutonPastilleTaule.addEventListener("click", function () {
         if (getComputedStyle(pastilleTaule).display != "none") {
             pastilleTaule.style.display = "none"
@@ -225,6 +301,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleTaule.style.display = "block"
         }
     })
+boutonHenvic.addEventListener("click", function () {
+        if (getComputedStyle(villeHenvic).display != "none") {
+            villeHenvic.style.display = "none"
+        } else {
+            villeHenvic.style.display = "block"
+        }
+    })
+
     nomenclatureHenvic.addEventListener("click", function () {
         if (getComputedStyle(nomHenvic, bulleHenvic, pastilleHenvic).display != "none") {
             nomHenvic.style.display = "none"
@@ -236,7 +320,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleHenvic.style.display = "block"
         }
     })
-    boutonHenvic.addEventListener("click", function () {
+    tailleBulleHenvic.addEventListener("click", function () {
         if (getComputedStyle(nomHenvic, bulleHenvic, pastilleHenvic).display != "none") {
             nomHenvic.style.display = "none"
             bulleHenvic.style.display = "none"
@@ -247,6 +331,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleHenvic.style.display = "block"
         }
     })
+    
     boutonPastilleHenvic.addEventListener("click", function () {
         if (getComputedStyle(pastilleHenvic).display != "none") {
             pastilleHenvic.style.display = "none"
@@ -254,6 +339,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleHenvic.style.display = "block"
         }
     })
+boutonCarantec.addEventListener("click", function () {
+        if (getComputedStyle(villeCarantec).display != "none") {
+            villeCarantec.style.display = "none"
+        } else {
+            villeCarantec.style.display = "block"
+        }
+    })
+
     nomenclatureCarantec.addEventListener("click", function () {
         if (getComputedStyle(nomCarantec, bulleCarantec, pastilleCarantec).display != "none") {
             nomCarantec.style.display = "none"
@@ -265,7 +358,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleCarantec.style.display = "block"
         }
     })
-    boutonCarantec.addEventListener("click", function () {
+    tailleBulleCarantec.addEventListener("click", function () {
         if (getComputedStyle(nomCarantec, bulleCarantec, pastilleCarantec).display != "none") {
             nomCarantec.style.display = "none"
             bulleCarantec.style.display = "none"
@@ -276,6 +369,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleCarantec.style.display = "block"
         }
     })
+    
     boutonPastilleCarantec.addEventListener("click", function () {
         if (getComputedStyle(pastilleCarantec).display != "none") {
             pastilleCarantec.style.display = "none"
@@ -283,6 +377,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleCarantec.style.display = "block"
         }
     })
+boutonSaintMartin.addEventListener("click", function () {
+        if (getComputedStyle(villeSaintMartin).display != "none") {
+            villeSaintMartin.style.display = "none"
+        } else {
+            villeSaintMartin.style.display = "block"
+        }
+    })
+
     nomenclatureSaintMartin.addEventListener("click", function () {
         if (getComputedStyle(nomSaintMartin, bulleSaintMartin, pastilleSaintMartin).display != "none") {
             nomSaintMartin.style.display = "none"
@@ -294,7 +396,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSaintMartin.style.display = "block"
         }
     })
-    boutonSaintMartin.addEventListener("click", function () {
+    tailleBulleSaintMartin.addEventListener("click", function () {
         if (getComputedStyle(nomSaintMartin, bulleSaintMartin, pastilleSaintMartin).display != "none") {
             nomSaintMartin.style.display = "none"
             bulleSaintMartin.style.display = "none"
@@ -305,6 +407,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSaintMartin.style.display = "block"
         }
     })
+    
     boutonPastilleSaintMartin.addEventListener("click", function () {
         if (getComputedStyle(pastilleSaintMartin).display != "none") {
             pastilleSaintMartin.style.display = "none"
@@ -312,6 +415,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSaintMartin.style.display = "block"
         }
     })
+boutonMorlaix.addEventListener("click", function () {
+        if (getComputedStyle(villeMorlaix).display != "none") {
+            villeMorlaix.style.display = "none"
+        } else {
+            villeMorlaix.style.display = "block"
+        }
+    })
+
     nomenclatureMorlaix.addEventListener("click", function () {
         if (getComputedStyle(nomMorlaix, bulleMorlaix, pastilleMorlaix).display != "none") {
             nomMorlaix.style.display = "none"
@@ -323,7 +434,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleMorlaix.style.display = "block"
         }
     })
-    boutonMorlaix.addEventListener("click", function () {
+    tailleBulleMorlaix.addEventListener("click", function () {
         if (getComputedStyle(nomMorlaix, bulleMorlaix, pastilleMorlaix).display != "none") {
             nomMorlaix.style.display = "none"
             bulleMorlaix.style.display = "none"
@@ -334,6 +445,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleMorlaix.style.display = "block"
         }
     })
+    
     boutonPastilleMorlaix.addEventListener("click", function () {
         if (getComputedStyle(pastilleMorlaix).display != "none") {
             pastilleMorlaix.style.display = "none"
@@ -341,6 +453,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleMorlaix.style.display = "block"
         }
     })
+boutonLocquenole.addEventListener("click", function () {
+        if (getComputedStyle(villeLocquenole).display != "none") {
+            villeLocquenole.style.display = "none"
+        } else {
+            villeLocquenole.style.display = "block"
+        }
+    })
+
     nomenclatureLocquenole.addEventListener("click", function () {
         if (getComputedStyle(nomLocquenole, bulleLocquenole, pastilleLocquenole).display != "none") {
             nomLocquenole.style.display = "none"
@@ -352,7 +472,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLocquenole.style.display = "block"
         }
     })
-    boutonLocquenole.addEventListener("click", function () {
+    tailleBulleLocquenole.addEventListener("click", function () {
         if (getComputedStyle(nomLocquenole, bulleLocquenole, pastilleLocquenole).display != "none") {
             nomLocquenole.style.display = "none"
             bulleLocquenole.style.display = "none"
@@ -363,6 +483,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLocquenole.style.display = "block"
         }
     })
+    
     boutonPastilleLocquenole.addEventListener("click", function () {
         if (getComputedStyle(pastilleLocquenole).display != "none") {
             pastilleLocquenole.style.display = "none"
@@ -370,6 +491,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLocquenole.style.display = "block"
         }
     })
+boutonPlourin.addEventListener("click", function () {
+        if (getComputedStyle(villePlourin).display != "none") {
+            villePlourin.style.display = "none"
+        } else {
+            villePlourin.style.display = "block"
+        }
+    })
+
     nomenclaturePlourin.addEventListener("click", function () {
         if (getComputedStyle(nomPlourin, bullePlourin, pastillePlourin).display != "none") {
             nomPlourin.style.display = "none"
@@ -381,7 +510,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlourin.style.display = "block"
         }
     })
-    boutonPlourin.addEventListener("click", function () {
+    tailleBullePlourin.addEventListener("click", function () {
         if (getComputedStyle(nomPlourin, bullePlourin, pastillePlourin).display != "none") {
             nomPlourin.style.display = "none"
             bullePlourin.style.display = "none"
@@ -392,6 +521,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlourin.style.display = "block"
         }
     })
+    
     boutonPastillePlourin.addEventListener("click", function () {
         if (getComputedStyle(pastillePlourin).display != "none") {
             pastillePlourin.style.display = "none"
@@ -399,6 +529,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlourin.style.display = "block"
         }
     })
+boutonLeCloitre.addEventListener("click", function () {
+        if (getComputedStyle(villeLeCloitre).display != "none") {
+            villeLeCloitre.style.display = "none"
+        } else {
+            villeLeCloitre.style.display = "block"
+        }
+    })
+
     nomenclatureLeCloitre.addEventListener("click", function () {
         if (getComputedStyle(nomLeCloitre, bulleLeCloitre, pastilleLeCloitre).display != "none") {
             nomLeCloitre.style.display = "none"
@@ -410,7 +548,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLeCloitre.style.display = "block"
         }
     })
-    boutonLeCloitre.addEventListener("click", function () {
+    tailleBulleLeCloitre.addEventListener("click", function () {
         if (getComputedStyle(nomLeCloitre, bulleLeCloitre.pastilleLeCloitre).display != "none") {
             nomLeCloitre.style.display = "none"
             bulleLeCloitre.style.display = "none"
@@ -421,6 +559,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLeCloitre.style.display = "block"
         }
     })
+    
     boutonPastilleLeCloitre.addEventListener("click", function () {
         if (getComputedStyle(pastilleLeCloitre).display != "none") {
             pastilleLeCloitre.style.display = "none"
@@ -428,6 +567,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLeCloitre.style.display = "block"
         }
     })
+boutonPlougonven.addEventListener("click", function () {
+        if (getComputedStyle(villePlougonven).display != "none") {
+            villePlougonven.style.display = "none"
+        } else {
+            villePlougonven.style.display = "block"
+        }
+    })
+
     nomenclaturePlougonven.addEventListener("click", function () {
         if (getComputedStyle(nomPlougonven, bullePlougonven, pastillePlougonven).display != "none") {
             nomPlougonven.style.display = "none"
@@ -439,7 +586,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlougonven.style.display = "block"
         }
     })
-    boutonPlougonven.addEventListener("click", function () {
+    tailleBullePlougonven.addEventListener("click", function () {
         if (getComputedStyle(nomPlougonven, bullePlougonven, pastillePlougonven).display != "none") {
             nomPlougonven.style.display = "none"
             bullePlougonven.style.display = "none"
@@ -450,6 +597,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlougonven.style.display = "block"
         }
     })
+    
     boutonPastillePlougonven.addEventListener("click", function () {
         if (getComputedStyle(pastillePlougonven).display != "none") {
             pastillePlougonven.style.display = "none"
@@ -457,6 +605,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlougonven.style.display = "block"
         }
     })
+boutonLanneanou.addEventListener("click", function () {
+        if (getComputedStyle(villeLanneanou).display != "none") {
+            villeLanneanou.style.display = "none"
+        } else {
+            villeLanneanou.style.display = "block"
+        }
+    })
+
     nomenclatureLanneanou.addEventListener("click", function () {
         if (getComputedStyle(nomLanneanou, bulleLanneanou, pastilleLanneanou).display != "none") {
             nomLanneanou.style.display = "none"
@@ -468,7 +624,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLanneanou.style.display = "block"
         }
     })
-    boutonLanneanou.addEventListener("click", function () {
+    tailleBulleLanneanou.addEventListener("click", function () {
         if (getComputedStyle(nomLanneanou, bulleLanneanou, pastilleLanneanou).display != "none") {
             nomLanneanou.style.display = "none"
             bulleLanneanou.style.display = "none"
@@ -479,6 +635,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLanneanou.style.display = "block"
         }
     })
+    
     boutonPastilleLanneanou.addEventListener("click", function () {
         if (getComputedStyle(pastilleLanneanou).display != "none") {
             pastilleLanneanou.style.display = "none"
@@ -486,6 +643,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLanneanou.style.display = "block"
         }
     })
+boutonPlouigneau.addEventListener("click", function () {
+        if (getComputedStyle(villePlouigneau).display != "none") {
+            villePlouigneau.style.display = "none"
+        } else {
+            villePlouigneau.style.display = "block"
+        }
+    })
+
     nomenclaturePlouigneau.addEventListener("click", function () {
         if (getComputedStyle(nomPlouigneau, bullePlouigneau, pastillePlouigneau).display != "none") {
             nomPlouigneau.style.display = "none"
@@ -497,7 +662,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlouigneau.style.display = "block"
         }
     })
-    boutonPlouigneau.addEventListener("click", function () {
+    tailleBullePlouigneau.addEventListener("click", function () {
         if (getComputedStyle(nomPlouigneau, bullePlouigneau, pastillePlouigneau).display != "none") {
             nomPlouigneau.style.display = "none"
             bullePlouigneau.style.display = "none"
@@ -508,6 +673,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlouigneau.style.display = "block"
         }
     })
+    
     boutonPastillePlouigneau.addEventListener("click", function () {
         if (getComputedStyle(pastillePlouigneau).display != "none") {
             pastillePlouigneau.style.display = "none"
@@ -515,6 +681,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlouigneau.style.display = "block"
         }
     })
+boutonGarlan.addEventListener("click", function () {
+        if (getComputedStyle(villeGarlan).display != "none") {
+            villeGarlan.style.display = "none"
+        } else {
+            villeGarlan.style.display = "block"
+        }
+    })
+
     nomenclatureGarlan.addEventListener("click", function () {
         if (getComputedStyle(nomGarlan, bulleGarlan, pastilleGarlan).display != "none") {
             nomGarlan.style.display = "none"
@@ -526,7 +700,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGarlan.style.display = "block"
         }
     })
-    boutonGarlan.addEventListener("click", function () {
+    tailleBulleGarlan.addEventListener("click", function () {
         if (getComputedStyle(nomGarlan, bulleGarlan, pastilleGarlan).display != "none") {
             nomGarlan.style.display = "none"
             bulleGarlan.style.display = "none"
@@ -537,6 +711,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGarlan.style.display = "block"
         }
     })
+    
     boutonPastilleGarlan.addEventListener("click", function () {
         if (getComputedStyle(pastilleGarlan).display != "none") {
             pastilleGarlan.style.display = "none"
@@ -544,6 +719,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGarlan.style.display = "block"
         }
     })
+boutonPlouezoch.addEventListener("click", function () {
+        if (getComputedStyle(villePlouezoch).display != "none") {
+            villePlouezoch.style.display = "none"
+        } else {
+            villePlouezoch.style.display = "block"
+        }
+    })
+
     nomenclaturePlouezoch.addEventListener("click", function () {
         if (getComputedStyle(nomPlouezoch, bullePlouezoch, pastillePlouezoch).display != "none") {
             nomPlouezoch.style.display = "none"
@@ -555,7 +738,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlouezoch.style.display = "block"
         }
     })
-    boutonPlouezoch.addEventListener("click", function () {
+    tailleBullePlouezoch.addEventListener("click", function () {
         if (getComputedStyle(nomPlouezoch, bullePlouezoch, pastillePlouezoch).display != "none") {
             nomPlouezoch.style.display = "none"
             bullePlouezoch.style.display = "none"
@@ -566,6 +749,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlouezoch.style.display = "block"
         }
     })
+    
     boutonPastillePlouezoch.addEventListener("click", function () {
         if (getComputedStyle(pastillePlouezoch).display != "none") {
             pastillePlouezoch.style.display = "none"
@@ -573,6 +757,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlouezoch.style.display = "block"
         }
     })
+boutonBotsorhel.addEventListener("click", function () {
+        if (getComputedStyle(villeBotsorhel).display != "none") {
+            villeBotsorhel.style.display = "none"
+        } else {
+            villeBotsorhel.style.display = "block"
+        }
+    })
+
     nomenclatureBotsorhel.addEventListener("click", function () {
         if (getComputedStyle(nomBotsorhel, bulleBotsorhel, pastilleBotsorhel).display != "none") {
             nomBotsorhel.style.display = "none"
@@ -584,7 +776,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleBotsorhel.style.display = "block"
         }
     })
-    boutonBotsorhel.addEventListener("click", function () {
+    tailleBulleBotsorhel.addEventListener("click", function () {
         if (getComputedStyle(nomBotsorhel, bulleBotsorhel, pastilleBotsorhel).display != "none") {
             nomBotsorhel.style.display = "none"
             bulleBotsorhel.style.display = "none"
@@ -595,6 +787,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleBotsorhel.style.display = "block"
         }
     })
+    
     boutonPastilleBotsorhel.addEventListener("click", function () {
         if (getComputedStyle(pastilleBotsorhel).display != "none") {
             pastilleBotsorhel.style.display = "none"
@@ -602,6 +795,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleBotsorhel.style.display = "block"
         }
     })
+boutonGuerlesquin.addEventListener("click", function () {
+        if (getComputedStyle(villeGuerlesquin).display != "none") {
+            villeGuerlesquin.style.display = "none"
+        } else {
+            villeGuerlesquin.style.display = "block"
+        }
+    })
+
     nomenclatureGuerlesquin.addEventListener("click", function () {
         if (getComputedStyle(nomGuerlesquin, bulleGuerlesquin, pastilleGuerlesquin).display != "none") {
             nomGuerlesquin.style.display = "none"
@@ -613,7 +814,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGuerlesquin.style.display = "block"
         }
     })
-    boutonGuerlesquin.addEventListener("click", function () {
+    tailleBulleGuerlesquin.addEventListener("click", function () {
         if (getComputedStyle(nomGuerlesquin, bulleGuerlesquin, pastilleGuerlesquin).display != "none") {
             nomGuerlesquin.style.display = "none"
             bulleGuerlesquin.style.display = "none"
@@ -624,6 +825,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGuerlesquin.style.display = "block"
         }
     })
+    
     boutonPastilleGuerlesquin.addEventListener("click", function () {
         if (getComputedStyle(pastilleGuerlesquin).display != "none") {
             pastilleGuerlesquin.style.display = "none"
@@ -631,6 +833,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGuerlesquin.style.display = "block"
         }
     })
+boutonMoysan.addEventListener("click", function () {
+        if (getComputedStyle(villeMoysan).display != "none") {
+            villeMoysan.style.display = "none"
+        } else {
+            villeMoysan.style.display = "block"
+        }
+    })
+
     nomenclatureMoysan.addEventListener("click", function () {
         if (getComputedStyle(nomMoysan, bulleMoysan, pastilleMoysan).display != "none") {
             nomMoysan.style.display = "none"
@@ -642,7 +852,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleMoysan.style.display = "block"
         }
     })
-    boutonMoysan.addEventListener("click", function () {
+    tailleBulleMoysan.addEventListener("click", function () {
         if (getComputedStyle(nomMoysan, bulleMoysan, pastilleMoysan).display != "none") {
             nomMoysan.style.display = "none"
             bulleMoysan.style.display = "none"
@@ -653,6 +863,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleMoysan.style.display = "block"
         }
     })
+    
     boutonPastilleMoysan.addEventListener("click", function () {
         if (getComputedStyle(pastilleMoysan).display != "none") {
             pastilleMoysan.style.display = "none"
@@ -660,6 +871,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleMoysan.style.display = "block"
         }
     })
+boutonGuerrand.addEventListener("click", function () {
+        if (getComputedStyle(villeGuerrand).display != "none") {
+            villeGuerrand.style.display = "none"
+        } else {
+            villeGuerrand.style.display = "block"
+        }
+    })
+
     nomenclatureGuerrand.addEventListener("click", function () {
         if (getComputedStyle(nomGuerrand, bulleGuerrand, pastilleGuerrand).display != "none") {
             nomGuerrand.style.display = "none"
@@ -671,7 +890,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGuerrand.style.display = "block"
         }
     })
-    boutonGuerrand.addEventListener("click", function () {
+    tailleBulleGuerrand.addEventListener("click", function () {
         if (getComputedStyle(nomGuerrand, bulleGuerrand, pastilleGuerrand).display != "none") {
             nomGuerrand.style.display = "none"
             bulleGuerrand.style.display = "none"
@@ -682,6 +901,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGuerrand.style.display = "block"
         }
     })
+    
     boutonPastilleGuerrand.addEventListener("click", function () {
         if (getComputedStyle(pastilleGuerrand).display != "none") {
             pastilleGuerrand.style.display = "none"
@@ -689,6 +909,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGuerrand.style.display = "block"
         }
     })
+boutonLanmeur.addEventListener("click", function () {
+        if (getComputedStyle(villeLanmeur).display != "none") {
+            villeLanmeur.style.display = "none"
+        } else {
+            villeLanmeur.style.display = "block"
+        }
+    })
+
     nomenclatureLanmeur.addEventListener("click", function () {
         if (getComputedStyle(nomLanmeur, bulleLanmeur, pastilleLanmeur).display != "none") {
             nomLanmeur.style.display = "none"
@@ -700,7 +928,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLanmeur.style.display = "block"
         }
     })
-    boutonLanmeur.addEventListener("click", function () {
+    tailleBulleLanmeur.addEventListener("click", function () {
         if (getComputedStyle(nomLanmeur, bulleLanmeur, pastilleLanmeur).display != "none") {
             nomLanmeur.style.display = "none"
             bulleLanmeur.style.display = "none"
@@ -711,6 +939,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLanmeur.style.display = "block"
         }
     })
+    
     boutonPastilleLanmeur.addEventListener("click", function () {
         if (getComputedStyle(pastilleLanmeur).display != "none") {
             pastilleLanmeur.style.display = "none"
@@ -718,6 +947,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLanmeur.style.display = "block"
         }
     })
+boutonGuimaec.addEventListener("click", function () {
+        if (getComputedStyle(villeGuimaec).display != "none") {
+            villeGuimaec.style.display = "none"
+        } else {
+            villeGuimaec.style.display = "block"
+        }
+    })
+
     nomenclatureGuimaec.addEventListener("click", function () {
         if (getComputedStyle(nomGuimaec, bulleGuimaec, pastilleGuimaec).display != "none") {
             nomGuimaec.style.display = "none"
@@ -729,7 +966,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGuimaec.style.display = "block"
         }
     })
-    boutonGuimaec.addEventListener("click", function () {
+    tailleBulleGuimaec.addEventListener("click", function () {
         if (getComputedStyle(nomGuimaec, bulleGuimaec, pastilleGuimaec).display != "none") {
             nomGuimaec.style.display = "none"
             bulleGuimaec.style.display = "none"
@@ -740,6 +977,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGuimaec.style.display = "block"
         }
     })
+    
     boutonPastilleGuimaec.addEventListener("click", function () {
         if (getComputedStyle(pastilleGuimaec).display != "none") {
             pastilleGuimaec.style.display = "none"
@@ -747,6 +985,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleGuimaec.style.display = "block"
         }
     })
+boutonLocquirec.addEventListener("click", function () {
+        if (getComputedStyle(villeLocquirec).display != "none") {
+            villeLocquirec.style.display = "none"
+        } else {
+            villeLocquirec.style.display = "block"
+        }
+    })
+
     nomenclatureLocquirec.addEventListener("click", function () {
         if (getComputedStyle(nomLocquirec, bulleLocquirec, pastilleLocquirec).display != "none") {
             nomLocquirec.style.display = "none"
@@ -758,7 +1004,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLocquirec.style.display = "block"
         }
     })
-    boutonLocquirec.addEventListener("click", function () {
+    tailleBulleLocquirec.addEventListener("click", function () {
         if (getComputedStyle(nomLocquirec, bulleLocquirec, pastilleLocquirec).display != "none") {
             nomLocquirec.style.display = "none"
             bulleLocquirec.style.display = "none"
@@ -769,6 +1015,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLocquirec.style.display = "block"
         }
     })
+    
     boutonPastilleLocquirec.addEventListener("click", function () {
         if (getComputedStyle(pastilleLocquirec).display != "none") {
             pastilleLocquirec.style.display = "none"
@@ -776,6 +1023,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleLocquirec.style.display = "block"
         }
     })
+boutonSaintJean.addEventListener("click", function () {
+        if (getComputedStyle(villeSaintJean).display != "none") {
+            villeSaintJean.style.display = "none"
+        } else {
+            villeSaintJean.style.display = "block"
+        }
+    })
+
     nomenclatureSaintJean.addEventListener("click", function () {
         if (getComputedStyle(nomSaintJean, bulleSaintJean, pastilleSaintJean).display != "none") {
             nomSaintJean.style.display = "none"
@@ -787,7 +1042,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSaintJean.style.display = "block"
         }
     })
-    boutonSaintJean.addEventListener("click", function () {
+    tailleBulleSaintJean.addEventListener("click", function () {
         if (getComputedStyle(nomSaintJean, bulleSaintJean, pastilleSaintJean).display != "none") {
             nomSaintJean.style.display = "none"
             bulleSaintJean.style.display = "none"
@@ -798,6 +1053,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSaintJean.style.display = "block"
         }
     })
+    
     boutonPastilleSaintJean.addEventListener("click", function () {
         if (getComputedStyle(pastilleSaintJean).display != "none") {
             pastilleSaintJean.style.display = "none"
@@ -805,6 +1061,14 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastilleSaintJean.style.display = "block"
         }
     })
+boutonPlougasnou.addEventListener("click", function () {
+        if (getComputedStyle(villePlougasnou).display != "none") {
+            villePlougasnou.style.display = "none"
+        } else {
+            villePlougasnou.style.display = "block"
+        }
+    });
+
     nomenclaturePlougasnou.addEventListener("click", function () {
         if (getComputedStyle(nomPlougasnou, bullePlougasnou, pastillePlougasnou).display != "none") {
             nomPlougasnou.style.display = "none"
@@ -816,7 +1080,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlougasnou.style.display = "block"
         }
     })
-    boutonPlougasnou.addEventListener("click", function () {
+    tailleBullePlougasnou.addEventListener("click", function () {
         if (getComputedStyle(nomPlougasnou, bullePlougasnou, pastillePlougasnou).display != "none") {
             nomPlougasnou.style.display = "none"
             bullePlougasnou.style.display = "none"
@@ -827,6 +1091,7 @@ let boutonPlougasnou = document.getElementById("boutonPlougasnou");
             pastillePlougasnou.style.display = "block"
         }
     })
+    
     boutonPastillePlougasnou.addEventListener("click", function () {
         if (getComputedStyle(pastillePlougasnou).display != "none") {
             pastillePlougasnou.style.display = "none"
