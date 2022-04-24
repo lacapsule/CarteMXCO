@@ -29,18 +29,14 @@
 <aside class="option" id="optionGeneral">
   <h4>Paramètres généraux :</h4>
       <span><a href="javascript:location.reload(true)"><button id="boutonReset" title="Tout remettre à zéro">Réinitialiser</button></a></span>
-      <span><button id="boutonBulles" title="Masquer les noms" onclick="toggleBulles('this.id');">Masquer les noms</button></span>
       <span><p> Fond </p><input id="couleurFond" title="Changer la couleur de fond" type="color" value="#41599b"></span>
-      <span><p> Carte </p><input id="couleurToutes" title="Changer la couleur de toutes les communes" type="color" value="#386caf"></span>
-      <span><p> Bulles </p><input id="couleurBulles" title="Changer la couleur de toutes les bulles" type="color" value="#0b2749"></span>
-      <span><p> Frontières </p><input id="couleurToutesFrontieres" title="Changer la couleur de toutes les frontieres" type="color" value="#343435"></span>
-      <span><p> Contours bulles </p><input id="couleurContoursBulles" title="Changer la couleur des contours de toutes les bulles" type="color" value="#000000"></span>
-      <span><p> Textes </p><input id="couleurTextes" title="Changer la couleur de tous les textes" type="color" value="#FFFFFF"></span>
-      <span><button id="boutonAffichagePastilles" title="Afficher/masquer les pastilles" onclick="togglePastilles('this.id');">Afficher les pastilles</button><input title="Changer la couleur de toutes les pastilles" type="color" value="#173890" id="couleurPastilles"></span>
-      <span><button id="boutonAffichageLegendes" title="Afficher/masquer les légendes" onclick="toggleLegendes('this.id');">Afficher les légendes</button><input title="Changer la couleur de toutes les légendes" type="color" value="#22235e" id="couleurLegendes"></span>
-    </aside>
+        </aside>
     <aside class="option" id="optionCommunes">
       <h4>Options des Communes :</h4>
+<section>
+<span><p> Carte </p><input id="couleurToutes" title="Changer la couleur de toutes les communes" type="color" value="#386caf"></span>
+<span><p> Frontières </p><input id="couleurToutesFrontieres" title="Changer la couleur de toutes les frontieres" type="color" value="#343435"></span>
+</section>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPlouneour">Plounéour-Menez</button><input title="Changer la couleur de la commune" type="color" value="#386caf" id="couleurPlouneour"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonPleyber">Pleyber-Christ</button><input title="Changer la couleur de la commune" type="color" value="#386caf" id="couleurPleyber"></span>
 <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="boutonSaintTheg">Saint-Thegonnec-Loc-Eguiner</button><input title="Changer la couleur de la commune" type="color" value="#386caf" id="couleurSaintTheg"></span>
@@ -70,6 +66,12 @@
 </aside> 
 <aside class="option" id="optionBulles">
   <h4>Options des bulles :</h4>
+  <section>
+  <span><button id="boutonBulles" title="Masquer les noms" onclick="toggleBulles('this.id');">Masquer les noms</button></span>
+  <span><p> Bulles </p><input id="couleurBulles" title="Changer la couleur de toutes les bulles" type="color" value="#0b2749"></span>
+  <span><p> Contours bulles </p><input id="couleurContoursBulles" title="Changer la couleur des contours de toutes les bulles" type="color" value="#000000"></span>
+  <span><p> Textes </p><input id="couleurTextes" title="Changer la couleur de tous les textes" type="color" value="#FFFFFF"></span>
+  </section>
   <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePlouneour">Plounéour-Menez</button><input title="Changer la couleur de la commune" type="color" value="#0b2749" id="couleurBullePlouneour"></span>
   <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBullePleyber">Pleyber-Christ</button><input title="Changer la couleur de la commune" type="color" value="#0b2749" id="couleurBullePleyber"></span>
   <span><button class="boutons" title="Afficher ou ne pas afficher la bulle" id="tailleBulleSaintTheg">Saint-Thegonnec-Loc-Eguiner</button><input title="Changer la couleur de la commune" type="color" value="#0b2749" id="couleurBulleSaintTheg"></span>
@@ -99,6 +101,10 @@
   </aside> 
   <aside class="option" id="optionPastilles">
     <h4>Options des pastilles :</h4>
+    <section>
+    <span><button id="boutonAffichagePastilles" title="Afficher/masquer les pastilles" onclick="togglePastilles('this.id');">Afficher les pastilles</button><input title="Changer la couleur de toutes les pastilles" type="color" value="#173890" id="couleurPastilles"></span>
+    <span><button id="boutonAffichageLegendes" title="Afficher/masquer les légendes" onclick="toggleLegendes('this.id');">Afficher les légendes</button><input title="Changer la couleur de toutes les légendes" type="color" value="#22235e" id="couleurLegendes"></span>
+    </section>
     <span><button class="boutons" title="Afficher ou ne pas afficher la pastille" id="boutonPastillePlouneour">Plounéour-Menez</button><input title="Changer la couleur de la pastille" type="color" value="#173890" id="couleurPastillePlouneour"></span>
     <span><button class="boutons" title="Afficher ou ne pas afficher la pastille" id="boutonPastillePleyber">Pleyber-Christ</button><input title="Changer la couleur de la pastille" type="color" value="#173890" id="couleurPastillePleyber"></span>
     <span><button class="boutons" title="Afficher ou ne pas afficher la pastille" id="boutonPastilleSaintTheg">Saint-Thegonnec-Loc-Eguiner</button><input title="Changer la couleur de la pastille" type="color" value="#173890" id="couleurPastilleSaintTheg"></span>

@@ -71,6 +71,15 @@ aside {
   padding: 0 0 5% 5%;
   z-index: 4;
 }
+section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: space-around;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  background-color: rgba(26, 84, 161, 0.5);
+}
 p {
   display: flex;
   flex-flow: row wrap;
@@ -191,4 +200,13 @@ p {
   width: 0;
   height: 0;
 }
+}
+@media screen and (max-width: 400px) {
+  span {
+    width: 3.8em;
+  }
+  input[type="color"] {
+    width: 2em;
+    height: 2em;
+  }
 }

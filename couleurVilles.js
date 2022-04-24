@@ -28,104 +28,104 @@ let couleurVillePlougasnou = document.getElementById("b476af40-0d89-400f-9515-14
   couleurPlouneour.addEventListener("input", () => {
     couleurVillePlouneourMenez.style.fill = couleurPlouneour.value;
     boutonPlouneour.style.backgroundColor = couleurPlouneour.value;
-    })
+    });
   couleurPleyber.addEventListener("input", () => {
     couleurVillePleyberChrist.style.fill = couleurPleyber.value;
     boutonPleyber.style.backgroundColor = couleurPleyber.value;
-    })
+    });
   couleurSaintTheg.addEventListener("input", () => {
     couleurVilleSaintThegonnec.style.fill = couleurSaintTheg.value;
     boutonSaintTheg.style.backgroundColor = couleurSaintTheg.value;
-    })
+    });
   couleurSaintSeve.addEventListener("input", () => {
     couleurVilleSaintSeve.style.fill = couleurSaintSeve.value;
     boutonSaintSeve.style.backgroundColor = couleurSaintSeve.value;
-    })
+    });
   couleurTaule.addEventListener("input", () => {
     couleurVilleTaule.style.fill = couleurTaule.value;
     boutonTaule.style.backgroundColor = couleurTaule.value;
-    })
+    });
   couleurHenvic.addEventListener("input", () => {
     couleurVilleHenvic.style.fill = couleurHenvic.value;
     boutonHenvic.style.backgroundColor = couleurHenvic.value;
-    })
+    });
   couleurCarantec.addEventListener("input", () => {
     couleurVilleCarantec.style.fill = couleurCarantec.value;
     boutonCarantec.style.backgroundColor = couleurCarantec.value;
-    })
+    });
   couleurSaintMartin.addEventListener("input", () => {
     couleurVilleSaintMartin.style.fill = couleurSaintMartin.value;
     boutonSaintMartin.style.backgroundColor = couleurSaintMartin.value;
-    })
+    });
   couleurMorlaix.addEventListener("input", () => {
     couleurVilleMorlaix.style.fill = couleurMorlaix.value;
     boutonMorlaix.style.backgroundColor = couleurMorlaix.value;
-    })
+    });
   couleurLocquenole.addEventListener("input", () => {
     couleurVilleLocquenole.style.fill = couleurLocquenole.value;
     boutonLocquenole.style.backgroundColor = couleurLocquenole.value;
-    })
+    });
    couleurPlourin.addEventListener("input", () => {
     couleurVillePlourin.style.fill = couleurPlourin.value;
     boutonPlourin.style.backgroundColor = couleurPlourin.value;
-    })
+    });
   couleurLeCloitre.addEventListener("input", () => {
     couleurVilleLeCloitre.style.fill = couleurLeCloitre.value;
     boutonLeCloitre.style.backgroundColor = couleurLeCloitre.value;
-    })
+    });
   couleurPlougonven.addEventListener("input", () => {
     couleurVillePlougonven.style.fill = couleurPlougonven.value;
     boutonPlougonven.style.backgroundColor = couleurPlougonven.value;
-    })
+    });
   couleurLanneanou.addEventListener("input", () => {
     couleurVilleLanneanou.style.fill = couleurLanneanou.value;
     boutonLanneanou.style.backgroundColor = couleurLanneanou.value;
-    })
+    });
   couleurPlouigneau.addEventListener("input", () => {
     couleurVillePlouigneau.style.fill = couleurPlouigneau.value;
     boutonPlouigneau.style.backgroundColor = couleurPlouigneau.value;
-    })
+    });
   couleurGarlan.addEventListener("input", () => {
     couleurVilleGarlan.style.fill = couleurGarlan.value;
     boutonGarlan.style.backgroundColor = couleurGarlan.value;
-    })
+    });
   couleurPlouezoch.addEventListener("input", () => {
     couleurVillePlouezoch.style.fill = couleurPlouezoch.value;
     boutonPlouezoch.style.backgroundColor = couleurPlouezoch.value;
-    })
+    });
   couleurBotsorhel.addEventListener("input", () => {
     couleurVilleBotsorhel.style.fill = couleurBotsorhel.value;
     boutonBotsorhel.style.backgroundColor = couleurBotsorhel.value;
-    })
+    });
   couleurGuerlesquin.addEventListener("input", () => {
     couleurVilleGuerlesquin.style.fill = couleurGuerlesquin.value;
     boutonGuerlesquin.style.backgroundColor = couleurGuerlesquin.value;
-    })
+    });
   couleurMoysan.addEventListener("input", () => {
     couleurVilleMoysan.style.fill = couleurMoysan.value;
     boutonMoysan.style.backgroundColor = couleurMoysan.value;
-    })
+    });
   couleurGuerrand.addEventListener("input", () => {
     couleurVilleGuerrand.style.fill = couleurGuerrand.value;
     boutonGuerrand.style.backgroundColor = couleurGuerrand.value;
-    })
+    });
   couleurLanmeur.addEventListener("input", () => {
     couleurVilleLanmeur.style.fill = couleurLanmeur.value;
     boutonLanmeur.style.backgroundColor = couleurLanmeur.value;
-    })
+    });
   couleurGuimaec.addEventListener("input", () => {
       couleurVilleGuimaec.style.fill = couleurGuimaec.value;
       boutonGuimaec.style.backgroundColor = couleurGuimaec.value;
-    })
+    });
   couleurLocquirec.addEventListener("input", () => {
     couleurVilleLocquirec.style.fill = couleurLocquirec.value;
     boutonLocquirec.style.backgroundColor = couleurLocquirec.value;
-    })
+    });
   couleurSaintJean.addEventListener("input", () => {
     couleurVilleSaintJean.style.fill = couleurSaintJean.value;
     boutonSaintJean.style.backgroundColor = couleurSaintJean.value;
-    })
+    });
   couleurPlougasnou.addEventListener("input", () => {
     couleurVillePlougasnou.style.fill = couleurPlougasnou.value;
     boutonPlougasnou.style.backgroundColor = couleurPlougasnou.value;
-    });
+    });;

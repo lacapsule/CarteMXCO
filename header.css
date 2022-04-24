@@ -48,7 +48,7 @@ menu {
 }
 
 img {
-  filter: contrast(1.7);
+  filter: invert(0.9);
   width: auto;
   height: 2em;
 }
