@@ -32,7 +32,10 @@
     width: auto;
     height: auto;
   }
-  
+  .fond{
+    fill: #386caf;
+  }
+
   .fond:hover {
    fill: #1d3499;
    z-index: 4;
