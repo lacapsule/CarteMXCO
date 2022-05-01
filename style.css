@@ -173,7 +173,7 @@ span {
 }
 @media screen and (max-width: 750px) {
 aside {
-  width: 90%;
+  width: 100%;
   height: 100%;
 } 
 input[type="color"] {
@@ -195,7 +195,7 @@ p {
   flex-flow: row wrap;
   align-items: space-around;
   justify-content: flex-start;
-  width: 90%;
+  width: 100%;
   height: auto;
 }
 .vide {

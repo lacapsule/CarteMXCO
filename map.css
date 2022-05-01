@@ -89,7 +89,7 @@
 
   @media screen and (max-width: 750px) {
     svg {
-      width: auto;
+      width: 100%;
       height: auto;
     }
   }
