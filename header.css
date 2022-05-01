@@ -13,7 +13,7 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
           font-family: 'passion_onebold', impact;
-  width: 100vw;
+  width: 100%;
   height: auto;
   z-index: 3;
 }
@@ -30,7 +30,7 @@ menu {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 43%;
+  width: 40%;
   height: 3em;
   border-radius: 50px;
   background: -moz-linear-gradient(90deg, rgba(60,116,189,1) 0%, rgba(60,116,189,0.5480392840730042) 35%, rgba(60,116,189,0.6236695361738445) 100%);
@@ -207,7 +207,7 @@ button:hover {
     display: none;
   }
   menu {
-    width: 100%;
+    width: 97.5%;
     height: 2.8em;
     padding: 1% 1% 1% 1%;
     border-radius: 0;

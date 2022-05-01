@@ -423,7 +423,7 @@ boutonMorlaix.addEventListener("click", function () {
         if (getComputedStyle(nomMorlaix, bulleMorlaix, pastilleMorlaix).display != "none") {
             nomMorlaix.style.display = "none";
             bulleMorlaix.style.display = "none";
-            pastilleMorlaix.display = "none";
+            pastilleMorlaix.style.display = "none";
         } else {
             nomMorlaix.style.display = "block";
             bulleMorlaix.style.display = "block";
@@ -434,7 +434,7 @@ boutonMorlaix.addEventListener("click", function () {
         if (getComputedStyle(nomMorlaix, bulleMorlaix, pastilleMorlaix).display != "none") {
             nomMorlaix.style.display = "none";
             bulleMorlaix.style.display = "none";
-            pastilleMorlaix.display = "none";
+            pastilleMorlaix.style.display = "none";
         } else {
             nomMorlaix.style.display = "block";
             bulleMorlaix.style.display = "block";
@@ -443,10 +443,10 @@ boutonMorlaix.addEventListener("click", function () {
     });
     
     boutonPastilleMorlaix.addEventListener("click", function () {
-        if (getComputedStyle(pastilleMorlaix).display != "none") {
-            pastilleMorlaix.style.display = "none";
-        } else {
+        if (getComputedStyle(pastilleMorlaix).display != "block") {
             pastilleMorlaix.style.display = "block";
+        } else {
+            pastilleMorlaix.style.display = "none";
         }
     });
 boutonLocquenole.addEventListener("click", function () {

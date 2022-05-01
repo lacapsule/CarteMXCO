@@ -1,5 +1,5 @@
   #imprimer {
-    display: block;
+    display: flex;
     position: relative;
     align-self: space-around;
     justify-content: space-around;
@@ -14,16 +14,12 @@
     background: rgb(224, 229, 252); 
     top: 0;
     left: 21%;
-    width: 100%;
+    width: 90%;
     height: 100%;
   }
   svg {
     position: relative;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-        box-sizing: border-box;
-      width: 95%;
+      width: 90%;
     height: auto;
     padding: 0;
     z-index: 1;
@@ -32,10 +28,6 @@
     width: auto;
     height: auto;
   }
-  .fond{
-    fill: #386caf;
-  }
-
   .fond:hover {
    fill: #1d3499;
    z-index: 4;
@@ -95,6 +87,12 @@
     stroke: #000;
   }
 
+  @media screen and (max-width: 750px) {
+    svg {
+      width: auto;
+      height: auto;
+    }
+  }
 
     @media print {
       * {
