@@ -27,6 +27,7 @@ let boutonLegendes = document.getElementById("boutonLegendes");
 
 let displayCanvas = document.getElementsByTagName("canvas");
 
+
 boutonGeneral.addEventListener("click", () => {
   if(getComputedStyle(asideGeneral).display != "none")
     asideGeneral.style.display = "none";
@@ -59,9 +60,11 @@ boutonBulles.addEventListener("click", () => {
   if(getComputedStyle(tousNoms, toutesBulles, toutesPastilles).display != "none"){
     tousNoms.style.display = "none";
     toutesBulles.style.display = "none";
+    toutesPastilles.style.display = "none";
   } else {
     tousNoms.style.display = "block";
     toutesBulles.style.display = "block";
+    toutesPastilles.style.display = "block";
   }
 })
 
