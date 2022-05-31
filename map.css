@@ -28,6 +28,9 @@
     width: auto;
     height: auto;
   }
+  .fond {
+    transition: 0.3s ease-in-out; 
+  }
   .fond:hover {
    fill: #1d3499;
    z-index: 4;
