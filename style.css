@@ -147,6 +147,14 @@ span {
   margin: 0.5%;
   z-index: 4;
 }
+#legendes {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: space-around;
+  justify-content: space-around;
+  width: 30%;
+  height: 10%;
+}
 .vide {
   width: 10%;
   height: 100%;
