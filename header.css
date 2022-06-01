@@ -49,7 +49,7 @@ menu {
 img {
   width: auto;
   height: 2em;
-  filter: invert(180deg);
+  filter: invert(2);
 }
 
 img:hover {

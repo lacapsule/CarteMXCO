@@ -3,6 +3,7 @@
     position: relative;
     align-self: space-around;
     justify-content: space-around;
+    left: 5%;
     width: 90%;
     height: 100%;
     z-index: 1;
