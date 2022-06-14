@@ -204,7 +204,12 @@ couleurFond.addEventListener("input", () => {
   fond.style.backgroundColor = couleurFond.value;
   })
 couleurToutesVilles.addEventListener("input", () => {
-  toutesVilles.style.fill = couleurToutesVilles.value;
+  let color = couleurToutesVilles.value;
+  let bg = document.querySelectorAll(".fond");
+  bg.forEach(function(ville) {
+    ville.style.fill = color;
+  });
+  // toutesVilles.style.fill = couleurToutesVilles.value;
   })
 couleurBulles.addEventListener("input", () => {
   fondBulles.style.fill = couleurBulles.value;
