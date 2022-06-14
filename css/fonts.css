@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'passion_oneregular';
+    src: url('../media/fonts/passionone-regular-webfont.woff2') format('woff2'),
+        url('../media/fonts/passionone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'passion_onebold';
+    src: url('../media/fonts/passionone-bold-webfont.woff2') format('woff2'),
+        url('../media/fonts/passionone-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
