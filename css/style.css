@@ -1,19 +1,6 @@
 @import url(header.css);
 @import url(map.css);
-@font-face {
-  font-family: 'passion_oneregular';
-  src: url('passionone-regular-webfont.woff2') format('woff2'),
-       url('passionone-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'passion_onebold';
-  src: url('passionone-bold-webfont.woff2') format('woff2'),
-       url('passionone-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url(fonts.css);
 body {
   display: flex;
   flex-flow: column wrap;
