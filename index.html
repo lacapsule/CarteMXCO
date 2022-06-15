@@ -17,9 +17,7 @@
     <img src="media/img/communes.png" alt="Communes" id="boutonMenuCommunes" onclick="toggleaside('optionCommunes')" title="Afficher les paramètres des communes" value="Communes"/>
     <img src="media/img/bulles.png" alt="Bulles" id="boutonMenuBulles" onclick="toggleaside('optionBulles')" title="Afficher les paramètres des bulles" value="Bulles"/>
     <img src="media/img/pastilles.png" alt="Pastilles" id="boutonMenuPastilles" onclick="toggleaside('optionPastilles')" title="Afficher les paramètres des pastilles" value="Pastilles"/>
-    <!-- <img src="media/img/apercu.png" alt="Aperçu" id="boutonMenuAperçu" onclick="toggleaside('optionFermer')" title="Fermer les menus" value="Aperçu"/> -->
     <img src="media/img/apercu.png" alt="Enregistrer" id="boutonMenuEnregistrer" onclick="save();" title="Enregistrer votre carte" value="Enregistrer"/>
-    <img src="media/img/imprimer.png" alt="Imprimer" id="boutonMenuImprimer" onclick="printDiv('imprimer')" title="Vous pouvez imprimer votre carte dans un PDF" value="Imprimer"/>
      </menu>  
   <h1>Carte interactive de Morlaix communauté</h1>
 </header>
@@ -136,7 +134,7 @@
     <span><button class="boutons" title="Afficher ou ne pas afficher la pastille" id="boutonPastillePlougasnou">Plougasnou</button><input title="Changer la couleur de la pastille" type="color" value="#173890" id="couleurPastillePlougasnou"></span>
     </aside> 
 </div>
-<div id="imprimer" class="imprimer" style="padding: 30px 20px 30px 30px; width: 70%; height: 55%; font-family: Arial, Helvetica, sans-serif;">
+<div id="imprimer" class="imprimer" style="padding: 10px 10px 10px 10px; width: 70%; height: 55%; font-family: Arial, Helvetica, sans-serif;">
   <svg xmlns="http://www.w3.org/2000/svg" id="svg" viewBox="0 0 989.15215 592.87212">
     <title>Carte de Morlaix communauté</title>
   <g id="b8e18138-5697-4033-9611-05eec396f769" stroke="#343435" data-name="FONDS DES COMMUNES">
@@ -282,9 +280,8 @@
     <script type="text/javascript" src="ressources/js/couleurVilles.js"></script>
     <script type="text/javascript" src="ressources/js/boutonsBulles.js"></script>
     <script type="text/javascript" src="ressources/js/pastilles.js"></script>
-    <script type="text/javascript" src="ressources/js/html2canvas.min.js"></script>
-    <script type="text/javascript" src="ressources/js/imprimer.js"></script> 
-    <script type="text/javascript" src="ressources/js/save.js"></script>
     <script type="text/javascript" src="ressources/js/legendes.js"></script>
+    <script type="text/javascript" src="ressources/js/html2canvas.min.js"></script>
+    <script type="text/javascript" src="ressources/js/export.js"></script>
 </body>
 </html>

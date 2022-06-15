@@ -39,7 +39,7 @@ aside {
   box-shadow:  3px 3px 3px #2c568b,
              -3px -3px 3px #3c74bd;
   width: 100%;
-  height: 100%;
+  height: auto;
   font-size: 2.8em;
   font-weight: bolder;
   transition: 0.3s ease-in-out;
@@ -143,11 +143,11 @@ span {
   height: 10%;
 }
 .vide {
-  width: 10%;
+  width: 0;
   height: 100%;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1560px) {
 aside {
   width: 100%;
     }

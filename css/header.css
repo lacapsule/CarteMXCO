@@ -196,6 +196,7 @@ button:hover {
     filter: contrast(1.7);
     width: auto;
     height: 1.6em;
+    filter: invert(2);
   }
   h1 {
     position: absolute;
