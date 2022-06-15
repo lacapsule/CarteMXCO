@@ -55,7 +55,7 @@ aside {
   justify-content: flex-start;
   width: 10em;
   height: auto;
-  padding: 0 0 5% 5%;
+  padding: 5% 0 5% 5%;
   z-index: 4;
 }
 section {
