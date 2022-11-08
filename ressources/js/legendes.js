@@ -6,7 +6,6 @@ let quatrieme = document.getElementById("quartriemeRond");
 
 var legends = document.querySelectorAll(".legend");
 
-console.log(legends);
 
 legends.forEach(function(legend) {
     legend.addEventListener("keydown", function(e) {
