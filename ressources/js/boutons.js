@@ -207,7 +207,9 @@ couleurToutesVilles.addEventListener("input", () => {
   let color = couleurToutesVilles.value;
   let bg = document.querySelectorAll(".fond");
   bg.forEach(function(ville) {
+    if(!ville.classList.contains("set")){
     ville.style.fill = color;
+    }
   });
   // toutesVilles.style.fill = couleurToutesVilles.value;
   })
